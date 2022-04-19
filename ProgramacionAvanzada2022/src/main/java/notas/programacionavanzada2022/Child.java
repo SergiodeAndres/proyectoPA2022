@@ -52,7 +52,7 @@ public class Child extends Thread{
         childCamp.enterCamp(this);
         try 
         {
-            sleep(10000);
+            sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
         }
         catch (InterruptedException e)
         { 

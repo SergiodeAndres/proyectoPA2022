@@ -23,8 +23,6 @@ public class ThreadList {
     
     public synchronized void push (Child c)
     {
-        int i = 0;
-        i ++;
         list.add(c);
         print();
     }
