@@ -21,6 +21,11 @@ public class ThreadList {
         list = new ArrayList<Child>(); 
     }
     
+    public ArrayList getThreadList()
+    {
+        return list;
+    }
+    
     public synchronized void push (Child c)
     {
         list.add(c);

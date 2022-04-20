@@ -40,69 +40,69 @@ public class Camp {
         doorBclosed = entryLock.newCondition();
     }
     
-    public void enterCamp(Child c)
+    public void enterCampLeft(Child c)
     {
-        int entrance = (int)Math.floor(Math.random()*(1-0+1)+0);
-        System.out.println(entrance);
-        if (entrance == 0)
+        System.out.println("0");
+        entranceA.push(c);
+        try 
         {
-            entranceA.push(c);
-            try 
+            entryLock.lock();
+            while (currentCapacity == totalCapacity)
             {
-                entryLock.lock();
-                while (currentCapacity == totalCapacity)
+                try 
                 {
-                    try 
-                    {
-                        doorAclosed.await();
-                    }
-                    catch (Exception e)
-                    {
-                System.out.println(e.toString());
-                    }  
+                    doorAclosed.await();
                 }
-                currentCapacity = currentCapacity + 1; 
+                catch (Exception e)
+                {
+            System.out.println(e.toString());
+                }  
             }
-            catch (Exception e)
-            {
-                System.out.println(e.toString());
-            }
-            finally 
-            {
-                entryLock.unlock();
-                entranceA.pop(c);
-                camp.push(c);
-            }
+            currentCapacity = currentCapacity + 1; 
         }
-        else 
+        catch (Exception e)
         {
-            entranceB.push(c);
-            try 
+            System.out.println(e.toString());
+        }
+        finally 
+        {
+            System.out.println("Entered through 0");
+            entryLock.unlock();
+            entranceA.pop(c);
+            camp.push(c);
+        }  
+    }
+    
+    public void enterCampRight(Child c)
+    {
+        System.out.println("1");
+        entranceB.push(c);
+        try 
+        {
+            entryLock.lock();
+            while (currentCapacity == totalCapacity)
             {
-                entryLock.lock();
-                while (currentCapacity == totalCapacity)
+                try 
                 {
-                    try 
-                    {
-                        doorBclosed.await();
-                    }
-                    catch (Exception e)
-                    {
-                System.out.println(e.toString());
-                    }  
+                    doorBclosed.await();
                 }
-                currentCapacity = currentCapacity + 1; 
+                catch (Exception e)
+                {
+            System.out.println(e.toString());
+                }  
             }
-            catch (Exception e)
-            {
-                System.out.println(e.toString());
-            }
-            finally 
-            {
-                entryLock.unlock();
-                entranceB.pop(c);
-                camp.push(c);
-            }
+            currentCapacity = currentCapacity + 1; 
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.toString());
+        }
+        finally 
+        {
+            System.out.println("Entered through 1");
+            entryLock.unlock();
+            entranceB.pop(c);
+            camp.push(c);
         }  
     }
     
@@ -113,16 +113,28 @@ public class Camp {
            entryLock.lock();
            camp.pop(c); 
            currentCapacity = currentCapacity - 1; 
-           if (doorTurn == 0)
+           if (entranceA.getThreadList().size() > 0 && entranceB.getThreadList().size() > 0)
            {
-               doorTurn = 1; 
+               if (doorTurn == 0)
+                {
+                    doorTurn = 1; 
+                    doorAclosed.signalAll();
+                }
+                else 
+                {
+                    doorTurn = 0; 
+                    doorBclosed.signalAll();
+                }
+           }
+           else if (entranceA.getThreadList().size() > 0)
+           {
                doorAclosed.signalAll();
            }
            else 
            {
-               doorTurn = 0; 
                doorBclosed.signalAll();
            }
+           
         }
         catch (Exception e)
         {

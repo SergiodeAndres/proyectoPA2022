@@ -49,7 +49,15 @@ public class Child extends Thread{
     
     public void run ()
     {
-        childCamp.enterCamp(this);
+        int entrance = (int)Math.floor(Math.random()*(1-0+1)+0);
+        if (entrance == 0)
+        {
+            childCamp.enterCampLeft(this);
+        }
+        else 
+        {
+            childCamp.enterCampRight(this);
+        }
         try 
         {
             sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
