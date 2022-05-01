@@ -34,7 +34,7 @@ public class Main extends javax.swing.JFrame {
                     {
                         System.out.println(e.toString());
                     }
-                    Child c = new Child(Integer.toString(i), theCamp); 
+                    Child c = new Child("N"+Integer.toString(i), theCamp); 
                     c.start();
                 }
             }
