@@ -61,6 +61,18 @@ public class Child extends Thread{
         try 
         {
             sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
+            while(totalActivities < 15){
+                int activity = 0 //numero aleatorio
+                if (activity == 0 && nonSnackActivities >= 3){
+                    totalActivities += 1; //SNACK
+                }else{
+                    if (activity == 1){
+                        totalActivities += 1; //ROPE
+                    }else{
+                        if (activity == 2){
+                            totalActivities += 1; //ZIPLINE
+                        }
+            }
         }
         catch (InterruptedException e)
         { 
