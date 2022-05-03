@@ -62,15 +62,18 @@ public class Child extends Thread{
         {
             sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
             while(totalActivities < 15){
-                int activity = 0; //numero aleatorio
+                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); //numero aleatorio
                 if (activity == 0 && nonSnackActivities >= 3){
                     totalActivities += 1; //SNACK
+                    nonSnackActivities = 0;
                 }else{
                     if (activity == 1){
                         totalActivities += 1; //ROPE
+                        nonSnackActivities += 1;
                     }else{
                         if (activity == 2){
                             totalActivities += 1; //ZIPLINE
+                            nonSnackActivities += 1;
                         }
                     }
                 }
