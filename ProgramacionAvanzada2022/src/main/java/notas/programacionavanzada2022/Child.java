@@ -12,14 +12,14 @@ package notas.programacionavanzada2022;
 public class Child extends Thread{
     private String childName; 
     private int totalActivities; 
-    private int nonSnackActivies; 
+    private int nonSnackActivities; 
     private Camp childCamp; 
     
     public Child (String cName, Camp camp)
     {
         this.childName = cName; 
         this.totalActivities = 0; 
-        this.nonSnackActivies = 0;
+        this.nonSnackActivities = 0;
         this.childCamp = camp; 
     }
 
@@ -32,7 +32,7 @@ public class Child extends Thread{
     }
 
     public int getNonSnackActivies() {
-        return nonSnackActivies;
+        return nonSnackActivities;
     }
 
     public void setChildName(String childName) {
@@ -44,7 +44,7 @@ public class Child extends Thread{
     }
 
     public void setNonSnackActivies(int nonSnackActivies) {
-        this.nonSnackActivies = nonSnackActivies;
+        this.nonSnackActivities = nonSnackActivies;
     }
     
     public void run ()
@@ -62,7 +62,7 @@ public class Child extends Thread{
         {
             sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
             while(totalActivities < 15){
-                int activity = 0 //numero aleatorio
+                int activity = 0; //numero aleatorio
                 if (activity == 0 && nonSnackActivities >= 3){
                     totalActivities += 1; //SNACK
                 }else{
@@ -72,6 +72,8 @@ public class Child extends Thread{
                         if (activity == 2){
                             totalActivities += 1; //ZIPLINE
                         }
+                    }
+                }
             }
         }
         catch (InterruptedException e)
