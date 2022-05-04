@@ -12,13 +12,13 @@ import javax.swing.JTextField;
  */
 public class ThreadList {
     private JTextField tf; 
-    private ArrayList<Child> list; 
+    private ArrayList<String> list; 
     
     
     public ThreadList (JTextField pText)
     {
         this.tf = pText; 
-        list = new ArrayList<Child>(); 
+        list = new ArrayList<String>(); 
     }
     
     public ArrayList getThreadList()
@@ -26,15 +26,15 @@ public class ThreadList {
         return list;
     }
     
-    public synchronized void push (Child c)
+    public synchronized void push (String name)
     {
-        list.add(c);
+        list.add(name);
         print();
     }
     
-    public synchronized void pop (Child c)
+    public synchronized void pop (String name)
     {
-        list.remove(c); 
+        list.remove(name); 
         print(); 
     }
     
@@ -43,7 +43,7 @@ public class ThreadList {
         String content="";
         for(int i=0; i<list.size(); i++)
         {
-            content=content+list.get(i).getChildName()+" ";
+            content=content+list.get(i)+" ";
         }
         tf.setText(content);
     }

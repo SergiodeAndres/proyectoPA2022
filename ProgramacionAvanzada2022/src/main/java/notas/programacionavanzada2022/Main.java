@@ -5,6 +5,9 @@
  */
 package notas.programacionavanzada2022;
 
+import static java.lang.Thread.sleep;
+import java.util.ArrayList;
+
 /**
  *
  * @author sergi
@@ -16,31 +19,42 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
-        Camp theCamp = new Camp(jTextFieldEntranceA, jTextFieldEntranceB, jTextFieldCamp);
-        Runnable runnable;
-        runnable = new Runnable ()
+        Camp theCamp = new Camp(jTextFieldEntranceA, jTextFieldEntranceB, jTextFieldCamp, 
+                jTextFieldRopeInstructor, jTextFieldZipLineInstructor, 
+                jTextFieldSnackAreaInstructor, jTextFieldZipLine, jTextFieldZipLinePreparation,
+        jTextFieldZipLineTirolina, jTextFieldZipLineFinalization, jTextFieldCommonAreaInstructors,
+        jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, jTextFieldCommonAreaChildren);
+        Runnable runnable = 
+        new Runnable ()
         {
             @Override
             public void run()
             {
-                /*
-                for (int i = 0;i < 4; i++){
-                    Instructor a = new Instructor("M"+Integer.toString(i), theCamp);
-                    a.start();
-                }
-                */
+                ArrayList<String> activities = new ArrayList<String>();
+                activities.add("Zipline");
+                activities.add("RopeActivity");
+                activities.add("Snack");
+                activities.add("Snack");
+                Instructor i1 = new Instructor("M1", theCamp, activities);
+                Instructor i2 = new Instructor("M2", theCamp, activities);
+                Instructor i3 = new Instructor("M3", theCamp, activities);
+                Instructor i4 = new Instructor("M4", theCamp, activities);
+                i1.start();
+                i2.start();
+                i3.start();
+                i4.start();
                 for (int i = 0; i < 20000; i++)
                 {
                     try 
                     {
-                        int n =1000* (int)Math.floor(Math.random()*(1-0+2)+1);
-                        Thread.sleep(n);
+                        //Thread.sleep(1000 + (int)(2000*Math.random()));
+                        sleep(250);
                     }
                     catch (InterruptedException e)
                     {
                         System.out.println(e.toString());
                     }
-                    Child c = new Child("N"+Integer.toString(i), theCamp); 
+                    Child c = new Child(Integer.toString(i), theCamp); 
                     c.start();
                 }
             }
@@ -75,6 +89,8 @@ public class Main extends javax.swing.JFrame {
         jTextFieldRopeInstructor = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
+        jTextFieldRopeA = new javax.swing.JTextField();
+        jTextFieldRopeB = new javax.swing.JTextField();
         jPanel6 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jTextFieldZipLine = new javax.swing.JTextField();
@@ -82,7 +98,7 @@ public class Main extends javax.swing.JFrame {
         label2 = new java.awt.Label();
         label3 = new java.awt.Label();
         label4 = new java.awt.Label();
-        jTextFieldZipLineIntructor = new javax.swing.JTextField();
+        jTextFieldZipLineInstructor = new javax.swing.JTextField();
         jTextFieldZipLinePreparation = new javax.swing.JTextField();
         jTextFieldZipLineTirolina = new javax.swing.JTextField();
         jTextFieldZipLineFinalization = new javax.swing.JTextField();
@@ -90,7 +106,7 @@ public class Main extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
         jLabel11 = new javax.swing.JLabel();
-        jTextFieldCommonAreaIntructors = new javax.swing.JTextField();
+        jTextFieldCommonAreaInstructors = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         jTextFieldCommonAreaChildren = new javax.swing.JTextField();
         jPanel8 = new javax.swing.JPanel();
@@ -207,6 +223,8 @@ public class Main extends javax.swing.JFrame {
 
         jLabel7.setText("Team B");
 
+        jTextFieldRopeB.setToolTipText("");
+
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
@@ -221,14 +239,19 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jTextFieldRope)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTextFieldRopeInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel4Layout.createSequentialGroup()
                                 .addComponent(jLabel5)
                                 .addGap(35, 35, 35)
                                 .addComponent(jLabel6)
                                 .addGap(90, 90, 90)
-                                .addComponent(jLabel7)))
-                        .addGap(0, 109, Short.MAX_VALUE)))
+                                .addComponent(jLabel7))
+                            .addGroup(jPanel4Layout.createSequentialGroup()
+                                .addComponent(jTextFieldRopeInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(jTextFieldRopeA, javax.swing.GroupLayout.PREFERRED_SIZE, 115, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(jTextFieldRopeB, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 28, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
@@ -243,8 +266,13 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel6)
                     .addComponent(jLabel7))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextFieldRopeInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextFieldRopeA, javax.swing.GroupLayout.DEFAULT_SIZE, 43, Short.MAX_VALUE)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jTextFieldRopeInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jTextFieldRopeB))
+                .addContainerGap())
         );
 
         jLabel9.setText("ZIP LINE");
@@ -257,9 +285,9 @@ public class Main extends javax.swing.JFrame {
 
         label4.setText("Finalization");
 
-        jTextFieldZipLineIntructor.addActionListener(new java.awt.event.ActionListener() {
+        jTextFieldZipLineInstructor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextFieldZipLineIntructorActionPerformed(evt);
+                jTextFieldZipLineInstructorActionPerformed(evt);
             }
         });
 
@@ -283,7 +311,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jTextFieldZipLine)
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(jTextFieldZipLineIntructor, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jTextFieldZipLineInstructor, javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(label1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(29, 29, 29)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -318,7 +346,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(label4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(1, 1, 1)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextFieldZipLineIntructor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldZipLineInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextFieldZipLinePreparation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextFieldZipLineTirolina, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextFieldZipLineFinalization, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -351,7 +379,7 @@ public class Main extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel11)
-                    .addComponent(jTextFieldCommonAreaIntructors, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jTextFieldCommonAreaInstructors, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(79, 79, 79)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
@@ -370,7 +398,7 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel12))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jTextFieldCommonAreaIntructors, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldCommonAreaInstructors, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextFieldCommonAreaChildren, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 11, Short.MAX_VALUE))
         );
@@ -520,9 +548,9 @@ public class Main extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldRopeInstructorActionPerformed
 
-    private void jTextFieldZipLineIntructorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldZipLineIntructorActionPerformed
+    private void jTextFieldZipLineInstructorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldZipLineInstructorActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextFieldZipLineIntructorActionPerformed
+    }//GEN-LAST:event_jTextFieldZipLineInstructorActionPerformed
 
     private void jTextFieldZipLineTirolinaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldZipLineTirolinaActionPerformed
         // TODO add your handling code here:
@@ -606,17 +634,19 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldCamp;
     private javax.swing.JTextField jTextFieldCleanTrays;
     private javax.swing.JTextField jTextFieldCommonAreaChildren;
-    private javax.swing.JTextField jTextFieldCommonAreaIntructors;
+    private javax.swing.JTextField jTextFieldCommonAreaInstructors;
     private javax.swing.JTextField jTextFieldDirtyTrays;
     private javax.swing.JTextField jTextFieldEntranceA;
     private javax.swing.JTextField jTextFieldEntranceB;
     private javax.swing.JTextField jTextFieldRope;
+    private javax.swing.JTextField jTextFieldRopeA;
+    private javax.swing.JTextField jTextFieldRopeB;
     private javax.swing.JTextField jTextFieldRopeInstructor;
     private javax.swing.JTextField jTextFieldSnackArea;
     private javax.swing.JTextField jTextFieldSnackAreaInstructor;
     private javax.swing.JTextField jTextFieldZipLine;
     private javax.swing.JTextField jTextFieldZipLineFinalization;
-    private javax.swing.JTextField jTextFieldZipLineIntructor;
+    private javax.swing.JTextField jTextFieldZipLineInstructor;
     private javax.swing.JTextField jTextFieldZipLinePreparation;
     private javax.swing.JTextField jTextFieldZipLineTirolina;
     private java.awt.Label label1;

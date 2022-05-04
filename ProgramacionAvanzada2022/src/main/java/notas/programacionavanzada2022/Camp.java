@@ -5,6 +5,8 @@
  */
 package notas.programacionavanzada2022;
 import static java.lang.Thread.sleep;
+import java.util.ArrayList;
+import java.util.concurrent.CyclicBarrier;
 import javax.swing.JTextField;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Condition;
@@ -15,16 +17,40 @@ import java.util.concurrent.locks.ReentrantLock;
  * @author sergi
  */
 public class Camp {
+    //GUI Text Boxes
     private ThreadList entranceA; 
     private ThreadList entranceB; 
     private ThreadList camp; 
+    private ThreadList instructorRope; 
+    private ThreadList instructorZipLine; 
+    private ThreadList instructorSnack;
+    private ThreadList childZipLineQueue;
+    private ThreadList childZipLinePrep;
+    private ThreadList childZipLineExec;
+    private ThreadList childZipLineEnd;
+    private ThreadList instructorCommonArea;
+    private ThreadList childCommonArea;
+    private ThreadList childRopeQueue;
+    private ThreadList childRopeTeamA;
+    private ThreadList childRopeTeamB;
+    //Number variables used for concurrency
     private int totalCapacity;
     private int currentCapacity; 
     private int doorTurn;
+    //Concurrent elements
     private Lock entryLock; 
     private Lock exitLock; 
     private Condition doorAclosed; 
     private Condition doorBclosed;
+    private Boolean doorAopen;
+    private Boolean doorBopen;
+    private Semaphore childZipLineSem; 
+    private CyclicBarrier zipLineBarrier;
+    private CyclicBarrier ropeBarrier;
+    private ArrayList<Child> ropeQueue;
+    private ArrayList<Child> ropeTeamA; 
+    private ArrayList<Child> ropeTeamB;
+    private Semaphore childRopeSem;
     
     private Semaphore cleanTrays = new Semaphore(0);
     private Semaphore dirtyTrays = new Semaphore(25);
@@ -32,31 +58,240 @@ public class Camp {
     private Semaphore maxChildren = new Semaphore(20);
     
     
-    public Camp(JTextField doorA, JTextField doorB, JTextField pCamp)
+    public Camp(JTextField doorA, JTextField doorB, JTextField pCamp, JTextField instRope,
+            JTextField instZip, JTextField instSnack, JTextField childZipQueue, 
+            JTextField childZipPrep, JTextField childZipExec, JTextField childZipEnd,
+            JTextField instCommonArea, JTextField cRopeQueue, JTextField cRopeA,
+            JTextField cRopeB, JTextField cCommonArea)
     {
+        //GUI Text boxes set-up
         entranceA = new ThreadList(doorA); 
         entranceB = new ThreadList(doorB);
         camp = new ThreadList(pCamp); 
+        instructorRope = new ThreadList(instRope);
+        instructorZipLine = new ThreadList(instZip);
+        instructorSnack = new ThreadList(instSnack);       
+        childZipLineQueue = new ThreadList(childZipQueue); 
+        childZipLinePrep = new ThreadList(childZipPrep); 
+        childZipLineExec = new ThreadList(childZipExec); 
+        childZipLineEnd = new ThreadList(childZipEnd); 
+        instructorCommonArea = new ThreadList(instCommonArea); 
+        childRopeQueue = new ThreadList(cRopeQueue); 
+        childRopeTeamA = new ThreadList(cRopeA); 
+        childRopeTeamB = new ThreadList(cRopeB); 
+        childCommonArea = new ThreadList(cCommonArea);
+        //Number variables set-up
         this.totalCapacity = 50; 
         this.currentCapacity = 0; 
         this.doorTurn = 0; 
+        //Concurrent elements set-up
         entryLock = new ReentrantLock(); 
         exitLock = new ReentrantLock();
         doorAclosed = entryLock.newCondition(); 
         doorBclosed = entryLock.newCondition();
+        doorAopen = false; 
+        doorBopen = false;
+        childRopeSem = new Semaphore(10); 
+        zipLineBarrier = new CyclicBarrier(2); 
+        ropeBarrier = new CyclicBarrier(11); 
+        childZipLineSem = new Semaphore(1, true);
+        ropeTeamA = new ArrayList<Child>();
+        ropeTeamB = new ArrayList<Child>();
+        ropeQueue = new ArrayList<Child>();
         
         cleanTrays = new Semaphore(0);
         dirtyTrays = new Semaphore(25);
     }
     
-    public void enterCampLeft(Child c)
+    public void enterCampLeft(Instructor instruct)
     {
-        System.out.println("0");
-        entranceA.push(c);
+        entranceA.push(instruct.getInstructorName());
         try 
         {
             entryLock.lock();
-            while (currentCapacity == totalCapacity)
+            if (!doorAopen)
+            {
+                try 
+                {
+                  sleep((int)(500*Math.random() + 500));
+                  doorAopen = true;
+                }
+                catch (InterruptedException e)
+                { 
+                    System.out.println(e.toString());
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.toString());
+        }
+        finally 
+        {
+            entryLock.unlock();
+            entranceA.pop(instruct.getInstructorName());
+        }  
+    }
+    
+    public void activityRope (Instructor instruct)
+    {
+        instructorRope.push(instruct.getInstructorName());
+        try 
+        {
+            ropeBarrier.await();
+            while(ropeQueue.size() > 0)
+            {
+                int team = (int)Math.floor(Math.random()*(1-0+1)+0);
+                if (team == 0 && ropeTeamA.size()<5)
+                {
+                    ropeTeamA.add(ropeQueue.get(0));
+                    childRopeQueue.pop(ropeQueue.get(0).getChildName());
+                    childRopeTeamA.push(ropeQueue.get(0).getChildName());
+                    ropeQueue.remove(0);
+                }
+                else
+                {
+                    ropeTeamB.add(ropeQueue.get(0));
+                    childRopeQueue.pop(ropeQueue.get(0).getChildName());
+                    childRopeTeamB.push(ropeQueue.get(0).getChildName());
+                    ropeQueue.remove(0);
+                }
+            }
+            System.out.println("Team A: " + ropeTeamA.size());
+            System.out.println("Team B: " + ropeTeamB.size());
+            sleep(3000);
+            int winningTeam = (int)Math.floor(Math.random()*(1-0+1)+0);
+            if (winningTeam == 0)
+            {
+                System.out.println("Team A wins");
+                while(ropeTeamA.size()>0)
+                {
+                    ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 2);
+                    childRopeTeamA.pop(ropeTeamA.get(0).getChildName());
+                    ropeTeamA.remove(0);
+                }
+                while(ropeTeamB.size()>0)
+                {
+                    ropeTeamB.get(0).setTotalActivities(ropeTeamB.get(0).getTotalActivities() + 1);
+                    childRopeTeamB.pop(ropeTeamB.get(0).getChildName());
+                    ropeTeamB.remove(0);
+                }
+            }
+            else
+            {
+                System.out.println("Team B wins");
+                while(ropeTeamA.size()>0)
+                {
+                    ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 1);
+                    childRopeTeamA.pop(ropeTeamA.get(0).getChildName());
+                    ropeTeamA.remove(0);
+                }
+                while(ropeTeamB.size()>0)
+                {
+                    ropeTeamB.get(0).setTotalActivities(ropeTeamB.get(0).getTotalActivities() + 2);
+                    childRopeTeamB.pop(ropeTeamB.get(0).getChildName());
+                    ropeTeamB.remove(0);
+                }
+            }
+            ropeBarrier.await();
+        }
+        catch (Exception e)
+        { 
+            System.out.println(e.toString());
+        }
+        instructorRope.pop(instruct.getInstructorName());
+    }
+    
+    public void activityZipLine (Instructor instruct)
+    {
+        instructorZipLine.push(instruct.getInstructorName());
+        try
+        {
+            zipLineBarrier.await();
+            try 
+            {
+                sleep(1000); //Activities (ZIPLINE, ROPE, SNACK)
+            }
+            catch (InterruptedException e)
+            { 
+                System.out.println(e.toString());
+            }
+            zipLineBarrier.await();
+            zipLineBarrier.await();
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.toString());
+        }
+        instruct.setInstructorActivitiesDone(instruct.getInstructorActivitiesDone()+1);
+        instructorZipLine.pop(instruct.getInstructorName());
+    }
+    
+    public void activitySnack (Instructor instruct)
+    {
+        instructorSnack.push(instruct.getInstructorName());
+        try 
+        {
+            sleep(2000); //Activities (ZIPLINE, ROPE, SNACK)
+        }
+        catch (InterruptedException e)
+        { 
+            System.out.println(e.toString());
+        }
+        instructorSnack.pop(instruct.getInstructorName());
+    }
+    
+    public void commonArea (Instructor instruct)
+    {
+        instructorCommonArea.push(instruct.getInstructorName());
+        try 
+        {
+            sleep((int)(1000*Math.random() + 1000));
+        }
+        catch (InterruptedException e)
+        { 
+            System.out.println(e.toString());
+        }
+        instructorCommonArea.pop(instruct.getInstructorName());
+    }
+    
+    public void enterCampRight(Instructor instruct)
+    {
+        entranceB.push(instruct.getInstructorName());
+        try 
+        {
+            entryLock.lock();
+            if (!doorBopen)
+            {
+                try 
+                {
+                  sleep((int)(500*Math.random() + 500));
+                  doorBopen = true;
+                }
+                catch (InterruptedException e)
+                { 
+                    System.out.println(e.toString());
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.toString());
+        }
+        finally 
+        {
+            entryLock.unlock();
+            entranceB.pop(instruct.getInstructorName());
+        }  
+    }
+    
+    public void enterCampLeft(Child c)
+    {
+        entranceA.push(c.getChildName());
+        try 
+        {
+            entryLock.lock();
+            while (!doorAopen)
             {
                 try 
                 {
@@ -68,6 +303,11 @@ public class Camp {
                 }  
             }
             currentCapacity = currentCapacity + 1; 
+            if (currentCapacity == totalCapacity)
+            {
+                doorAopen = false;
+                doorBopen = false;
+            }
         }
         catch (Exception e)
         {
@@ -75,21 +315,19 @@ public class Camp {
         }
         finally 
         {
-            System.out.println("Entered through 0");
+            //System.out.println("Entered through 0");
             entryLock.unlock();
-            entranceA.pop(c);
-            camp.push(c);
+            entranceA.pop(c.getChildName());
         }  
     }
     
     public void enterCampRight(Child c)
     {
-        System.out.println("1");
-        entranceB.push(c);
+        entranceB.push(c.getChildName());
         try 
         {
             entryLock.lock();
-            while (currentCapacity == totalCapacity)
+            while (!doorBopen)
             {
                 try 
                 {
@@ -101,6 +339,11 @@ public class Camp {
                 }  
             }
             currentCapacity = currentCapacity + 1; 
+            if (currentCapacity == totalCapacity)
+            {
+                doorAopen = false;
+                doorBopen = false; 
+            }
         }
         catch (Exception e)
         {
@@ -108,10 +351,9 @@ public class Camp {
         }
         finally 
         {
-            System.out.println("Entered through 1");
+            //System.out.println("Entered through 1");
             entryLock.unlock();
-            entranceB.pop(c);
-            camp.push(c);
+            entranceB.pop(c.getChildName());
         }  
     }
     
@@ -119,28 +361,31 @@ public class Camp {
     {
         try 
         {
-           entryLock.lock();
-           camp.pop(c); 
+           entryLock.lock(); 
            currentCapacity = currentCapacity - 1; 
            if (entranceA.getThreadList().size() > 0 && entranceB.getThreadList().size() > 0)
            {
                if (doorTurn == 0)
                 {
-                    doorTurn = 1; 
+                    doorTurn = 1;
+                    doorAopen = true; 
                     doorAclosed.signalAll();
                 }
                 else 
                 {
                     doorTurn = 0; 
+                    doorBopen = true;
                     doorBclosed.signalAll();
                 }
            }
            else if (entranceA.getThreadList().size() > 0)
            {
+               doorAopen = true; 
                doorAclosed.signalAll();
            }
            else 
            {
+               doorBopen = true; 
                doorBclosed.signalAll();
            }
            
@@ -153,6 +398,94 @@ public class Camp {
         {
             entryLock.unlock(); 
         }
+    }
+    
+    public void activityZipLine (Child c)
+    {
+        childZipLineQueue.push(c.getChildName());
+        try
+        {
+            childZipLineSem.acquire();
+            childZipLineQueue.pop(c.getChildName());
+            childZipLinePrep.push(c.getChildName());
+            try
+            {
+                zipLineBarrier.await();
+                zipLineBarrier.await();
+                childZipLinePrep.pop(c.getChildName());
+                childZipLineExec.push(c.getChildName());
+                try 
+                {
+                    sleep(3000); //Activities (ZIPLINE, ROPE, SNACK)
+                }
+                catch (InterruptedException e)
+                { 
+                    System.out.println(e.toString());
+                }
+                childZipLineExec.pop(c.getChildName());
+                childZipLineEnd.push(c.getChildName());
+                try 
+                {
+                    sleep(500); //Activities (ZIPLINE, ROPE, SNACK)
+                }
+                catch (InterruptedException e)
+                { 
+                    System.out.println(e.toString());
+                }
+                zipLineBarrier.await();
+                childZipLineEnd.pop(c.getChildName());
+                
+            }
+            catch(Exception e)
+            {
+                System.out.println(e.toString());
+            }
+        }
+        catch(InterruptedException ie)
+        {
+             System.out.println(ie.toString());       
+        }
+        finally
+        {
+            childZipLineSem.release();
+            c.setTotalActivities(c.getTotalActivities()+1);
+        }
+    }
+    
+    public void activityRope (Child c)
+    {
+        if(childRopeSem.tryAcquire())
+        {
+            childRopeQueue.push(c.getChildName());
+            try
+            {
+                ropeQueue.add(c);
+                ropeBarrier.await();
+                ropeBarrier.await();
+            }
+            catch (Exception e)
+            {
+                System.out.println(e.toString());
+            }
+            finally
+            {
+                childRopeSem.release(); 
+            }
+        }
+    }
+    
+    public void commonArea (Child c)
+    {
+        childCommonArea.push(c.getChildName());
+        try 
+        {
+            sleep((int)(2000*Math.random() + 2000));
+        }
+        catch (InterruptedException e)
+        { 
+            System.out.println(e.toString());
+        }
+        childCommonArea.pop(c.getChildName());
     }
     
     public void SnackEat(Child i) throws InterruptedException{
