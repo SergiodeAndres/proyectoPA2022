@@ -62,8 +62,9 @@ public class Child extends Thread{
         {
             sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
             while(totalActivities < 15){
-                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); //numero aleatorio
+                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); //ranodm int between 0-2
                 if (activity == 0 && nonSnackActivities >= 3){
+                    //childCamp.SnackEat(this);
                     totalActivities += 1; //SNACK
                     nonSnackActivities = 0;
                 }else{

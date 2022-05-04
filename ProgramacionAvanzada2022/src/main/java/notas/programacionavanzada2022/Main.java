@@ -17,18 +17,24 @@ public class Main extends javax.swing.JFrame {
     public Main() {
         initComponents();
         Camp theCamp = new Camp(jTextFieldEntranceA, jTextFieldEntranceB, jTextFieldCamp);
-        Runnable runnable = 
-        new Runnable ()
+        Runnable runnable;
+        runnable = new Runnable ()
         {
             @Override
             public void run()
             {
+                /*
+                for (int i = 0;i < 4; i++){
+                    Instructor a = new Instructor("M"+Integer.toString(i), theCamp);
+                    a.start();
+                }
+                */
                 for (int i = 0; i < 20000; i++)
                 {
                     try 
                     {
-                        //Thread.sleep(1000 + (int)(2000*Math.random()));
-                        Thread.sleep(100);
+                        int n =1000* (int)Math.floor(Math.random()*(1-0+2)+1);
+                        Thread.sleep(n);
                     }
                     catch (InterruptedException e)
                     {

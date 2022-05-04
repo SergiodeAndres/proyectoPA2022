@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package notas.programacionavanzada2022;
+import static java.lang.Thread.sleep;
 import javax.swing.JTextField;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.Condition;
@@ -25,6 +26,11 @@ public class Camp {
     private Condition doorAclosed; 
     private Condition doorBclosed;
     
+    private Semaphore cleanTrays = new Semaphore(0);
+    private Semaphore dirtyTrays = new Semaphore(25);
+    private Semaphore em = new Semaphore(1);
+    private Semaphore maxChildren = new Semaphore(20);
+    
     
     public Camp(JTextField doorA, JTextField doorB, JTextField pCamp)
     {
@@ -39,8 +45,8 @@ public class Camp {
         doorAclosed = entryLock.newCondition(); 
         doorBclosed = entryLock.newCondition();
         
-        Semaphore cleanTrays = new Semaphore(0);
-        Semaphore dirtyTrays = new Semaphore(25);
+        cleanTrays = new Semaphore(0);
+        dirtyTrays = new Semaphore(25);
     }
     
     public void enterCampLeft(Child c)
@@ -149,4 +155,22 @@ public class Camp {
         }
     }
     
+    public void SnackEat(Child i) throws InterruptedException{
+        cleanTrays.acquire();
+        maxChildren.acquire();
+        em.acquire(); // Block: SC start
+        sleep(7000);
+        em.release(); // Unblock: SC end
+        maxChildren.release();
+        dirtyTrays.release();
+    }
+    public void SnackClean(Instructor i) throws InterruptedException{
+        dirtyTrays.acquire();
+        em.acquire(); // Block: SC start
+        int n = (int)Math.floor(Math.random()*(1-0+2)+3); //Random number between 3-5
+        sleep(n*1000);
+        em.release(); // Unblock: SC end
+        cleanTrays.release();
+
+    }
 }

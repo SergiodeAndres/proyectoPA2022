@@ -5,6 +5,9 @@
  */
 package notas.programacionavanzada2022;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author sergi
@@ -17,6 +20,10 @@ public class Instructor extends Thread{
     public Instructor(String instructorName, Camp instructorCamp) {
         this.instructorName = instructorName;
         this.instructorCamp = instructorCamp;
+    }
+
+    Instructor() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public String getInstructorName() {
@@ -35,5 +42,7 @@ public class Instructor extends Thread{
         this.instructorCamp = instructorCamp;
     }
     
-    
+    public void run(){
+        
+    }
 }
