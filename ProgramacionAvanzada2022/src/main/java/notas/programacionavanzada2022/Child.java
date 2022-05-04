@@ -62,21 +62,19 @@ public class Child extends Thread{
         {
             sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
             while(totalActivities < 15){
-                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); //ranodm int between 0-2
+                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); //random int between 0-2
                 if (activity == 0 && nonSnackActivities >= 3){
-                    //childCamp.SnackEat(this);
+                    childCamp.SnackEat(this);
                     totalActivities += 1; //SNACK
                     nonSnackActivities = 0;
+                }else if (activity == 1){
+                    childCamp.activityRope(this);
+                    totalActivities += 1; //ROPE
+                    nonSnackActivities += 1;
                 }else{
-                    if (activity == 1){
-                        totalActivities += 1; //ROPE
-                        nonSnackActivities += 1;
-                    }else{
-                        if (activity == 2){
-                            totalActivities += 1; //ZIPLINE
-                            nonSnackActivities += 1;
-                        }
-                    }
+                    childCamp.activityZipLine(this);
+                    totalActivities += 1; //ZIPLINE
+                    nonSnackActivities += 1;
                 }
             }
         }

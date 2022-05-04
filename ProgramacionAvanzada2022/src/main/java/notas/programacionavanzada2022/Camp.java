@@ -18,9 +18,9 @@ import java.util.concurrent.locks.ReentrantLock;
  */
 public class Camp {
     //GUI Text Boxes
-    private ThreadList entranceA; 
-    private ThreadList entranceB; 
-    private ThreadList camp; 
+    private ThreadList entranceA;
+    private ThreadList entranceB;
+    private ThreadList camp;
     private ThreadList instructorRope; 
     private ThreadList instructorZipLine; 
     private ThreadList instructorSnack;
@@ -33,6 +33,9 @@ public class Camp {
     private ThreadList childRopeQueue;
     private ThreadList childRopeTeamA;
     private ThreadList childRopeTeamB;
+    
+    private ThreadList cleanTraysList;
+    private ThreadList dirtyTraysList;
     //Number variables used for concurrency
     private int totalCapacity;
     private int currentCapacity; 
@@ -62,7 +65,7 @@ public class Camp {
             JTextField instZip, JTextField instSnack, JTextField childZipQueue, 
             JTextField childZipPrep, JTextField childZipExec, JTextField childZipEnd,
             JTextField instCommonArea, JTextField cRopeQueue, JTextField cRopeA,
-            JTextField cRopeB, JTextField cCommonArea)
+            JTextField cRopeB, JTextField cCommonArea, JTextField cCleanTrays, JTextField cDirtyTrays)
     {
         //GUI Text boxes set-up
         entranceA = new ThreadList(doorA); 
@@ -80,6 +83,9 @@ public class Camp {
         childRopeTeamA = new ThreadList(cRopeA); 
         childRopeTeamB = new ThreadList(cRopeB); 
         childCommonArea = new ThreadList(cCommonArea);
+        
+        cleanTraysList = new ThreadList(cCleanTrays);
+        dirtyTraysList = new ThreadList(cDirtyTrays);
         //Number variables set-up
         this.totalCapacity = 50; 
         this.currentCapacity = 0; 
@@ -226,7 +232,7 @@ public class Camp {
         instruct.setInstructorActivitiesDone(instruct.getInstructorActivitiesDone()+1);
         instructorZipLine.pop(instruct.getInstructorName());
     }
-    
+    /*
     public void activitySnack (Instructor instruct)
     {
         instructorSnack.push(instruct.getInstructorName());
@@ -240,7 +246,7 @@ public class Camp {
         }
         instructorSnack.pop(instruct.getInstructorName());
     }
-    
+    */
     public void commonArea (Instructor instruct)
     {
         instructorCommonArea.push(instruct.getInstructorName());
@@ -489,21 +495,33 @@ public class Camp {
     }
     
     public void SnackEat(Child i) throws InterruptedException{
+        cleanTraysList.pop(Integer.toString(cleanTrays.availablePermits()));
         cleanTrays.acquire();
+        cleanTraysList.push(Integer.toString(cleanTrays.availablePermits()));
         maxChildren.acquire();
         em.acquire(); // Block: SC start
         sleep(7000);
         em.release(); // Unblock: SC end
         maxChildren.release();
+        dirtyTraysList.pop(Integer.toString(dirtyTrays.availablePermits()));
         dirtyTrays.release();
+        dirtyTraysList.push(Integer.toString(dirtyTrays.availablePermits()));
     }
     public void SnackClean(Instructor i) throws InterruptedException{
+        instructorSnack.push(i.getInstructorName());
+        
+        dirtyTraysList.pop(Integer.toString(dirtyTrays.availablePermits()));
         dirtyTrays.acquire();
+        dirtyTraysList.push(Integer.toString(dirtyTrays.availablePermits()));
+        
         em.acquire(); // Block: SC start
         int n = (int)Math.floor(Math.random()*(1-0+2)+3); //Random number between 3-5
         sleep(n*1000);
         em.release(); // Unblock: SC end
+        
+        cleanTraysList.pop(Integer.toString(cleanTrays.availablePermits()));
         cleanTrays.release();
-
+        cleanTraysList.push(Integer.toString(cleanTrays.availablePermits()));
+        instructorSnack.pop(i.getInstructorName());
     }
 }

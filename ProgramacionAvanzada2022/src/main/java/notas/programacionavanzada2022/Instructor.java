@@ -61,7 +61,11 @@ public class Instructor extends Thread{
                 }
                 else 
                 {
-                    instructorCamp.activitySnack(this);
+                    try {
+                        instructorCamp.SnackClean(this);
+                    } catch (InterruptedException ex) {
+                        Logger.getLogger(Instructor.class.getName()).log(Level.SEVERE, null, ex);
+                    }
                 }
             }
             instructorActivitiesDone = 0; 

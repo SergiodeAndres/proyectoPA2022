@@ -23,7 +23,7 @@ public class Main extends javax.swing.JFrame {
                 jTextFieldRopeInstructor, jTextFieldZipLineInstructor, 
                 jTextFieldSnackAreaInstructor, jTextFieldZipLine, jTextFieldZipLinePreparation,
         jTextFieldZipLineTirolina, jTextFieldZipLineFinalization, jTextFieldCommonAreaInstructors,
-        jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, jTextFieldCommonAreaChildren);
+        jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, jTextFieldCommonAreaChildren, jTextFieldCleanTrays, jTextFieldDirtyTrays);
         Runnable runnable = 
         new Runnable ()
         {
@@ -35,14 +35,11 @@ public class Main extends javax.swing.JFrame {
                 activities.add("RopeActivity");
                 activities.add("Snack");
                 activities.add("Snack");
-                Instructor i1 = new Instructor("M1", theCamp, activities);
-                Instructor i2 = new Instructor("M2", theCamp, activities);
-                Instructor i3 = new Instructor("M3", theCamp, activities);
-                Instructor i4 = new Instructor("M4", theCamp, activities);
-                i1.start();
-                i2.start();
-                i3.start();
-                i4.start();
+                for(int i = 1;i<5;i++){
+                    Instructor ins = new Instructor("M"+Integer.toString(i), theCamp, activities);
+                    ins.start();
+                }
+                
                 for (int i = 0; i < 20000; i++)
                 {
                     try 
@@ -382,10 +379,10 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jTextFieldCommonAreaInstructors, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(79, 79, 79)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jTextFieldCommonAreaChildren)
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jTextFieldCommonAreaChildren))
+                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
