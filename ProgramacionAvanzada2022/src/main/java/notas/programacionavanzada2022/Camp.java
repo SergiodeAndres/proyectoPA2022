@@ -38,6 +38,9 @@ public class Camp {
         exitLock = new ReentrantLock();
         doorAclosed = entryLock.newCondition(); 
         doorBclosed = entryLock.newCondition();
+        
+        Semaphore cleanTrays = new Semaphore(0);
+        Semaphore dirtyTrays = new Semaphore(25);
     }
     
     public void enterCampLeft(Child c)
@@ -145,4 +148,5 @@ public class Camp {
             entryLock.unlock(); 
         }
     }
+    
 }
