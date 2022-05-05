@@ -23,7 +23,8 @@ public class Main extends javax.swing.JFrame {
                 jTextFieldRopeInstructor, jTextFieldZipLineInstructor, 
                 jTextFieldSnackAreaInstructor, jTextFieldZipLine, jTextFieldZipLinePreparation,
         jTextFieldZipLineTirolina, jTextFieldZipLineFinalization, jTextFieldCommonAreaInstructors,
-        jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, jTextFieldCommonAreaChildren, jTextFieldCleanTrays, jTextFieldDirtyTrays);
+        jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, jTextFieldCommonAreaChildren, jTextFieldCleanTrays,
+        jTextFieldDirtyTrays, jTextFieldSnackArea, jTextFieldSnackChildren);
         Runnable runnable = 
         new Runnable ()
         {
@@ -115,8 +116,7 @@ public class Main extends javax.swing.JFrame {
         jTextFieldDirtyTrays = new javax.swing.JTextField();
         jTextFieldCleanTrays = new javax.swing.JTextField();
         jTextFieldSnackAreaInstructor = new javax.swing.JTextField();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextAreaSnackArea = new javax.swing.JTextArea();
+        jTextFieldSnackChildren = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -420,9 +420,11 @@ public class Main extends javax.swing.JFrame {
             }
         });
 
-        jTextAreaSnackArea.setColumns(20);
-        jTextAreaSnackArea.setRows(5);
-        jScrollPane1.setViewportView(jTextAreaSnackArea);
+        jTextFieldSnackChildren.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextFieldSnackChildrenActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -448,8 +450,8 @@ public class Main extends javax.swing.JFrame {
                                 .addGap(25, 25, 25)
                                 .addComponent(jTextFieldCleanTrays, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jTextFieldSnackAreaInstructor))
-                        .addGap(40, 40, 40)
-                        .addComponent(jScrollPane1)))
+                        .addGap(79, 79, 79)
+                        .addComponent(jTextFieldSnackChildren)))
                 .addContainerGap())
         );
         jPanel8Layout.setVerticalGroup(
@@ -463,16 +465,14 @@ public class Main extends javax.swing.JFrame {
                     .addComponent(jLabel14)
                     .addComponent(jLabel15))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 7, Short.MAX_VALUE)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jTextFieldDirtyTrays, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTextFieldCleanTrays, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(18, 18, 18)
-                        .addComponent(jLabel16)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jTextFieldSnackAreaInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jTextFieldDirtyTrays, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldCleanTrays, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTextFieldSnackChildren, javax.swing.GroupLayout.PREFERRED_SIZE, 66, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel16)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jTextFieldSnackAreaInstructor, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(15, 15, 15))
         );
 
@@ -530,7 +530,7 @@ public class Main extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextFieldCamp, javax.swing.GroupLayout.DEFAULT_SIZE, 43, Short.MAX_VALUE)
+                .addComponent(jTextFieldCamp)
                 .addContainerGap())
         );
 
@@ -564,6 +564,10 @@ public class Main extends javax.swing.JFrame {
     private void jTextFieldSnackAreaInstructorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSnackAreaInstructorActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldSnackAreaInstructorActionPerformed
+
+    private void jTextFieldSnackChildrenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldSnackChildrenActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextFieldSnackChildrenActionPerformed
 
     /**
      * @param args the command line arguments
@@ -626,8 +630,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JTextArea jTextAreaSnackArea;
     private javax.swing.JTextField jTextFieldCamp;
     private javax.swing.JTextField jTextFieldCleanTrays;
     private javax.swing.JTextField jTextFieldCommonAreaChildren;
@@ -641,6 +643,7 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldRopeInstructor;
     private javax.swing.JTextField jTextFieldSnackArea;
     private javax.swing.JTextField jTextFieldSnackAreaInstructor;
+    private javax.swing.JTextField jTextFieldSnackChildren;
     private javax.swing.JTextField jTextFieldZipLine;
     private javax.swing.JTextField jTextFieldZipLineFinalization;
     private javax.swing.JTextField jTextFieldZipLineInstructor;

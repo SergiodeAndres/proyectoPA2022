@@ -67,12 +67,15 @@ public class Child extends Thread{
                     childCamp.SnackEat(this);
                     totalActivities += 1; //SNACK
                     nonSnackActivities = 0;
+                    childCamp.commonArea(this);
                 }else if (activity == 1){
                     childCamp.activityRope(this);
                     nonSnackActivities += 1;
+                    childCamp.commonArea(this);
                 }else{
                     childCamp.activityZipLine(this);
                     nonSnackActivities += 1;
+                    childCamp.commonArea(this);
                 }
             }
         }

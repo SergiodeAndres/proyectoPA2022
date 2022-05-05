@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.concurrent.CyclicBarrier;
 import javax.swing.JTextField;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -36,6 +37,9 @@ public class Camp {
     
     private ThreadList cleanTraysList;
     private ThreadList dirtyTraysList;
+    private ThreadList childSnackQueue;
+    private ThreadList childrenSnack;
+    
     //Number variables used for concurrency
     private int totalCapacity;
     private int currentCapacity; 
@@ -55,17 +59,22 @@ public class Camp {
     private ArrayList<Child> ropeTeamB;
     private Semaphore childRopeSem;
     
-    private Semaphore cleanTrays = new Semaphore(0);
-    private Semaphore dirtyTrays = new Semaphore(25);
-    private Semaphore em = new Semaphore(1);
-    private Semaphore maxChildren = new Semaphore(20);
+    private AtomicInteger cleanTrays = new AtomicInteger();
+    private AtomicInteger dirtyTrays = new AtomicInteger();
+    private int clean;
+    private int dirty;
+    private Semaphore maxChildren;
+    private Lock lockSnack;
+    private Condition noClean;
+    private Condition noDirty;
     
     
     public Camp(JTextField doorA, JTextField doorB, JTextField pCamp, JTextField instRope,
             JTextField instZip, JTextField instSnack, JTextField childZipQueue, 
             JTextField childZipPrep, JTextField childZipExec, JTextField childZipEnd,
             JTextField instCommonArea, JTextField cRopeQueue, JTextField cRopeA,
-            JTextField cRopeB, JTextField cCommonArea, JTextField cCleanTrays, JTextField cDirtyTrays)
+            JTextField cRopeB, JTextField cCommonArea, JTextField cCleanTrays, JTextField cDirtyTrays,
+            JTextField cChildSnack, JTextField cChildrenSnack)
     {
         //GUI Text boxes set-up
         entranceA = new ThreadList(doorA); 
@@ -86,6 +95,8 @@ public class Camp {
         
         cleanTraysList = new ThreadList(cCleanTrays);
         dirtyTraysList = new ThreadList(cDirtyTrays);
+        childSnackQueue = new ThreadList(cChildSnack);
+        childrenSnack = new ThreadList(cChildrenSnack);
         //Number variables set-up
         this.totalCapacity = 50; 
         this.currentCapacity = 0; 
@@ -105,8 +116,14 @@ public class Camp {
         ropeTeamB = new ArrayList<Child>();
         ropeQueue = new ArrayList<Child>();
         
-        cleanTrays = new Semaphore(0);
-        dirtyTrays = new Semaphore(25);
+        cleanTrays = new AtomicInteger(0);
+        dirtyTrays = new AtomicInteger(25);
+        maxChildren = new Semaphore(20);
+        clean = 0;
+        dirty = 25;
+        lockSnack = new ReentrantLock();
+        noClean = lockSnack.newCondition();
+        noDirty = lockSnack.newCondition();
     }
     
     public void enterCampLeft(Instructor instruct)
@@ -422,7 +439,7 @@ public class Camp {
                 childZipLineExec.push(c.getChildName());
                 try 
                 {
-                    sleep(3000); //Activities (ZIPLINE, ROPE, SNACK)
+                    sleep(3000);
                 }
                 catch (InterruptedException e)
                 { 
@@ -495,33 +512,78 @@ public class Camp {
     }
     
     public void SnackEat(Child i) throws InterruptedException{
-        cleanTraysList.pop(Integer.toString(cleanTrays.availablePermits()));
-        cleanTrays.acquire();
-        cleanTraysList.push(Integer.toString(cleanTrays.availablePermits()));
-        maxChildren.acquire();
-        em.acquire(); // Block: SC start
-        sleep(7000);
-        em.release(); // Unblock: SC end
-        maxChildren.release();
-        dirtyTraysList.pop(Integer.toString(dirtyTrays.availablePermits()));
-        dirtyTrays.release();
-        dirtyTraysList.push(Integer.toString(dirtyTrays.availablePermits()));
+        
+        try {
+            lockSnack.lock();
+            while (cleanTrays.get() < 1) {
+                childSnackQueue.push(i.getChildName());
+                noClean.await(); //waits for a signal
+            }try {
+                maxChildren.acquire();
+                
+                childSnackQueue.pop(i.getChildName());
+                childrenSnack.push(i.getChildName());
+                
+                cleanTraysList.pop(Integer.toString(cleanTrays.get()));
+                //clean = previousClean();
+                cleanTraysList.push(Integer.toString(cleanTrays.decrementAndGet()));
+                
+                sleep(7000);
+                
+                childrenSnack.pop(i.getChildName());
+                dirtyTraysList.pop(Integer.toString(dirtyTrays.get()));
+                //dirty = nextDirty();
+                dirtyTraysList.push(Integer.toString(dirtyTrays.incrementAndGet()));
+                
+                noDirty.signalAll();
+                
+            } catch (Exception e){}
+        } finally {
+            lockSnack.unlock();
+            maxChildren.release();
+        } 
     }
     public void SnackClean(Instructor i) throws InterruptedException{
         instructorSnack.push(i.getInstructorName());
         
-        dirtyTraysList.pop(Integer.toString(dirtyTrays.availablePermits()));
-        dirtyTrays.acquire();
-        dirtyTraysList.push(Integer.toString(dirtyTrays.availablePermits()));
-        
-        em.acquire(); // Block: SC start
-        int n = (int)Math.floor(Math.random()*(1-0+2)+3); //Random number between 3-5
-        sleep(n*1000);
-        em.release(); // Unblock: SC end
-        
-        cleanTraysList.pop(Integer.toString(cleanTrays.availablePermits()));
-        cleanTrays.release();
-        cleanTraysList.push(Integer.toString(cleanTrays.availablePermits()));
+        try {
+            lockSnack.lock(); // mutual exclusion code that changes state
+            while(dirtyTrays.get() < 1){
+                noDirty.await();
+            }try{
+                int n = (int)Math.floor(Math.random()*(1-0+2)+3); //Random number between 3-5
+                sleep(n*1000);
+                
+                dirtyTraysList.pop(Integer.toString(dirtyTrays.get()));
+                //dirty = previousDirty();
+                dirtyTraysList.push(Integer.toString(dirtyTrays.decrementAndGet()));
+                
+                cleanTraysList.pop(Integer.toString(cleanTrays.get()));
+                //clean = nextClean();
+                cleanTraysList.push(Integer.toString(cleanTrays.incrementAndGet()));
+                
+                noClean.signalAll();
+                
+            } catch (Exception e){}
+        }finally {
+            lockSnack.unlock();
+        } 
         instructorSnack.pop(i.getInstructorName());
+    }
+    
+    public int nextClean(){
+        return cleanTrays.getAndIncrement();
+    }
+    
+    public int nextDirty(){
+        return dirtyTrays.getAndIncrement();
+    }
+    
+    public int previousClean(){
+        return cleanTrays.getAndDecrement();
+    }
+    
+    public int previousDirty(){
+        return dirtyTrays.getAndDecrement();
     }
 }
