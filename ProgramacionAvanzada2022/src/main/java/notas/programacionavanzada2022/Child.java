@@ -69,11 +69,9 @@ public class Child extends Thread{
                     nonSnackActivities = 0;
                 }else if (activity == 1){
                     childCamp.activityRope(this);
-                    totalActivities += 1; //ROPE
                     nonSnackActivities += 1;
                 }else{
                     childCamp.activityZipLine(this);
-                    totalActivities += 1; //ZIPLINE
                     nonSnackActivities += 1;
                 }
             }
