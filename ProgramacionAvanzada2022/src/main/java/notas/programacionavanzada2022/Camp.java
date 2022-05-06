@@ -223,6 +223,7 @@ public class Camp {
             System.out.println(e.toString());
         }
         instructorRope.pop(instruct.getInstructorName());
+        instruct.setInstructorActivitiesDone(instruct.getInstructorActivitiesDone()+1);
     }
     
     public void activityZipLine (Instructor instruct)
@@ -569,6 +570,7 @@ public class Camp {
             lockSnack.unlock();
         } 
         instructorSnack.pop(i.getInstructorName());
+        i.setInstructorActivitiesDone(i.getInstructorActivitiesDone()+1);
     }
     
     public int nextClean(){
