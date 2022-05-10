@@ -13,6 +13,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import java.io.*;
+import java.sql.Timestamp;
 /**
  *
  * @author sergi
@@ -67,6 +69,11 @@ public class Camp {
     private Lock lockSnack;
     private Condition noClean;
     private Condition noDirty;
+    
+    private Semaphore fileSem;
+    private File archivo;
+    private FileWriter escribir;
+    private PrintWriter line;
     
     
     public Camp(JTextField doorA, JTextField doorB, JTextField pCamp, JTextField instRope,
@@ -124,6 +131,9 @@ public class Camp {
         lockSnack = new ReentrantLock();
         noClean = lockSnack.newCondition();
         noDirty = lockSnack.newCondition();
+        
+        archivo = new File("campEvolution.txt");
+        fileSem = new Semaphore(1,true);
     }
     
     public void enterCampLeft(Instructor instruct)
@@ -153,12 +163,31 @@ public class Camp {
         {
             entryLock.unlock();
             entranceA.pop(instruct.getInstructorName());
-        }  
+        }
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Instructor "+instruct.getInstructorName()+" opens DOOR 1        //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
     }
     
     public void activityRope (Instructor instruct)
     {
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Instructor "+instruct.getInstructorName()+" accesses the ROPE activity      //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+            
         instructorRope.push(instruct.getInstructorName());
+        }
         try 
         {
             ropeBarrier.await();
@@ -184,11 +213,13 @@ public class Camp {
             System.out.println("Team B: " + ropeTeamB.size());
             sleep(3000);
             int winningTeam = (int)Math.floor(Math.random()*(1-0+1)+0);
+            String s2 = "Children ";
             if (winningTeam == 0)
             {
                 System.out.println("Team A wins");
                 while(ropeTeamA.size()>0)
                 {
+                    s2 += ropeTeamA.get(0).getChildName()+" ";
                     ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 2);
                     childRopeTeamA.pop(ropeTeamA.get(0).getChildName());
                     ropeTeamA.remove(0);
@@ -211,12 +242,22 @@ public class Camp {
                 }
                 while(ropeTeamB.size()>0)
                 {
+                    s2 += ropeTeamB.get(0).getChildName()+" ";
                     ropeTeamB.get(0).setTotalActivities(ropeTeamB.get(0).getTotalActivities() + 2);
                     childRopeTeamB.pop(ropeTeamB.get(0).getChildName());
                     ropeTeamB.remove(0);
                 }
             }
             ropeBarrier.await();
+            Timestamp t2 = new Timestamp(System.currentTimeMillis());
+            s2 += "win in the ZIP LINE      //"+t2.toString();
+            try{
+                fileSem.acquire();
+                writeFile(s2);
+            }catch (Exception e){}
+            finally{
+                fileSem.release();
+            }
         }
         catch (Exception e)
         { 
@@ -228,6 +269,15 @@ public class Camp {
     
     public void activityZipLine (Instructor instruct)
     {
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Instructor "+instruct.getInstructorName()+" accesses the ZIP LINE       //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
         instructorZipLine.push(instruct.getInstructorName());
         try
         {
@@ -250,26 +300,23 @@ public class Camp {
         instruct.setInstructorActivitiesDone(instruct.getInstructorActivitiesDone()+1);
         instructorZipLine.pop(instruct.getInstructorName());
     }
-    /*
-    public void activitySnack (Instructor instruct)
-    {
-        instructorSnack.push(instruct.getInstructorName());
-        try 
-        {
-            sleep(2000); //Activities (ZIPLINE, ROPE, SNACK)
-        }
-        catch (InterruptedException e)
-        { 
-            System.out.println(e.toString());
-        }
-        instructorSnack.pop(instruct.getInstructorName());
-    }
-    */
+    
+    
     public void commonArea (Instructor instruct)
     {
         instructorCommonArea.push(instruct.getInstructorName());
         try 
         {
+            Timestamp t = new Timestamp(System.currentTimeMillis());
+            String s = "Instructor "+instruct.getInstructorName()+" starts his BREAK        //"+t.toString();
+            try{
+                fileSem.acquire();
+                writeFile(s);
+            }catch (Exception e){}
+            finally{
+                fileSem.release();
+            }
+            
             sleep((int)(1000*Math.random() + 1000));
         }
         catch (InterruptedException e)
@@ -277,6 +324,15 @@ public class Camp {
             System.out.println(e.toString());
         }
         instructorCommonArea.pop(instruct.getInstructorName());
+        Timestamp t2 = new Timestamp(System.currentTimeMillis());
+        String s2 = "Instructor "+instruct.getInstructorName()+" finishes his BREAK         //"+t2.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s2);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
     }
     
     public void enterCampRight(Instructor instruct)
@@ -306,7 +362,16 @@ public class Camp {
         {
             entryLock.unlock();
             entranceB.pop(instruct.getInstructorName());
-        }  
+        }
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Instructor "+instruct.getInstructorName()+" opens DOOR 2        //"+t.toString();
+            try{
+                fileSem.acquire();
+                writeFile(s);
+            }catch (Exception e){}
+            finally{
+                fileSem.release();
+            }
     }
     
     public void enterCampLeft(Child c)
@@ -342,7 +407,16 @@ public class Camp {
             //System.out.println("Entered through 0");
             entryLock.unlock();
             entranceA.pop(c.getChildName());
-        }  
+        }
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Child "+c.getChildName()+" enters thorugh DOOR 1        //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
     }
     
     public void enterCampRight(Child c)
@@ -378,7 +452,16 @@ public class Camp {
             //System.out.println("Entered through 1");
             entryLock.unlock();
             entranceB.pop(c.getChildName());
-        }  
+        }
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Child "+c.getChildName()+" enters thorugh DOOR 2        //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
     }
     
     public void leaveCamp (Child c)
@@ -422,11 +505,31 @@ public class Camp {
         {
             entryLock.unlock(); 
         }
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Child "+c.getChildName()+" leaves the camp          //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
     }
     
     public void activityZipLine (Child c)
     {
         childZipLineQueue.push(c.getChildName());
+        
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Child "+c.getChildName()+" accesses the ZIP LINE        //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
+        
         try
         {
             childZipLineSem.acquire();
@@ -478,6 +581,16 @@ public class Camp {
     
     public void activityRope (Child c)
     {
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Child "+c.getChildName()+" accesses the ROPE activity           //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
+        
         if(childRopeSem.tryAcquire())
         {
             childRopeQueue.push(c.getChildName());
@@ -503,6 +616,15 @@ public class Camp {
         childCommonArea.push(c.getChildName());
         try 
         {
+            Timestamp t = new Timestamp(System.currentTimeMillis());
+            String s = "Child "+c.getChildName()+" breaks in the COMMON AREA        //"+t.toString();
+            try{
+                fileSem.acquire();
+                writeFile(s);
+            }catch (Exception e){}
+            finally{
+                fileSem.release();
+            }
             sleep((int)(2000*Math.random() + 2000));
         }
         catch (InterruptedException e)
@@ -512,28 +634,34 @@ public class Camp {
         childCommonArea.pop(c.getChildName());
     }
     
-    public void SnackEat(Child i) throws InterruptedException{
-        
+    public void SnackEat(Child c) throws InterruptedException{
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Child "+c.getChildName()+" accesses the SNACK           //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
         try {
             lockSnack.lock();
             while (cleanTrays.get() < 1) {
-                childSnackQueue.push(i.getChildName());
+                childSnackQueue.push(c.getChildName());
                 noClean.await(); //waits for a signal
             }try {
                 maxChildren.acquire();
                 
-                childSnackQueue.pop(i.getChildName());
-                childrenSnack.push(i.getChildName());
+                childSnackQueue.pop(c.getChildName());
+                childrenSnack.push(c.getChildName());
                 
                 cleanTraysList.pop(Integer.toString(cleanTrays.get()));
-                //clean = previousClean();
                 cleanTraysList.push(Integer.toString(cleanTrays.decrementAndGet()));
                 
                 sleep(7000);
                 
-                childrenSnack.pop(i.getChildName());
+                childrenSnack.pop(c.getChildName());
                 dirtyTraysList.pop(Integer.toString(dirtyTrays.get()));
-                //dirty = nextDirty();
                 dirtyTraysList.push(Integer.toString(dirtyTrays.incrementAndGet()));
                 
                 noDirty.signalAll();
@@ -556,11 +684,9 @@ public class Camp {
                 sleep(n*1000);
                 
                 dirtyTraysList.pop(Integer.toString(dirtyTrays.get()));
-                //dirty = previousDirty();
                 dirtyTraysList.push(Integer.toString(dirtyTrays.decrementAndGet()));
                 
                 cleanTraysList.pop(Integer.toString(cleanTrays.get()));
-                //clean = nextClean();
                 cleanTraysList.push(Integer.toString(cleanTrays.incrementAndGet()));
                 
                 noClean.signalAll();
@@ -571,21 +697,26 @@ public class Camp {
         } 
         instructorSnack.pop(i.getInstructorName());
         i.setInstructorActivitiesDone(i.getInstructorActivitiesDone()+1);
+        
+        Timestamp t = new Timestamp(System.currentTimeMillis());
+        String s = "Instructor "+i.getInstructorName()+" cleans a tray          //"+t.toString();
+        try{
+            fileSem.acquire();
+            writeFile(s);
+        }catch (Exception e){}
+        finally{
+            fileSem.release();
+        }
     }
     
-    public int nextClean(){
-        return cleanTrays.getAndIncrement();
-    }
-    
-    public int nextDirty(){
-        return dirtyTrays.getAndIncrement();
-    }
-    
-    public int previousClean(){
-        return cleanTrays.getAndDecrement();
-    }
-    
-    public int previousDirty(){
-        return dirtyTrays.getAndDecrement();
+    public void writeFile(String s){
+        try{
+            escribir = new FileWriter(archivo,true);
+            line = new PrintWriter(escribir);
+            line.println(s);
+            line.close();
+            escribir.close();
+        }catch (Exception e) {}
+        
     }
 }
