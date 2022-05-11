@@ -49,7 +49,7 @@ public class Instructor extends Thread{
         }
         while(true)
         {
-            while (instructorActivitiesDone < 3)
+            while (instructorActivitiesDone < 10)
             {
                 if (instructorActivity.equals("RopeActivity"))
                 {

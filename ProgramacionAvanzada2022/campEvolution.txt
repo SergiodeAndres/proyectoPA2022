@@ -1,0 +1,2267 @@
+Instructor M1 opens DOOR 2        //2022-05-12 00:21:19.669
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:21:19.691
+Instructor M3 opens DOOR 2        //2022-05-12 00:21:20.397
+Instructor M2 opens DOOR 1        //2022-05-12 00:21:20.398
+Instructor M4 opens DOOR 1        //2022-05-12 00:21:20.397
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:21:20.401
+Child N0 enters thorugh DOOR 2        //2022-05-12 00:21:20.481
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:21:22.827
+Child N2 enters thorugh DOOR 2        //2022-05-12 00:21:24.253
+Instructor M3 cleans a tray          //2022-05-12 00:21:24.404
+Child N3 enters thorugh DOOR 1        //2022-05-12 00:21:27.098
+Instructor M3 cleans a tray          //2022-05-12 00:21:27.413
+Child N4 enters thorugh DOOR 2        //2022-05-12 00:21:28.941
+Child N0 accesses the ROPE activity           //2022-05-12 00:21:30.483
+Child N5 enters thorugh DOOR 1        //2022-05-12 00:21:30.802
+Child N6 enters thorugh DOOR 1        //2022-05-12 00:21:32.16
+Instructor M3 cleans a tray          //2022-05-12 00:21:32.417
+Instructor M3 starts his BREAK        //2022-05-12 00:21:32.419
+Child N1 accesses the ZIP LINE        //2022-05-12 00:21:32.829
+Child N7 enters thorugh DOOR 1        //2022-05-12 00:21:33.484
+Instructor M3 finishes his BREAK         //2022-05-12 00:21:33.69
+Child N2 accesses the ROPE activity           //2022-05-12 00:21:34.254
+Child N8 enters thorugh DOOR 2        //2022-05-12 00:21:35.962
+Child N3 accesses the ROPE activity           //2022-05-12 00:21:37.1
+Child N9 enters thorugh DOOR 1        //2022-05-12 00:21:37.18
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:21:37.336
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:21:37.337
+Child N10 enters thorugh DOOR 2        //2022-05-12 00:21:38.538
+Instructor M3 cleans a tray          //2022-05-12 00:21:38.696
+Child N4 accesses the ZIP LINE        //2022-05-12 00:21:38.942
+Child N1 accesses the ZIP LINE        //2022-05-12 00:21:40.121
+Child N11 enters thorugh DOOR 2        //2022-05-12 00:21:40.645
+Child N5 accesses the ZIP LINE        //2022-05-12 00:21:40.806
+Child N6 accesses the ZIP LINE        //2022-05-12 00:21:42.162
+Child N12 enters thorugh DOOR 2        //2022-05-12 00:21:43.142
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:21:43.448
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:21:43.449
+Child N7 accesses the ZIP LINE        //2022-05-12 00:21:43.486
+Instructor M3 cleans a tray          //2022-05-12 00:21:43.7
+Child N13 enters thorugh DOOR 2        //2022-05-12 00:21:44.188
+Child N8 accesses the ROPE activity           //2022-05-12 00:21:45.964
+Child N14 enters thorugh DOOR 2        //2022-05-12 00:21:46.075
+Child N9 accesses the ROPE activity           //2022-05-12 00:21:47.182
+Child N4 accesses the ZIP LINE        //2022-05-12 00:21:47.184
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:21:47.954
+Instructor M1 starts his BREAK        //2022-05-12 00:21:47.954
+Child N10 accesses the ZIP LINE        //2022-05-12 00:21:48.542
+Instructor M3 cleans a tray          //2022-05-12 00:21:48.705
+Instructor M3 starts his BREAK        //2022-05-12 00:21:48.706
+Child N15 enters thorugh DOOR 2        //2022-05-12 00:21:49.0
+Instructor M1 finishes his BREAK         //2022-05-12 00:21:49.099
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:21:49.101
+Instructor M3 finishes his BREAK         //2022-05-12 00:21:49.932
+Child N1 accesses the ZIP LINE        //2022-05-12 00:21:50.55
+Child N11 accesses the ROPE activity           //2022-05-12 00:21:50.647
+Child N16 enters thorugh DOOR 2        //2022-05-12 00:21:51.679
+Child N12 accesses the ZIP LINE        //2022-05-12 00:21:53.144
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:21:53.605
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:21:53.606
+Child N17 enters thorugh DOOR 2        //2022-05-12 00:21:53.876
+Child N13 accesses the ZIP LINE        //2022-05-12 00:21:54.19
+Instructor M3 cleans a tray          //2022-05-12 00:21:54.936
+Child N18 enters thorugh DOOR 2        //2022-05-12 00:21:55.728
+Child N14 accesses the ZIP LINE        //2022-05-12 00:21:56.078
+Child N5 accesses the ZIP LINE        //2022-05-12 00:21:57.001
+Child N19 enters thorugh DOOR 1        //2022-05-12 00:21:57.395
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:21:58.111
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:21:58.111
+Child N20 enters thorugh DOOR 2        //2022-05-12 00:21:58.692
+Child N15 accesses the ZIP LINE        //2022-05-12 00:21:59.005
+Instructor M3 cleans a tray          //2022-05-12 00:21:59.941
+Child N21 enters thorugh DOOR 1        //2022-05-12 00:22:00.78
+Child N16 accesses the ROPE activity           //2022-05-12 00:22:01.681
+Child N6 accesses the ROPE activity           //2022-05-12 00:22:01.941
+Child N22 enters thorugh DOOR 1        //2022-05-12 00:22:02.252
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:22:02.615
+Instructor M1 starts his BREAK        //2022-05-12 00:22:02.615
+Instructor M3 cleans a tray          //2022-05-12 00:22:02.945
+Instructor M3 starts his BREAK        //2022-05-12 00:22:02.946
+Child N17 accesses the ROPE activity           //2022-05-12 00:22:03.878
+Instructor M1 finishes his BREAK         //2022-05-12 00:22:03.978
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:03.979
+Child N23 enters thorugh DOOR 2        //2022-05-12 00:22:04.268
+Instructor M3 finishes his BREAK         //2022-05-12 00:22:04.508
+Child N7 accesses the ZIP LINE        //2022-05-12 00:22:05.685
+Child N18 accesses the ZIP LINE        //2022-05-12 00:22:05.732
+Child N24 enters thorugh DOOR 1        //2022-05-12 00:22:06.609
+Child N19 accesses the ZIP LINE        //2022-05-12 00:22:07.396
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:08.485
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:22:08.486
+Instructor M3 cleans a tray          //2022-05-12 00:22:08.512
+Child N25 enters thorugh DOOR 1        //2022-05-12 00:22:08.555
+Child N20 accesses the ZIP LINE        //2022-05-12 00:22:08.694
+Child N21 accesses the ZIP LINE        //2022-05-12 00:22:10.782
+Child N26 enters thorugh DOOR 2        //2022-05-12 00:22:10.876
+Child N4 accesses the ZIP LINE        //2022-05-12 00:22:12.21
+Child N22 accesses the ZIP LINE        //2022-05-12 00:22:12.254
+Instructor M3 cleans a tray          //2022-05-12 00:22:12.515
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:12.992
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:22:12.993
+Child N27 enters thorugh DOOR 2        //2022-05-12 00:22:13.31
+Child N23 accesses the ROPE activity           //2022-05-12 00:22:14.271
+Child N28 enters thorugh DOOR 2        //2022-05-12 00:22:15.305
+Instructor M3 cleans a tray          //2022-05-12 00:22:15.519
+Instructor M3 starts his BREAK        //2022-05-12 00:22:15.521
+Child N10 accesses the ZIP LINE        //2022-05-12 00:22:16.293
+Child N29 enters thorugh DOOR 1        //2022-05-12 00:22:16.567
+Child N24 accesses the ROPE activity           //2022-05-12 00:22:16.611
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:22:16.612
+Instructor M3 finishes his BREAK         //2022-05-12 00:22:17.1
+Children N0 N3 N11 N16 N6 N17 win in the ZIP LINE      //2022-05-12 00:22:17.283
+Child N23 breaks in the COMMON AREA        //2022-05-12 00:22:17.283
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:22:17.283
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:22:17.284
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:22:17.284
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:22:17.284
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:22:17.285
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:22:17.285
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:22:17.285
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:22:17.286
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:22:17.286
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:22:17.287
+Instructor M1 starts his BREAK        //2022-05-12 00:22:17.499
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:22:17.499
+Child N25 accesses the ZIP LINE        //2022-05-12 00:22:18.557
+Child N24 accesses the ROPE activity           //2022-05-12 00:22:19.196
+Child N30 enters thorugh DOOR 1        //2022-05-12 00:22:19.273
+Child N2 accesses the ZIP LINE        //2022-05-12 00:22:19.353
+Child N17 accesses the ZIP LINE        //2022-05-12 00:22:19.423
+Child N0 accesses the ROPE activity           //2022-05-12 00:22:19.45
+Instructor M1 finishes his BREAK         //2022-05-12 00:22:19.46
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:19.461
+Child N8 accesses the ROPE activity           //2022-05-12 00:22:19.536
+Child N9 accesses the ROPE activity           //2022-05-12 00:22:19.649
+Child N11 accesses the ROPE activity           //2022-05-12 00:22:20.181
+Child N16 accesses the ROPE activity           //2022-05-12 00:22:20.585
+Child N23 accesses the ROPE activity           //2022-05-12 00:22:20.85
+Child N26 accesses the ROPE activity           //2022-05-12 00:22:20.879
+Child N6 accesses the ZIP LINE        //2022-05-12 00:22:21.137
+Child N1 accesses the ROPE activity           //2022-05-12 00:22:21.197
+Child N3 accesses the ROPE activity           //2022-05-12 00:22:21.205
+Child N31 enters thorugh DOOR 1        //2022-05-12 00:22:21.542
+Instructor M3 cleans a tray          //2022-05-12 00:22:22.106
+Child N27 accesses the ROPE activity           //2022-05-12 00:22:23.313
+Child N27 breaks in the COMMON AREA        //2022-05-12 00:22:23.314
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:23.966
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:22:23.966
+Child N32 enters thorugh DOOR 2        //2022-05-12 00:22:23.995
+Children N24 N0 N9 N23 N1 win in the ZIP LINE      //2022-05-12 00:22:24.213
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:22:24.213
+Child N23 breaks in the COMMON AREA        //2022-05-12 00:22:24.214
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:22:24.214
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:22:24.214
+Child N26 breaks in the COMMON AREA        //2022-05-12 00:22:24.214
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:22:24.215
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:22:24.215
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:22:24.215
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:22:24.216
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:22:24.216
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:22:24.217
+Child N28 accesses the ZIP LINE        //2022-05-12 00:22:25.308
+Instructor M3 cleans a tray          //2022-05-12 00:22:26.109
+Child N33 enters thorugh DOOR 1        //2022-05-12 00:22:26.218
+Child N27 accesses the ZIP LINE        //2022-05-12 00:22:26.35
+Child N9 accesses the ZIP LINE        //2022-05-12 00:22:26.396
+Child N29 accesses the ZIP LINE        //2022-05-12 00:22:26.569
+Child N3 accesses the ZIP LINE        //2022-05-12 00:22:26.786
+Child N16 accesses the ROPE activity           //2022-05-12 00:22:26.815
+Child N12 accesses the ROPE activity           //2022-05-12 00:22:26.837
+Child N23 accesses the ZIP LINE        //2022-05-12 00:22:27.483
+Child N8 accesses the ZIP LINE        //2022-05-12 00:22:27.568
+Child N26 accesses the ZIP LINE        //2022-05-12 00:22:27.634
+Child N24 accesses the ROPE activity           //2022-05-12 00:22:27.684
+Child N1 accesses the ROPE activity           //2022-05-12 00:22:27.847
+Child N0 accesses the ZIP LINE        //2022-05-12 00:22:27.873
+Child N11 accesses the ZIP LINE        //2022-05-12 00:22:27.9
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:28.472
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:22:28.472
+Child N34 enters thorugh DOOR 1        //2022-05-12 00:22:28.753
+Child N30 accesses the ZIP LINE        //2022-05-12 00:22:29.276
+Child N35 enters thorugh DOOR 2        //2022-05-12 00:22:29.977
+Child N13 accesses the ZIP LINE        //2022-05-12 00:22:30.761
+Instructor M3 cleans a tray          //2022-05-12 00:22:31.112
+Instructor M3 starts his BREAK        //2022-05-12 00:22:31.114
+Child N31 accesses the ZIP LINE        //2022-05-12 00:22:31.548
+Child N36 enters thorugh DOOR 1        //2022-05-12 00:22:32.838
+Instructor M3 finishes his BREAK         //2022-05-12 00:22:32.939
+Child N14 breaks in the COMMON AREA        //2022-05-12 00:22:32.977
+Instructor M1 starts his BREAK        //2022-05-12 00:22:32.977
+Child N32 accesses the ZIP LINE        //2022-05-12 00:22:33.997
+Instructor M1 finishes his BREAK         //2022-05-12 00:22:34.941
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:34.942
+Child N37 enters thorugh DOOR 2        //2022-05-12 00:22:34.998
+Child N14 accesses the ZIP LINE        //2022-05-12 00:22:35.079
+Child N38 enters thorugh DOOR 1        //2022-05-12 00:22:36.11
+Child N33 accesses the ZIP LINE        //2022-05-12 00:22:36.22
+Instructor M3 cleans a tray          //2022-05-12 00:22:37.941
+Child N39 enters thorugh DOOR 2        //2022-05-12 00:22:38.044
+Child N34 accesses the ROPE activity           //2022-05-12 00:22:38.755
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:39.446
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:22:39.446
+Child N40 enters thorugh DOOR 1        //2022-05-12 00:22:39.764
+Child N35 accesses the ZIP LINE        //2022-05-12 00:22:39.98
+Instructor M3 cleans a tray          //2022-05-12 00:22:40.946
+Child N41 enters thorugh DOOR 2        //2022-05-12 00:22:41.439
+Child N5 accesses the ZIP LINE        //2022-05-12 00:22:41.726
+Child N36 accesses the ZIP LINE        //2022-05-12 00:22:42.84
+Child N42 enters thorugh DOOR 1        //2022-05-12 00:22:43.263
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:43.952
+Child N15 breaks in the COMMON AREA        //2022-05-12 00:22:43.952
+Child N37 accesses the ZIP LINE        //2022-05-12 00:22:45.002
+Instructor M3 cleans a tray          //2022-05-12 00:22:45.949
+Instructor M3 starts his BREAK        //2022-05-12 00:22:45.95
+Child N38 accesses the ROPE activity           //2022-05-12 00:22:46.111
+Child N43 enters thorugh DOOR 2        //2022-05-12 00:22:46.263
+Child N15 accesses the ZIP LINE        //2022-05-12 00:22:47.289
+Instructor M3 finishes his BREAK         //2022-05-12 00:22:47.708
+Child N39 accesses the ZIP LINE        //2022-05-12 00:22:48.046
+Child N44 enters thorugh DOOR 1        //2022-05-12 00:22:48.168
+Instructor M1 starts his BREAK        //2022-05-12 00:22:48.457
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:22:48.457
+Child N45 enters thorugh DOOR 2        //2022-05-12 00:22:49.252
+Instructor M1 finishes his BREAK         //2022-05-12 00:22:49.733
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:49.734
+Child N40 accesses the ZIP LINE        //2022-05-12 00:22:49.767
+Child N46 enters thorugh DOOR 1        //2022-05-12 00:22:50.313
+Instructor M3 cleans a tray          //2022-05-12 00:22:50.712
+Child N41 accesses the ZIP LINE        //2022-05-12 00:22:51.442
+Child N7 accesses the ZIP LINE        //2022-05-12 00:22:51.941
+Child N47 enters thorugh DOOR 2        //2022-05-12 00:22:53.129
+Child N42 accesses the ZIP LINE        //2022-05-12 00:22:53.265
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:54.24
+Child N18 breaks in the COMMON AREA        //2022-05-12 00:22:54.24
+Child N48 enters thorugh DOOR 1        //2022-05-12 00:22:54.92
+Instructor M3 cleans a tray          //2022-05-12 00:22:55.714
+Child N43 accesses the ZIP LINE        //2022-05-12 00:22:56.266
+Child N49 enters thorugh DOOR 1        //2022-05-12 00:22:57.563
+Child N18 accesses the ROPE activity           //2022-05-12 00:22:57.892
+Child N44 accesses the ROPE activity           //2022-05-12 00:22:58.17
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:22:58.745
+Child N19 breaks in the COMMON AREA        //2022-05-12 00:22:58.745
+Child N45 accesses the ROPE activity           //2022-05-12 00:22:59.254
+Child N46 accesses the ROPE activity           //2022-05-12 00:23:00.315
+Instructor M3 cleans a tray          //2022-05-12 00:23:00.716
+Instructor M3 starts his BREAK        //2022-05-12 00:23:00.717
+Child N19 accesses the ZIP LINE        //2022-05-12 00:23:02.404
+Instructor M3 finishes his BREAK         //2022-05-12 00:23:02.636
+Child N47 accesses the ROPE activity           //2022-05-12 00:23:03.131
+Child N47 breaks in the COMMON AREA        //2022-05-12 00:23:03.132
+Instructor M1 starts his BREAK        //2022-05-12 00:23:03.25
+Child N20 breaks in the COMMON AREA        //2022-05-12 00:23:03.25
+Children N24 N1 N38 N44 N45 win in the ZIP LINE      //2022-05-12 00:23:03.321
+Child N46 breaks in the COMMON AREA        //2022-05-12 00:23:03.321
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:23:03.321
+Child N38 breaks in the COMMON AREA        //2022-05-12 00:23:03.322
+Child N45 breaks in the COMMON AREA        //2022-05-12 00:23:03.322
+Child N44 breaks in the COMMON AREA        //2022-05-12 00:23:03.322
+Child N18 breaks in the COMMON AREA        //2022-05-12 00:23:03.322
+Instructor M4 starts his BREAK        //2022-05-12 00:23:03.323
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:23:03.323
+Child N34 breaks in the COMMON AREA        //2022-05-12 00:23:03.323
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:23:03.323
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:23:03.324
+Child N48 accesses the ZIP LINE        //2022-05-12 00:23:04.923
+Instructor M1 finishes his BREAK         //2022-05-12 00:23:04.952
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:04.953
+Instructor M4 finishes his BREAK         //2022-05-12 00:23:05.193
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:23:05.194
+Child N44 accesses the ZIP LINE        //2022-05-12 00:23:05.58
+Child N47 accesses the ZIP LINE        //2022-05-12 00:23:05.627
+Instructor M3 cleans a tray          //2022-05-12 00:23:05.638
+Child N12 accesses the ZIP LINE        //2022-05-12 00:23:05.741
+Child N46 accesses the ZIP LINE        //2022-05-12 00:23:06.006
+Child N20 accesses the ROPE activity           //2022-05-12 00:23:06.201
+Child N24 accesses the ROPE activity           //2022-05-12 00:23:06.294
+Child N38 accesses the ROPE activity           //2022-05-12 00:23:06.305
+Child N18 accesses the ZIP LINE        //2022-05-12 00:23:06.364
+Child N45 accesses the ZIP LINE        //2022-05-12 00:23:06.425
+Child N34 accesses the ZIP LINE        //2022-05-12 00:23:06.573
+Child N16 accesses the ROPE activity           //2022-05-12 00:23:06.644
+Child N1 accesses the ROPE activity           //2022-05-12 00:23:07.066
+Child N49 accesses the ZIP LINE        //2022-05-12 00:23:07.565
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:09.456
+Child N21 breaks in the COMMON AREA        //2022-05-12 00:23:09.456
+Instructor M3 cleans a tray          //2022-05-12 00:23:10.641
+Child N21 accesses the ZIP LINE        //2022-05-12 00:23:13.288
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:13.959
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:23:13.959
+Instructor M3 cleans a tray          //2022-05-12 00:23:15.643
+Instructor M3 starts his BREAK        //2022-05-12 00:23:15.644
+Instructor M3 finishes his BREAK         //2022-05-12 00:23:17.387
+Child N4 accesses the SNACK           //2022-05-12 00:23:17.683
+Instructor M1 starts his BREAK        //2022-05-12 00:23:18.473
+Child N22 breaks in the COMMON AREA        //2022-05-12 00:23:18.473
+Instructor M1 finishes his BREAK         //2022-05-12 00:23:19.612
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:19.613
+Child N22 accesses the ROPE activity           //2022-05-12 00:23:21.399
+Instructor M3 cleans a tray          //2022-05-12 00:23:22.39
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:24.118
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:23:24.118
+Child N10 accesses the ROPE activity           //2022-05-12 00:23:27.531
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:28.623
+Child N25 breaks in the COMMON AREA        //2022-05-12 00:23:28.623
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:23:29.392
+Child N25 accesses the ROPE activity           //2022-05-12 00:23:31.649
+Child N4 accesses the ZIP LINE        //2022-05-12 00:23:32.235
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:23:33.134
+Instructor M1 starts his BREAK        //2022-05-12 00:23:33.134
+Instructor M1 finishes his BREAK         //2022-05-12 00:23:34.309
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:34.31
+Child N2 accesses the ROPE activity           //2022-05-12 00:23:36.489
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:38.815
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:23:38.815
+Child N17 accesses the ZIP LINE        //2022-05-12 00:23:42.491
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:43.321
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:23:43.321
+Child N6 accesses the ZIP LINE        //2022-05-12 00:23:46.857
+Instructor M1 starts his BREAK        //2022-05-12 00:23:47.825
+Child N28 breaks in the COMMON AREA        //2022-05-12 00:23:47.825
+Instructor M1 finishes his BREAK         //2022-05-12 00:23:48.939
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:48.94
+Child N28 accesses the ROPE activity           //2022-05-12 00:23:51.517
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:53.453
+Child N27 breaks in the COMMON AREA        //2022-05-12 00:23:53.453
+Children N20 N24 N10 N2 N28 win in the ZIP LINE      //2022-05-12 00:23:54.522
+Child N28 breaks in the COMMON AREA        //2022-05-12 00:23:54.522
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:23:54.522
+Child N25 breaks in the COMMON AREA        //2022-05-12 00:23:54.522
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:23:54.523
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:23:54.523
+Child N22 breaks in the COMMON AREA        //2022-05-12 00:23:54.523
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:23:54.523
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:23:54.523
+Child N38 breaks in the COMMON AREA        //2022-05-12 00:23:54.523
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:23:54.523
+Child N20 breaks in the COMMON AREA        //2022-05-12 00:23:54.524
+Child N27 accesses the ZIP LINE        //2022-05-12 00:23:56.206
+Child N38 accesses the ROPE activity           //2022-05-12 00:23:56.978
+Child N2 accesses the SNACK           //2022-05-12 00:23:57.004
+Child N28 accesses the ZIP LINE        //2022-05-12 00:23:57.498
+Child N20 accesses the ROPE activity           //2022-05-12 00:23:57.563
+Child N1 accesses the SNACK           //2022-05-12 00:23:57.631
+Child N16 accesses the SNACK           //2022-05-12 00:23:57.681
+Child N25 accesses the ROPE activity           //2022-05-12 00:23:57.923
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:23:57.959
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:23:57.959
+Child N22 accesses the ZIP LINE        //2022-05-12 00:23:58.083
+Child N24 accesses the ZIP LINE        //2022-05-12 00:23:58.101
+Child N10 accesses the SNACK           //2022-05-12 00:23:58.526
+Child N9 accesses the ROPE activity           //2022-05-12 00:24:00.94
+Instructor M1 starts his BREAK        //2022-05-12 00:24:02.466
+Child N29 breaks in the COMMON AREA        //2022-05-12 00:24:02.466
+Instructor M1 finishes his BREAK         //2022-05-12 00:24:04.382
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:04.382
+Child N29 accesses the ZIP LINE        //2022-05-12 00:24:06.117
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:08.887
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:24:08.887
+Child N3 accesses the ROPE activity           //2022-05-12 00:24:11.011
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:13.392
+Child N23 breaks in the COMMON AREA        //2022-05-12 00:24:13.392
+Child N23 accesses the ZIP LINE        //2022-05-12 00:24:16.249
+Instructor M1 starts his BREAK        //2022-05-12 00:24:17.897
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:24:17.897
+Instructor M1 finishes his BREAK         //2022-05-12 00:24:19.801
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:19.802
+Child N8 accesses the SNACK           //2022-05-12 00:24:20.043
+Child N26 breaks in the COMMON AREA        //2022-05-12 00:24:24.307
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:24.307
+Child N26 accesses the ZIP LINE        //2022-05-12 00:24:27.371
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:28.813
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:24:28.813
+Child N0 accesses the ZIP LINE        //2022-05-12 00:24:31.52
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:24:33.318
+Instructor M1 starts his BREAK        //2022-05-12 00:24:33.319
+Instructor M1 finishes his BREAK         //2022-05-12 00:24:35.296
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:35.297
+Child N11 accesses the ROPE activity           //2022-05-12 00:24:36.314
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:39.815
+Child N30 breaks in the COMMON AREA        //2022-05-12 00:24:39.815
+Child N30 accesses the ZIP LINE        //2022-05-12 00:24:42.346
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:24:44.327
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:24:44.327
+Child N13 accesses the ROPE activity           //2022-05-12 00:24:47.682
+Child N31 breaks in the COMMON AREA        //2022-05-12 00:24:48.831
+Instructor M1 starts his BREAK        //2022-05-12 00:24:48.831
+Instructor M1 opens DOOR 2        //2022-05-12 00:25:25.597
+Instructor M1 accesses the ROPE activity      //2022-05-12 00:25:25.622
+Instructor M3 opens DOOR 2        //2022-05-12 00:25:26.394
+Instructor M2 opens DOOR 1        //2022-05-12 00:25:26.395
+Instructor M4 opens DOOR 1        //2022-05-12 00:25:26.395
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:25:26.396
+Child N0 enters thorugh DOOR 2        //2022-05-12 00:25:27.394
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:25:29.848
+Instructor M2 cleans a tray          //2022-05-12 00:25:30.4
+Child N2 enters thorugh DOOR 1        //2022-05-12 00:25:31.777
+Child N3 enters thorugh DOOR 2        //2022-05-12 00:25:33.228
+Instructor M4 cleans a tray          //2022-05-12 00:25:33.415
+Child N4 enters thorugh DOOR 1        //2022-05-12 00:25:34.884
+Child N0 accesses the ZIP LINE        //2022-05-12 00:25:37.396
+Child N5 enters thorugh DOOR 2        //2022-05-12 00:25:37.505
+Instructor M2 cleans a tray          //2022-05-12 00:25:38.416
+Child N6 enters thorugh DOOR 1        //2022-05-12 00:25:39.711
+Child N1 accesses the ZIP LINE        //2022-05-12 00:25:39.851
+Instructor M4 cleans a tray          //2022-05-12 00:25:41.419
+Child N2 accesses the ROPE activity           //2022-05-12 00:25:41.78
+Child N7 enters thorugh DOOR 1        //2022-05-12 00:25:41.801
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:25:41.904
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:25:41.905
+Child N8 enters thorugh DOOR 1        //2022-05-12 00:25:43.051
+Child N3 accesses the ZIP LINE        //2022-05-12 00:25:43.231
+Child N9 enters thorugh DOOR 2        //2022-05-12 00:25:44.225
+Instructor M2 cleans a tray          //2022-05-12 00:25:44.422
+Instructor M2 starts his BREAK        //2022-05-12 00:25:44.424
+Child N4 accesses the ROPE activity           //2022-05-12 00:25:44.885
+Child N0 accesses the ZIP LINE        //2022-05-12 00:25:45.203
+Instructor M2 finishes his BREAK         //2022-05-12 00:25:45.68
+Child N10 enters thorugh DOOR 1        //2022-05-12 00:25:46.187
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:25:46.411
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:25:46.412
+Child N5 accesses the ROPE activity           //2022-05-12 00:25:47.508
+Child N11 enters thorugh DOOR 1        //2022-05-12 00:25:47.664
+Instructor M4 cleans a tray          //2022-05-12 00:25:48.424
+Instructor M4 starts his BREAK        //2022-05-12 00:25:48.426
+Child N1 accesses the ROPE activity           //2022-05-12 00:25:49.698
+Child N6 accesses the ZIP LINE        //2022-05-12 00:25:49.713
+Child N12 enters thorugh DOOR 1        //2022-05-12 00:25:49.945
+Instructor M4 finishes his BREAK         //2022-05-12 00:25:50.31
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:25:50.917
+Instructor M3 starts his BREAK        //2022-05-12 00:25:50.918
+Child N7 accesses the ZIP LINE        //2022-05-12 00:25:51.804
+Instructor M2 cleans a tray          //2022-05-12 00:25:52.425
+Child N13 enters thorugh DOOR 2        //2022-05-12 00:25:52.533
+Instructor M3 finishes his BREAK         //2022-05-12 00:25:52.571
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:25:52.572
+Child N8 accesses the ROPE activity           //2022-05-12 00:25:53.054
+Child N3 accesses the ZIP LINE        //2022-05-12 00:25:53.522
+Child N9 accesses the ZIP LINE        //2022-05-12 00:25:54.228
+Child N14 enters thorugh DOOR 2        //2022-05-12 00:25:55.04
+Child N10 accesses the ZIP LINE        //2022-05-12 00:25:56.188
+Child N15 enters thorugh DOOR 2        //2022-05-12 00:25:56.901
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:25:57.077
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:25:57.078
+Instructor M4 cleans a tray          //2022-05-12 00:25:57.428
+Child N11 accesses the ZIP LINE        //2022-05-12 00:25:57.667
+Child N0 accesses the ZIP LINE        //2022-05-12 00:25:59.154
+Child N16 enters thorugh DOOR 2        //2022-05-12 00:25:59.213
+Child N12 accesses the ROPE activity           //2022-05-12 00:25:59.947
+Child N17 enters thorugh DOOR 1        //2022-05-12 00:26:00.593
+Instructor M2 cleans a tray          //2022-05-12 00:26:01.43
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:01.584
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:26:01.585
+Child N18 enters thorugh DOOR 2        //2022-05-12 00:26:01.948
+Child N13 accesses the ROPE activity           //2022-05-12 00:26:02.535
+Child N6 accesses the ZIP LINE        //2022-05-12 00:26:04.504
+Child N19 enters thorugh DOOR 2        //2022-05-12 00:26:04.726
+Child N14 accesses the ZIP LINE        //2022-05-12 00:26:05.043
+Child N20 enters thorugh DOOR 2        //2022-05-12 00:26:06.038
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:26:06.089
+Instructor M3 starts his BREAK        //2022-05-12 00:26:06.089
+Instructor M4 cleans a tray          //2022-05-12 00:26:06.432
+Child N15 accesses the ROPE activity           //2022-05-12 00:26:06.904
+Child N21 enters thorugh DOOR 1        //2022-05-12 00:26:07.28
+Instructor M3 finishes his BREAK         //2022-05-12 00:26:08.035
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:08.037
+Child N7 accesses the ZIP LINE        //2022-05-12 00:26:08.163
+Child N22 enters thorugh DOOR 1        //2022-05-12 00:26:08.658
+Child N16 accesses the ZIP LINE        //2022-05-12 00:26:09.215
+Child N17 accesses the ROPE activity           //2022-05-12 00:26:10.596
+Child N23 enters thorugh DOOR 1        //2022-05-12 00:26:11.169
+Instructor M2 cleans a tray          //2022-05-12 00:26:11.435
+Instructor M2 starts his BREAK        //2022-05-12 00:26:11.436
+Child N18 accesses the ROPE activity           //2022-05-12 00:26:11.95
+Child N24 enters thorugh DOOR 1        //2022-05-12 00:26:12.441
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:12.542
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:26:12.543
+Instructor M2 finishes his BREAK         //2022-05-12 00:26:12.696
+Instructor M4 cleans a tray          //2022-05-12 00:26:14.437
+Instructor M4 starts his BREAK        //2022-05-12 00:26:14.438
+Child N19 accesses the ZIP LINE        //2022-05-12 00:26:14.728
+Children N5 N1 N8 N13 N18 win in the ZIP LINE      //2022-05-12 00:26:14.961
+Child N18 breaks in the COMMON AREA        //2022-05-12 00:26:14.961
+Child N15 breaks in the COMMON AREA        //2022-05-12 00:26:14.962
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:26:14.962
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:26:14.962
+Instructor M1 accesses the ROPE activity      //2022-05-12 00:26:14.963
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:26:14.963
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:26:14.963
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:26:14.964
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:26:14.964
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:26:14.964
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:26:14.965
+Child N25 enters thorugh DOOR 2        //2022-05-12 00:26:15.229
+Child N3 accesses the ZIP LINE        //2022-05-12 00:26:15.715
+Child N20 accesses the ZIP LINE        //2022-05-12 00:26:16.039
+Instructor M4 finishes his BREAK         //2022-05-12 00:26:16.285
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:17.048
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:26:17.049
+Child N5 accesses the ZIP LINE        //2022-05-12 00:26:17.222
+Child N2 accesses the ZIP LINE        //2022-05-12 00:26:17.232
+Child N13 accesses the ROPE activity           //2022-05-12 00:26:17.244
+Child N21 accesses the ZIP LINE        //2022-05-12 00:26:17.284
+Child N26 enters thorugh DOOR 1        //2022-05-12 00:26:17.459
+Child N4 accesses the ROPE activity           //2022-05-12 00:26:17.514
+Child N1 accesses the ZIP LINE        //2022-05-12 00:26:17.567
+Child N17 accesses the ROPE activity           //2022-05-12 00:26:17.671
+Child N18 accesses the ZIP LINE        //2022-05-12 00:26:17.962
+Child N15 accesses the ZIP LINE        //2022-05-12 00:26:18.24
+Instructor M2 cleans a tray          //2022-05-12 00:26:18.438
+Child N22 accesses the ZIP LINE        //2022-05-12 00:26:18.661
+Child N8 accesses the ROPE activity           //2022-05-12 00:26:18.715
+Child N12 accesses the ZIP LINE        //2022-05-12 00:26:18.734
+Child N9 accesses the ZIP LINE        //2022-05-12 00:26:19.505
+Child N27 enters thorugh DOOR 2        //2022-05-12 00:26:20.138
+Child N23 accesses the ZIP LINE        //2022-05-12 00:26:21.17
+Child N28 enters thorugh DOOR 2        //2022-05-12 00:26:21.473
+Instructor M3 starts his BREAK        //2022-05-12 00:26:21.554
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:26:21.554
+Child N24 accesses the ROPE activity           //2022-05-12 00:26:22.442
+Instructor M4 cleans a tray          //2022-05-12 00:26:23.44
+Instructor M3 finishes his BREAK         //2022-05-12 00:26:23.45
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:23.451
+Child N29 enters thorugh DOOR 1        //2022-05-12 00:26:23.845
+Child N10 accesses the ROPE activity           //2022-05-12 00:26:24.171
+Child N25 accesses the ZIP LINE        //2022-05-12 00:26:25.232
+Child N30 enters thorugh DOOR 2        //2022-05-12 00:26:25.336
+Child N26 accesses the ROPE activity           //2022-05-12 00:26:27.461
+Child N31 enters thorugh DOOR 2        //2022-05-12 00:26:27.844
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:27.961
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:26:27.961
+Instructor M2 cleans a tray          //2022-05-12 00:26:28.441
+Child N32 enters thorugh DOOR 2        //2022-05-12 00:26:29.085
+Child N27 accesses the ROPE activity           //2022-05-12 00:26:30.139
+Child N33 enters thorugh DOOR 1        //2022-05-12 00:26:30.362
+Child N11 accesses the ROPE activity           //2022-05-12 00:26:30.984
+Child N28 accesses the ZIP LINE        //2022-05-12 00:26:31.483
+Instructor M4 cleans a tray          //2022-05-12 00:26:32.442
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:32.467
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:26:32.467
+Child N34 enters thorugh DOOR 2        //2022-05-12 00:26:32.474
+Child N29 accesses the ZIP LINE        //2022-05-12 00:26:33.847
+Child N35 enters thorugh DOOR 1        //2022-05-12 00:26:35.121
+Child N30 accesses the ZIP LINE        //2022-05-12 00:26:35.338
+Instructor M2 cleans a tray          //2022-05-12 00:26:35.443
+Instructor M2 starts his BREAK        //2022-05-12 00:26:35.445
+Child N0 accesses the ZIP LINE        //2022-05-12 00:26:35.543
+Instructor M2 finishes his BREAK         //2022-05-12 00:26:36.799
+Child N36 enters thorugh DOOR 2        //2022-05-12 00:26:36.835
+Instructor M3 starts his BREAK        //2022-05-12 00:26:36.971
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:26:36.971
+Child N31 accesses the ZIP LINE        //2022-05-12 00:26:37.846
+Instructor M3 finishes his BREAK         //2022-05-12 00:26:38.593
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:38.594
+Child N32 accesses the ZIP LINE        //2022-05-12 00:26:39.088
+Child N37 enters thorugh DOOR 1        //2022-05-12 00:26:39.255
+Child N33 accesses the ROPE activity           //2022-05-12 00:26:40.364
+Instructor M4 cleans a tray          //2022-05-12 00:26:40.445
+Instructor M4 starts his BREAK        //2022-05-12 00:26:40.446
+Child N6 accesses the ROPE activity           //2022-05-12 00:26:40.678
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:26:40.678
+Instructor M4 finishes his BREAK         //2022-05-12 00:26:41.56
+Child N38 enters thorugh DOOR 2        //2022-05-12 00:26:42.243
+Child N34 accesses the ROPE activity           //2022-05-12 00:26:42.475
+Child N34 breaks in the COMMON AREA        //2022-05-12 00:26:42.476
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:43.099
+Child N14 breaks in the COMMON AREA        //2022-05-12 00:26:43.099
+Child N6 accesses the ZIP LINE        //2022-05-12 00:26:43.265
+Children N13 N4 N17 N24 N26 win in the ZIP LINE      //2022-05-12 00:26:43.371
+Child N33 breaks in the COMMON AREA        //2022-05-12 00:26:43.371
+Child N26 breaks in the COMMON AREA        //2022-05-12 00:26:43.371
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:26:43.371
+Child N27 breaks in the COMMON AREA        //2022-05-12 00:26:43.372
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:26:43.372
+Instructor M1 accesses the ROPE activity      //2022-05-12 00:26:43.372
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:26:43.372
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:26:43.372
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:26:43.373
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:26:43.373
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:26:43.373
+Child N39 enters thorugh DOOR 2        //2022-05-12 00:26:44.103
+Child N34 accesses the ROPE activity           //2022-05-12 00:26:44.5
+Child N35 accesses the ZIP LINE        //2022-05-12 00:26:45.123
+Instructor M2 cleans a tray          //2022-05-12 00:26:45.446
+Child N17 accesses the ZIP LINE        //2022-05-12 00:26:45.577
+Child N11 accesses the ZIP LINE        //2022-05-12 00:26:45.588
+Child N33 accesses the ROPE activity           //2022-05-12 00:26:45.662
+Child N10 accesses the ZIP LINE        //2022-05-12 00:26:45.951
+Child N26 accesses the ZIP LINE        //2022-05-12 00:26:46.176
+Child N13 accesses the ZIP LINE        //2022-05-12 00:26:46.645
+Child N14 accesses the ZIP LINE        //2022-05-12 00:26:46.808
+Child N40 enters thorugh DOOR 2        //2022-05-12 00:26:46.825
+Child N36 accesses the ZIP LINE        //2022-05-12 00:26:46.836
+Child N8 accesses the ZIP LINE        //2022-05-12 00:26:47.047
+Child N4 accesses the ROPE activity           //2022-05-12 00:26:47.213
+Child N24 accesses the ROPE activity           //2022-05-12 00:26:47.229
+Child N27 accesses the ROPE activity           //2022-05-12 00:26:47.233
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:47.606
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:26:47.606
+Child N41 enters thorugh DOOR 1        //2022-05-12 00:26:48.087
+Child N37 accesses the ROPE activity           //2022-05-12 00:26:49.258
+Child N42 enters thorugh DOOR 1        //2022-05-12 00:26:49.491
+Child N7 accesses the ROPE activity           //2022-05-12 00:26:50.317
+Instructor M4 cleans a tray          //2022-05-12 00:26:50.448
+Child N43 enters thorugh DOOR 2        //2022-05-12 00:26:51.567
+Instructor M3 starts his BREAK        //2022-05-12 00:26:52.123
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:26:52.123
+Child N38 accesses the ZIP LINE        //2022-05-12 00:26:52.245
+Child N44 enters thorugh DOOR 2        //2022-05-12 00:26:53.34
+Instructor M3 finishes his BREAK         //2022-05-12 00:26:53.527
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:53.528
+Child N39 accesses the ROPE activity           //2022-05-12 00:26:54.106
+Instructor M2 cleans a tray          //2022-05-12 00:26:54.449
+Child N16 accesses the ZIP LINE        //2022-05-12 00:26:54.518
+Child N45 enters thorugh DOOR 2        //2022-05-12 00:26:54.822
+Child N46 enters thorugh DOOR 2        //2022-05-12 00:26:56.729
+Child N40 accesses the ROPE activity           //2022-05-12 00:26:56.828
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:26:58.043
+Child N19 breaks in the COMMON AREA        //2022-05-12 00:26:58.043
+Child N41 accesses the ZIP LINE        //2022-05-12 00:26:58.089
+Child N47 enters thorugh DOOR 1        //2022-05-12 00:26:59.243
+Instructor M4 cleans a tray          //2022-05-12 00:26:59.45
+Child N42 accesses the ZIP LINE        //2022-05-12 00:26:59.494
+Child N43 accesses the ZIP LINE        //2022-05-12 00:27:01.568
+Child N19 accesses the ROPE activity           //2022-05-12 00:27:01.72
+Child N48 enters thorugh DOOR 2        //2022-05-12 00:27:01.833
+Instructor M2 cleans a tray          //2022-05-12 00:27:02.452
+Instructor M2 starts his BREAK        //2022-05-12 00:27:02.452
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:02.546
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:27:02.546
+Child N44 accesses the ROPE activity           //2022-05-12 00:27:03.342
+Child N44 breaks in the COMMON AREA        //2022-05-12 00:27:03.343
+Instructor M2 finishes his BREAK         //2022-05-12 00:27:03.633
+Child N49 enters thorugh DOOR 2        //2022-05-12 00:27:04.102
+Children N33 N24 N27 N39 N40 N19 win in the ZIP LINE      //2022-05-12 00:27:04.723
+Child N19 breaks in the COMMON AREA        //2022-05-12 00:27:04.723
+Child N37 breaks in the COMMON AREA        //2022-05-12 00:27:04.724
+Child N39 breaks in the COMMON AREA        //2022-05-12 00:27:04.724
+Child N40 breaks in the COMMON AREA        //2022-05-12 00:27:04.724
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:27:04.724
+Child N27 breaks in the COMMON AREA        //2022-05-12 00:27:04.725
+Instructor M1 starts his BREAK        //2022-05-12 00:27:04.725
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:27:04.725
+Child N33 breaks in the COMMON AREA        //2022-05-12 00:27:04.725
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:27:04.725
+Child N34 breaks in the COMMON AREA        //2022-05-12 00:27:04.725
+Child N45 accesses the ZIP LINE        //2022-05-12 00:27:04.824
+Child N3 accesses the SNACK           //2022-05-12 00:27:05.729
+Instructor M1 finishes his BREAK         //2022-05-12 00:27:06.471
+Instructor M1 accesses the ROPE activity      //2022-05-12 00:27:06.471
+Child N46 accesses the ROPE activity           //2022-05-12 00:27:06.733
+Child N19 accesses the ZIP LINE        //2022-05-12 00:27:06.75
+Child N40 accesses the ZIP LINE        //2022-05-12 00:27:06.757
+Child N33 accesses the ROPE activity           //2022-05-12 00:27:06.846
+Instructor M3 starts his BREAK        //2022-05-12 00:27:07.051
+Child N20 breaks in the COMMON AREA        //2022-05-12 00:27:07.051
+Child N44 accesses the ZIP LINE        //2022-05-12 00:27:07.271
+Instructor M4 cleans a tray          //2022-05-12 00:27:07.453
+Instructor M4 starts his BREAK        //2022-05-12 00:27:07.454
+Child N34 accesses the ROPE activity           //2022-05-12 00:27:07.576
+Child N37 accesses the ZIP LINE        //2022-05-12 00:27:07.781
+Child N4 accesses the SNACK           //2022-05-12 00:27:07.86
+Child N24 accesses the ZIP LINE        //2022-05-12 00:27:07.904
+Child N39 accesses the ZIP LINE        //2022-05-12 00:27:08.345
+Instructor M3 finishes his BREAK         //2022-05-12 00:27:08.387
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:08.388
+Child N27 accesses the ZIP LINE        //2022-05-12 00:27:08.482
+Child N7 accesses the ROPE activity           //2022-05-12 00:27:08.5
+Instructor M4 finishes his BREAK         //2022-05-12 00:27:09.192
+Child N47 accesses the ZIP LINE        //2022-05-12 00:27:09.245
+Child N20 accesses the ZIP LINE        //2022-05-12 00:27:10.18
+Child N48 accesses the ZIP LINE        //2022-05-12 00:27:11.835
+Instructor M2 cleans a tray          //2022-05-12 00:27:12.454
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:12.893
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:27:12.893
+Child N49 accesses the ZIP LINE        //2022-05-12 00:27:14.104
+Child N5 accesses the ZIP LINE        //2022-05-12 00:27:16.857
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:17.398
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:27:17.398
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:27:19.456
+Child N2 accesses the ZIP LINE        //2022-05-12 00:27:20.647
+Child N3 accesses the ROPE activity           //2022-05-12 00:27:21.669
+Instructor M3 starts his BREAK        //2022-05-12 00:27:21.903
+Child N21 breaks in the COMMON AREA        //2022-05-12 00:27:21.903
+Instructor M3 finishes his BREAK         //2022-05-12 00:27:23.461
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:23.462
+Child N21 accesses the ROPE activity           //2022-05-12 00:27:24.247
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:27:26.457
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:27.968
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:27:27.968
+Instructor M4 cleans a tray          //2022-05-12 00:27:29.458
+Child N4 accesses the ROPE activity           //2022-05-12 00:27:29.785
+Child N1 accesses the SNACK           //2022-05-12 00:27:31.68
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:32.475
+Child N18 breaks in the COMMON AREA        //2022-05-12 00:27:32.475
+Instructor M2 cleans a tray          //2022-05-12 00:27:34.46
+Child N18 accesses the ZIP LINE        //2022-05-12 00:27:35.316
+Instructor M3 starts his BREAK        //2022-05-12 00:27:36.979
+Child N15 breaks in the COMMON AREA        //2022-05-12 00:27:36.979
+Instructor M3 finishes his BREAK         //2022-05-12 00:27:38.062
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:38.063
+Child N15 accesses the ZIP LINE        //2022-05-12 00:27:40.028
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:27:41.461
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:42.569
+Child N22 breaks in the COMMON AREA        //2022-05-12 00:27:42.569
+Child N1 accesses the ROPE activity           //2022-05-12 00:27:43.548
+Instructor M2 cleans a tray          //2022-05-12 00:27:45.463
+Instructor M2 starts his BREAK        //2022-05-12 00:27:45.464
+Child N22 accesses the ZIP LINE        //2022-05-12 00:27:46.229
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:47.075
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:27:47.075
+Instructor M2 finishes his BREAK         //2022-05-12 00:27:47.22
+Child N12 accesses the ROPE activity           //2022-05-12 00:27:50.625
+Instructor M3 starts his BREAK        //2022-05-12 00:27:51.58
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:27:51.58
+Instructor M3 finishes his BREAK         //2022-05-12 00:27:53.241
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:53.242
+Child N9 accesses the ROPE activity           //2022-05-12 00:27:55.026
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:27:57.747
+Child N23 breaks in the COMMON AREA        //2022-05-12 00:27:57.747
+Children N46 N33 N34 N7 N3 win in the ZIP LINE      //2022-05-12 00:27:58.03
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:27:58.03
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:27:58.03
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:27:58.03
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:27:58.03
+Child N34 breaks in the COMMON AREA        //2022-05-12 00:27:58.031
+Child N33 breaks in the COMMON AREA        //2022-05-12 00:27:58.031
+Instructor M1 accesses the ROPE activity      //2022-05-12 00:27:58.031
+Child N46 breaks in the COMMON AREA        //2022-05-12 00:27:58.031
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:27:58.031
+Child N21 breaks in the COMMON AREA        //2022-05-12 00:27:58.031
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:27:58.031
+Child N34 accesses the ROPE activity           //2022-05-12 00:28:00.126
+Child N23 accesses the ROPE activity           //2022-05-12 00:28:00.35
+Child N12 accesses the ROPE activity           //2022-05-12 00:28:00.389
+Child N21 accesses the ZIP LINE        //2022-05-12 00:28:01.067
+Child N46 accesses the ZIP LINE        //2022-05-12 00:28:01.215
+Child N9 accesses the ZIP LINE        //2022-05-12 00:28:01.372
+Child N7 accesses the ZIP LINE        //2022-05-12 00:28:01.392
+Child N33 accesses the SNACK           //2022-05-12 00:28:01.407
+Child N4 accesses the ZIP LINE        //2022-05-12 00:28:01.514
+Child N3 accesses the ZIP LINE        //2022-05-12 00:28:01.668
+Child N1 accesses the ZIP LINE        //2022-05-12 00:28:01.896
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:28:02.255
+Child N25 breaks in the COMMON AREA        //2022-05-12 00:28:02.255
+Child N25 accesses the ROPE activity           //2022-05-12 00:28:04.884
+Instructor M3 starts his BREAK        //2022-05-12 00:28:06.757
+Child N28 breaks in the COMMON AREA        //2022-05-12 00:28:06.757
+Instructor M3 finishes his BREAK         //2022-05-12 00:28:07.98
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:28:07.981
+Child N33 breaks in the COMMON AREA        //2022-05-12 00:28:08.409
+Child N28 accesses the ROPE activity           //2022-05-12 00:28:10.219
+Child N33 accesses the ROPE activity           //2022-05-12 00:28:11.286
+Instructor M4 cleans a tray          //2022-05-12 00:28:11.41
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:28:12.486
+Child N29 breaks in the COMMON AREA        //2022-05-12 00:28:12.486
+Child N29 accesses the ROPE activity           //2022-05-12 00:28:15.714
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:28:17.002
+Child N30 breaks in the COMMON AREA        //2022-05-12 00:28:17.002
+Child N30 accesses the ZIP LINE        //2022-05-12 00:28:19.657
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:28:21.519
+Instructor M3 starts his BREAK        //2022-05-12 00:28:21.519
+Instructor M4 opens DOOR 1        //2022-05-12 00:36:13.579
+Instructor M2 opens DOOR 1        //2022-05-12 00:36:14.171
+Instructor M1 opens DOOR 2        //2022-05-12 00:36:14.172
+Instructor M3 opens DOOR 2        //2022-05-12 00:36:14.172
+Instructor M2 accesses the ZIP LINE       //2022-05-12 00:36:14.173
+Instructor M1 accesses the ROPE activity      //2022-05-12 00:36:14.174
+Child N0 enters thorugh DOOR 2        //2022-05-12 00:36:14.732
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:36:17.166
+Instructor M4 cleans a tray          //2022-05-12 00:36:17.603
+Child N2 enters thorugh DOOR 2        //2022-05-12 00:36:19.629
+Instructor M4 opens DOOR 1        //2022-05-12 00:51:24.427
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:51:24.435
+Instructor M2 opens DOOR 1        //2022-05-12 00:51:25.355
+Instructor M1 opens DOOR 2        //2022-05-12 00:51:25.356
+Instructor M3 opens DOOR 2        //2022-05-12 00:51:25.356
+Instructor M3 accesses the ROPE activity      //2022-05-12 00:51:25.359
+Child N0 enters thorugh DOOR 1        //2022-05-12 00:51:26.507
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:51:27.604
+Instructor M2 cleans a tray          //2022-05-12 00:51:28.36
+Child N2 enters thorugh DOOR 2        //2022-05-12 00:51:28.937
+Instructor M1 cleans a tray          //2022-05-12 00:51:30.361
+Child N3 enters thorugh DOOR 1        //2022-05-12 00:51:30.895
+Instructor M2 cleans a tray          //2022-05-12 00:51:31.366
+Child N4 enters thorugh DOOR 1        //2022-05-12 00:51:32.889
+Child N5 enters thorugh DOOR 1        //2022-05-12 00:51:34.401
+Instructor M1 cleans a tray          //2022-05-12 00:51:35.366
+Child N6 enters thorugh DOOR 1        //2022-05-12 00:51:36.27
+Instructor M2 cleans a tray          //2022-05-12 00:51:36.371
+Instructor M2 starts his BREAK        //2022-05-12 00:51:36.372
+Child N0 accesses the ROPE activity           //2022-05-12 00:51:36.509
+Child N1 accesses the ROPE activity           //2022-05-12 00:51:37.607
+Instructor M2 finishes his BREAK         //2022-05-12 00:51:38.14
+Child N2 accesses the ZIP LINE        //2022-05-12 00:51:38.938
+Child N7 enters thorugh DOOR 1        //2022-05-12 00:51:39.049
+Instructor M1 cleans a tray          //2022-05-12 00:51:39.371
+Instructor M1 starts his BREAK        //2022-05-12 00:51:39.373
+Instructor M1 finishes his BREAK         //2022-05-12 00:51:40.796
+Child N3 accesses the ZIP LINE        //2022-05-12 00:51:40.897
+Child N8 enters thorugh DOOR 2        //2022-05-12 00:51:41.215
+Child N9 enters thorugh DOOR 1        //2022-05-12 00:51:42.494
+Child N4 accesses the ROPE activity           //2022-05-12 00:51:42.89
+Instructor M2 cleans a tray          //2022-05-12 00:51:43.146
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:51:43.447
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:51:43.447
+Child N5 accesses the ZIP LINE        //2022-05-12 00:51:44.403
+Child N10 enters thorugh DOOR 1        //2022-05-12 00:51:44.798
+Instructor M1 cleans a tray          //2022-05-12 00:51:44.799
+Child N6 accesses the ROPE activity           //2022-05-12 00:51:46.272
+Child N2 accesses the ZIP LINE        //2022-05-12 00:51:47.349
+Child N11 enters thorugh DOOR 2        //2022-05-12 00:51:47.602
+Instructor M1 cleans a tray          //2022-05-12 00:51:47.803
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:51:47.952
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:51:47.952
+Instructor M2 cleans a tray          //2022-05-12 00:51:48.15
+Child N7 accesses the ROPE activity           //2022-05-12 00:51:49.051
+Child N12 enters thorugh DOOR 1        //2022-05-12 00:51:49.19
+Child N3 accesses the ZIP LINE        //2022-05-12 00:51:50.135
+Child N8 accesses the ROPE activity           //2022-05-12 00:51:51.217
+Child N13 enters thorugh DOOR 2        //2022-05-12 00:51:51.221
+Instructor M1 cleans a tray          //2022-05-12 00:51:51.806
+Instructor M1 starts his BREAK        //2022-05-12 00:51:51.808
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:51:52.457
+Instructor M4 starts his BREAK        //2022-05-12 00:51:52.457
+Child N9 accesses the ZIP LINE        //2022-05-12 00:51:52.496
+Instructor M2 cleans a tray          //2022-05-12 00:51:53.154
+Instructor M2 starts his BREAK        //2022-05-12 00:51:53.155
+Child N14 enters thorugh DOOR 1        //2022-05-12 00:51:53.453
+Instructor M1 finishes his BREAK         //2022-05-12 00:51:53.758
+Instructor M4 finishes his BREAK         //2022-05-12 00:51:54.42
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:51:54.421
+Instructor M2 finishes his BREAK         //2022-05-12 00:51:54.715
+Child N15 enters thorugh DOOR 1        //2022-05-12 00:51:54.78
+Child N10 accesses the ROPE activity           //2022-05-12 00:51:54.802
+Child N5 accesses the ZIP LINE        //2022-05-12 00:51:56.025
+Child N16 enters thorugh DOOR 2        //2022-05-12 00:51:56.336
+Child N11 accesses the ZIP LINE        //2022-05-12 00:51:57.604
+Instructor M2 cleans a tray          //2022-05-12 00:51:57.717
+Child N17 enters thorugh DOOR 2        //2022-05-12 00:51:58.288
+Instructor M1 cleans a tray          //2022-05-12 00:51:58.76
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:51:58.926
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:51:58.926
+Child N12 accesses the ZIP LINE        //2022-05-12 00:51:59.191
+Child N18 enters thorugh DOOR 2        //2022-05-12 00:52:00.909
+Child N13 accesses the ROPE activity           //2022-05-12 00:52:01.224
+Child N2 accesses the ROPE activity           //2022-05-12 00:52:01.672
+Instructor M1 cleans a tray          //2022-05-12 00:52:01.763
+Instructor M2 cleans a tray          //2022-05-12 00:52:02.721
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:03.431
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:52:03.432
+Child N14 accesses the ZIP LINE        //2022-05-12 00:52:03.454
+Child N19 enters thorugh DOOR 1        //2022-05-12 00:52:03.598
+Child N20 enters thorugh DOOR 2        //2022-05-12 00:52:04.745
+Child N15 accesses the ZIP LINE        //2022-05-12 00:52:04.782
+Instructor M2 cleans a tray          //2022-05-12 00:52:05.725
+Instructor M2 starts his BREAK        //2022-05-12 00:52:05.726
+Child N3 accesses the ZIP LINE        //2022-05-12 00:52:05.892
+Child N16 accesses the ZIP LINE        //2022-05-12 00:52:06.338
+Instructor M1 cleans a tray          //2022-05-12 00:52:06.766
+Instructor M1 starts his BREAK        //2022-05-12 00:52:06.767
+Instructor M2 finishes his BREAK         //2022-05-12 00:52:06.957
+Child N21 enters thorugh DOOR 1        //2022-05-12 00:52:07.131
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:52:07.936
+Instructor M4 starts his BREAK        //2022-05-12 00:52:07.936
+Instructor M1 finishes his BREAK         //2022-05-12 00:52:08.226
+Child N17 accesses the ZIP LINE        //2022-05-12 00:52:08.291
+Child N22 enters thorugh DOOR 1        //2022-05-12 00:52:09.348
+Instructor M4 finishes his BREAK         //2022-05-12 00:52:09.732
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:09.732
+Instructor M2 cleans a tray          //2022-05-12 00:52:09.96
+Child N18 accesses the ZIP LINE        //2022-05-12 00:52:10.911
+Child N9 accesses the ROPE activity           //2022-05-12 00:52:11.791
+Child N23 enters thorugh DOOR 1        //2022-05-12 00:52:12.211
+Instructor M1 cleans a tray          //2022-05-12 00:52:13.23
+Child N24 enters thorugh DOOR 2        //2022-05-12 00:52:13.395
+Child N19 accesses the ZIP LINE        //2022-05-12 00:52:13.6
+Instructor M2 cleans a tray          //2022-05-12 00:52:13.965
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:14.236
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:52:14.236
+Child N20 accesses the ZIP LINE        //2022-05-12 00:52:14.748
+Children N1 N6 N13 N9 win in the ZIP LINE      //2022-05-12 00:52:14.798
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Instructor M3 accesses the ROPE activity      //2022-05-12 00:52:14.799
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:52:14.799
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:52:14.8
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:52:14.8
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:52:14.8
+Child N25 enters thorugh DOOR 2        //2022-05-12 00:52:14.945
+Child N26 enters thorugh DOOR 2        //2022-05-12 00:52:16.381
+Child N6 accesses the ZIP LINE        //2022-05-12 00:52:16.931
+Child N8 accesses the ROPE activity           //2022-05-12 00:52:16.961
+Child N4 accesses the ZIP LINE        //2022-05-12 00:52:17.019
+Child N0 accesses the ZIP LINE        //2022-05-12 00:52:17.102
+Child N21 accesses the ZIP LINE        //2022-05-12 00:52:17.133
+Instructor M1 cleans a tray          //2022-05-12 00:52:17.233
+Child N2 accesses the ROPE activity           //2022-05-12 00:52:17.413
+Child N5 accesses the ZIP LINE        //2022-05-12 00:52:17.414
+Child N13 accesses the ZIP LINE        //2022-05-12 00:52:17.775
+Child N9 accesses the ZIP LINE        //2022-05-12 00:52:17.836
+Child N1 accesses the ZIP LINE        //2022-05-12 00:52:17.852
+Instructor M2 cleans a tray          //2022-05-12 00:52:17.967
+Instructor M2 starts his BREAK        //2022-05-12 00:52:17.968
+Child N10 accesses the ZIP LINE        //2022-05-12 00:52:18.014
+Child N27 enters thorugh DOOR 1        //2022-05-12 00:52:18.189
+Child N7 accesses the ZIP LINE        //2022-05-12 00:52:18.246
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:18.741
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:52:18.741
+Child N22 accesses the ZIP LINE        //2022-05-12 00:52:19.35
+Instructor M2 finishes his BREAK         //2022-05-12 00:52:19.587
+Child N28 enters thorugh DOOR 2        //2022-05-12 00:52:20.317
+Instructor M1 cleans a tray          //2022-05-12 00:52:21.236
+Instructor M1 starts his BREAK        //2022-05-12 00:52:21.238
+Child N11 accesses the ZIP LINE        //2022-05-12 00:52:21.262
+Child N23 accesses the ZIP LINE        //2022-05-12 00:52:22.214
+Instructor M1 finishes his BREAK         //2022-05-12 00:52:22.283
+Instructor M2 cleans a tray          //2022-05-12 00:52:22.589
+Child N29 enters thorugh DOOR 1        //2022-05-12 00:52:23.206
+Instructor M4 starts his BREAK        //2022-05-12 00:52:23.247
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:52:23.247
+Child N24 accesses the ZIP LINE        //2022-05-12 00:52:23.397
+Instructor M4 finishes his BREAK         //2022-05-12 00:52:24.427
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:24.428
+Child N25 accesses the ZIP LINE        //2022-05-12 00:52:24.946
+Child N30 enters thorugh DOOR 1        //2022-05-12 00:52:25.361
+Child N12 accesses the ZIP LINE        //2022-05-12 00:52:25.384
+Child N26 accesses the ROPE activity           //2022-05-12 00:52:26.382
+Child N31 enters thorugh DOOR 2        //2022-05-12 00:52:27.611
+Child N27 accesses the ZIP LINE        //2022-05-12 00:52:28.191
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:28.933
+Child N14 breaks in the COMMON AREA        //2022-05-12 00:52:28.933
+Child N32 enters thorugh DOOR 2        //2022-05-12 00:52:30.276
+Child N28 accesses the ZIP LINE        //2022-05-12 00:52:30.319
+Child N14 accesses the ZIP LINE        //2022-05-12 00:52:31.435
+Child N33 enters thorugh DOOR 2        //2022-05-12 00:52:33.166
+Child N29 accesses the ZIP LINE        //2022-05-12 00:52:33.207
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:33.438
+Child N15 breaks in the COMMON AREA        //2022-05-12 00:52:33.438
+Child N34 enters thorugh DOOR 2        //2022-05-12 00:52:34.89
+Child N30 accesses the ZIP LINE        //2022-05-12 00:52:35.364
+Child N15 accesses the ZIP LINE        //2022-05-12 00:52:37.224
+Child N35 enters thorugh DOOR 2        //2022-05-12 00:52:37.587
+Child N31 accesses the ZIP LINE        //2022-05-12 00:52:37.614
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:52:37.942
+Instructor M4 starts his BREAK        //2022-05-12 00:52:37.942
+Instructor M4 finishes his BREAK         //2022-05-12 00:52:39.051
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:39.052
+Child N36 enters thorugh DOOR 2        //2022-05-12 00:52:40.049
+Child N32 accesses the ZIP LINE        //2022-05-12 00:52:40.28
+Child N3 accesses the ROPE activity           //2022-05-12 00:52:41.005
+Child N37 enters thorugh DOOR 1        //2022-05-12 00:52:41.967
+Child N33 accesses the ZIP LINE        //2022-05-12 00:52:43.169
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:43.558
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:52:43.558
+Child N34 accesses the ZIP LINE        //2022-05-12 00:52:44.893
+Child N38 enters thorugh DOOR 1        //2022-05-12 00:52:44.922
+Child N39 enters thorugh DOOR 1        //2022-05-12 00:52:46.544
+Child N16 accesses the ROPE activity           //2022-05-12 00:52:46.85
+Child N35 accesses the ZIP LINE        //2022-05-12 00:52:47.59
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:48.066
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:52:48.066
+Child N40 enters thorugh DOOR 1        //2022-05-12 00:52:49.188
+Child N36 accesses the ZIP LINE        //2022-05-12 00:52:50.053
+Child N41 enters thorugh DOOR 2        //2022-05-12 00:52:51.324
+Child N17 accesses the ROPE activity           //2022-05-12 00:52:51.779
+Child N37 accesses the ZIP LINE        //2022-05-12 00:52:51.969
+Instructor M4 starts his BREAK        //2022-05-12 00:52:52.581
+Child N18 breaks in the COMMON AREA        //2022-05-12 00:52:52.581
+Child N42 enters thorugh DOOR 2        //2022-05-12 00:52:53.602
+Instructor M4 finishes his BREAK         //2022-05-12 00:52:54.253
+Instructor M4 accesses the ZIP LINE       //2022-05-12 00:52:54.254
+Child N43 enters thorugh DOOR 1        //2022-05-12 00:52:54.765
+Child N38 accesses the ZIP LINE        //2022-05-12 00:52:54.924
+Child N18 accesses the ZIP LINE        //2022-05-12 00:52:55.358
+Child N44 enters thorugh DOOR 2        //2022-05-12 00:52:56.114
+Child N39 accesses the ROPE activity           //2022-05-12 00:52:56.552
+Instructor M4 opens DOOR 1        //2022-05-12 00:53:27.517
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:53:27.524
+Instructor M2 opens DOOR 1        //2022-05-12 00:53:28.497
+Instructor M1 opens DOOR 2        //2022-05-12 00:53:28.497
+Child N0 enters thorugh DOOR 1        //2022-05-12 00:53:28.497
+Instructor M3 opens DOOR 2        //2022-05-12 00:53:28.498
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:53:28.5
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:53:29.81
+Instructor M1 cleans a tray          //2022-05-12 00:53:31.502
+Child N2 enters thorugh DOOR 2        //2022-05-12 00:53:32.126
+Instructor M2 cleans a tray          //2022-05-12 00:53:32.502
+Instructor M1 cleans a tray          //2022-05-12 00:53:34.507
+Child N3 enters thorugh DOOR 2        //2022-05-12 00:53:34.759
+Child N4 enters thorugh DOOR 2        //2022-05-12 00:53:37.156
+Instructor M2 cleans a tray          //2022-05-12 00:53:37.507
+Instructor M1 cleans a tray          //2022-05-12 00:53:37.513
+Instructor M1 starts his BREAK        //2022-05-12 00:53:37.514
+Child N0 accesses the ZIP LINE        //2022-05-12 00:53:38.502
+Instructor M1 finishes his BREAK         //2022-05-12 00:53:39.241
+Child N5 enters thorugh DOOR 2        //2022-05-12 00:53:39.428
+Child N1 accesses the ZIP LINE        //2022-05-12 00:53:39.811
+Instructor M2 cleans a tray          //2022-05-12 00:53:40.52
+Instructor M2 starts his BREAK        //2022-05-12 00:53:40.521
+Child N6 enters thorugh DOOR 2        //2022-05-12 00:53:40.893
+Instructor M2 finishes his BREAK         //2022-05-12 00:53:41.913
+Child N2 accesses the SNACK           //2022-05-12 00:53:42.128
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:53:43.008
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:53:43.009
+Child N7 enters thorugh DOOR 1        //2022-05-12 00:53:43.09
+Instructor M1 cleans a tray          //2022-05-12 00:53:43.258
+Child N8 enters thorugh DOOR 1        //2022-05-12 00:53:44.692
+Child N3 accesses the ROPE activity           //2022-05-12 00:53:44.763
+Child N9 enters thorugh DOOR 1        //2022-05-12 00:53:46.835
+Instructor M2 cleans a tray          //2022-05-12 00:53:46.918
+Child N0 accesses the SNACK           //2022-05-12 00:53:46.962
+Child N4 accesses the ZIP LINE        //2022-05-12 00:53:47.172
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:53:47.514
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:53:47.515
+Instructor M1 cleans a tray          //2022-05-12 00:53:48.262
+Child N10 enters thorugh DOOR 2        //2022-05-12 00:53:48.478
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:53:49.133
+Child N5 accesses the SNACK           //2022-05-12 00:53:49.436
+Child N1 accesses the SNACK           //2022-05-12 00:53:50.18
+Child N11 enters thorugh DOOR 2        //2022-05-12 00:53:50.758
+Child N6 accesses the SNACK           //2022-05-12 00:53:50.895
+Instructor M2 cleans a tray          //2022-05-12 00:53:50.922
+Child N2 accesses the ROPE activity           //2022-05-12 00:53:51.307
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:53:52.019
+Instructor M3 starts his BREAK        //2022-05-12 00:53:52.019
+Instructor M1 cleans a tray          //2022-05-12 00:53:52.266
+Instructor M1 starts his BREAK        //2022-05-12 00:53:52.267
+Child N7 accesses the ROPE activity           //2022-05-12 00:53:53.091
+Instructor M3 finishes his BREAK         //2022-05-12 00:53:53.246
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:53:53.248
+Child N12 enters thorugh DOOR 1        //2022-05-12 00:53:53.501
+Instructor M1 finishes his BREAK         //2022-05-12 00:53:53.79
+Instructor M2 cleans a tray          //2022-05-12 00:53:53.925
+Instructor M2 starts his BREAK        //2022-05-12 00:53:53.926
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:53:53.965
+Child N4 accesses the ZIP LINE        //2022-05-12 00:53:54.689
+Child N8 accesses the SNACK           //2022-05-12 00:53:54.694
+Instructor M2 finishes his BREAK         //2022-05-12 00:53:54.969
+Child N13 enters thorugh DOOR 1        //2022-05-12 00:53:55.41
+Child N0 accesses the ROPE activity           //2022-05-12 00:53:56.062
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:53:56.441
+Instructor M1 cleans a tray          //2022-05-12 00:53:56.794
+Child N9 accesses the ZIP LINE        //2022-05-12 00:53:56.838
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:53:57.184
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:53:57.9
+Instructor M2 cleans a tray          //2022-05-12 00:53:57.973
+Child N14 enters thorugh DOOR 2        //2022-05-12 00:53:58.172
+Child N10 accesses the ROPE activity           //2022-05-12 00:53:58.48
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:53:59.194
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:53:59.195
+Child N15 enters thorugh DOOR 2        //2022-05-12 00:53:59.363
+Child N5 accesses the SNACK           //2022-05-12 00:53:59.482
+Instructor M1 cleans a tray          //2022-05-12 00:53:59.812
+Child N1 accesses the SNACK           //2022-05-12 00:54:00.046
+Child N16 enters thorugh DOOR 2        //2022-05-12 00:54:00.586
+Child N11 accesses the ZIP LINE        //2022-05-12 00:54:00.759
+Child N6 accesses the ROPE activity           //2022-05-12 00:54:00.996
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:54:01.697
+Instructor M2 cleans a tray          //2022-05-12 00:54:01.975
+Child N4 accesses the SNACK           //2022-05-12 00:54:02.09
+Child N17 enters thorugh DOOR 2        //2022-05-12 00:54:03.371
+Child N12 accesses the ZIP LINE        //2022-05-12 00:54:03.502
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:03.699
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:54:03.7
+Instructor M1 cleans a tray          //2022-05-12 00:54:03.815
+Instructor M1 starts his BREAK        //2022-05-12 00:54:03.816
+Child N8 accesses the ROPE activity           //2022-05-12 00:54:04.4
+Child N18 enters thorugh DOOR 2        //2022-05-12 00:54:04.667
+Child N13 accesses the SNACK           //2022-05-12 00:54:05.412
+Instructor M1 finishes his BREAK         //2022-05-12 00:54:05.738
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:54:06.486
+Child N9 accesses the ROPE activity           //2022-05-12 00:54:06.892
+Instructor M2 cleans a tray          //2022-05-12 00:54:06.979
+Instructor M2 starts his BREAK        //2022-05-12 00:54:06.98
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:54:07.049
+Child N19 enters thorugh DOOR 1        //2022-05-12 00:54:07.424
+Child N14 accesses the ZIP LINE        //2022-05-12 00:54:08.174
+Instructor M3 starts his BREAK        //2022-05-12 00:54:08.203
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:54:08.203
+Child N20 enters thorugh DOOR 2        //2022-05-12 00:54:08.504
+Instructor M2 finishes his BREAK         //2022-05-12 00:54:08.692
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:54:09.094
+Child N15 accesses the ZIP LINE        //2022-05-12 00:54:09.366
+Child N21 enters thorugh DOOR 1        //2022-05-12 00:54:09.541
+Instructor M1 cleans a tray          //2022-05-12 00:54:09.741
+Instructor M3 finishes his BREAK         //2022-05-12 00:54:10.16
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:10.161
+Child N5 accesses the SNACK           //2022-05-12 00:54:10.218
+Child N16 accesses the ROPE activity           //2022-05-12 00:54:10.588
+Child N1 accesses the ZIP LINE        //2022-05-12 00:54:10.668
+Child N11 accesses the ZIP LINE        //2022-05-12 00:54:11.771
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:54:12.418
+Child N22 enters thorugh DOOR 2        //2022-05-12 00:54:12.515
+Child N4 accesses the ROPE activity           //2022-05-12 00:54:12.534
+Instructor M1 cleans a tray          //2022-05-12 00:54:12.745
+Child N17 accesses the ROPE activity           //2022-05-12 00:54:13.373
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:54:13.374
+Instructor M2 cleans a tray          //2022-05-12 00:54:13.696
+Child N23 enters thorugh DOOR 1        //2022-05-12 00:54:14.332
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:14.666
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:54:14.666
+Child N18 accesses the ZIP LINE        //2022-05-12 00:54:14.669
+Child N13 accesses the ZIP LINE        //2022-05-12 00:54:14.702
+Child N17 accesses the SNACK           //2022-05-12 00:54:15.425
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:54:15.542
+Children N3 N0 N10 N16 N4 win in the ZIP LINE      //2022-05-12 00:54:15.541
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:54:15.542
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:54:15.542
+Child N8 breaks in the COMMON AREA        //2022-05-12 00:54:15.543
+Child N6 breaks in the COMMON AREA        //2022-05-12 00:54:15.543
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:54:15.543
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:54:15.544
+Child N7 breaks in the COMMON AREA        //2022-05-12 00:54:15.544
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:54:15.544
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:54:15.544
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:54:15.545
+Instructor M2 cleans a tray          //2022-05-12 00:54:16.699
+Instructor M1 cleans a tray          //2022-05-12 00:54:16.748
+Instructor M1 starts his BREAK        //2022-05-12 00:54:16.749
+Child N24 enters thorugh DOOR 1        //2022-05-12 00:54:17.021
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:54:17.219
+Child N19 accesses the ROPE activity           //2022-05-12 00:54:17.426
+Child N7 accesses the ZIP LINE        //2022-05-12 00:54:17.914
+Instructor M1 finishes his BREAK         //2022-05-12 00:54:17.989
+Child N0 accesses the SNACK           //2022-05-12 00:54:18.278
+Child N10 accesses the SNACK           //2022-05-12 00:54:18.373
+Child N20 accesses the SNACK           //2022-05-12 00:54:18.506
+Child N12 accesses the ROPE activity           //2022-05-12 00:54:18.506
+Child N2 accesses the SNACK           //2022-05-12 00:54:18.819
+Child N16 accesses the ROPE activity           //2022-05-12 00:54:18.995
+Child N4 accesses the SNACK           //2022-05-12 00:54:19.0
+Child N25 enters thorugh DOOR 2        //2022-05-12 00:54:19.102
+Child N6 accesses the ZIP LINE        //2022-05-12 00:54:19.11
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:19.17
+Child N14 breaks in the COMMON AREA        //2022-05-12 00:54:19.17
+Child N8 accesses the ZIP LINE        //2022-05-12 00:54:19.341
+Child N3 accesses the ZIP LINE        //2022-05-12 00:54:19.421
+Child N9 accesses the SNACK           //2022-05-12 00:54:19.45
+Child N5 accesses the ROPE activity           //2022-05-12 00:54:19.509
+Child N21 accesses the ROPE activity           //2022-05-12 00:54:19.543
+Instructor M2 cleans a tray          //2022-05-12 00:54:19.702
+Instructor M2 starts his BREAK        //2022-05-12 00:54:19.704
+Child N26 enters thorugh DOOR 2        //2022-05-12 00:54:20.289
+Instructor M2 finishes his BREAK         //2022-05-12 00:54:20.846
+Instructor M1 cleans a tray          //2022-05-12 00:54:21.991
+Child N14 accesses the ZIP LINE        //2022-05-12 00:54:22.097
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:54:22.428
+Child N22 accesses the ROPE activity           //2022-05-12 00:54:22.516
+Child N27 enters thorugh DOOR 1        //2022-05-12 00:54:22.916
+Instructor M3 starts his BREAK        //2022-05-12 00:54:23.676
+Child N15 breaks in the COMMON AREA        //2022-05-12 00:54:23.677
+Child N23 accesses the ZIP LINE        //2022-05-12 00:54:24.334
+Child N28 enters thorugh DOOR 1        //2022-05-12 00:54:24.504
+Instructor M2 cleans a tray          //2022-05-12 00:54:24.848
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:54:25.282
+Instructor M3 finishes his BREAK         //2022-05-12 00:54:25.34
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:25.34
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:54:25.375
+Child N20 breaks in the COMMON AREA        //2022-05-12 00:54:25.508
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:54:25.822
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:54:26.004
+Child N17 accesses the ROPE activity           //2022-05-12 00:54:26.156
+Child N29 enters thorugh DOOR 1        //2022-05-12 00:54:26.311
+Child N9 breaks in the COMMON AREA        //2022-05-12 00:54:26.451
+Instructor M1 cleans a tray          //2022-05-12 00:54:26.995
+Child N24 accesses the ROPE activity           //2022-05-12 00:54:27.025
+Child N15 accesses the SNACK           //2022-05-12 00:54:27.25
+Child N10 accesses the ROPE activity           //2022-05-12 00:54:27.398
+Child N30 enters thorugh DOOR 2        //2022-05-12 00:54:27.824
+Child N0 accesses the SNACK           //2022-05-12 00:54:28.131
+Child N2 accesses the ROPE activity           //2022-05-12 00:54:28.195
+Instructor M2 cleans a tray          //2022-05-12 00:54:28.852
+Child N25 accesses the ZIP LINE        //2022-05-12 00:54:29.103
+Child N20 accesses the ROPE activity           //2022-05-12 00:54:29.15
+Child N20 breaks in the COMMON AREA        //2022-05-12 00:54:29.151
+Child N9 accesses the ZIP LINE        //2022-05-12 00:54:29.176
+Child N4 accesses the ROPE activity           //2022-05-12 00:54:29.329
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:54:29.33
+Child N31 enters thorugh DOOR 1        //2022-05-12 00:54:29.455
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:29.843
+Child N1 breaks in the COMMON AREA        //2022-05-12 00:54:29.843
+Instructor M1 cleans a tray          //2022-05-12 00:54:29.997
+Instructor M1 starts his BREAK        //2022-05-12 00:54:29.999
+Child N26 accesses the ZIP LINE        //2022-05-12 00:54:30.291
+Child N32 enters thorugh DOOR 1        //2022-05-12 00:54:31.087
+Children N16 N2 win in the ZIP LINE      //2022-05-12 00:54:31.198
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:54:31.198
+Child N22 breaks in the COMMON AREA        //2022-05-12 00:54:31.199
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:54:31.199
+Child N10 breaks in the COMMON AREA        //2022-05-12 00:54:31.199
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:54:31.199
+Instructor M4 accesses the ROPE activity      //2022-05-12 00:54:31.2
+Child N21 breaks in the COMMON AREA        //2022-05-12 00:54:31.2
+Child N5 breaks in the COMMON AREA        //2022-05-12 00:54:31.199
+Child N16 breaks in the COMMON AREA        //2022-05-12 00:54:31.2
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:54:31.2
+Child N19 breaks in the COMMON AREA        //2022-05-12 00:54:31.2
+Child N20 accesses the SNACK           //2022-05-12 00:54:31.253
+Instructor M1 finishes his BREAK         //2022-05-12 00:54:31.488
+Instructor M2 cleans a tray          //2022-05-12 00:54:31.854
+Instructor M2 starts his BREAK        //2022-05-12 00:54:31.855
+Child N4 accesses the ROPE activity           //2022-05-12 00:54:32.29
+Child N1 accesses the ZIP LINE        //2022-05-12 00:54:32.462
+Child N27 accesses the SNACK           //2022-05-12 00:54:32.918
+Child N33 enters thorugh DOOR 1        //2022-05-12 00:54:33.091
+Child N19 accesses the SNACK           //2022-05-12 00:54:33.211
+Child N22 accesses the SNACK           //2022-05-12 00:54:33.466
+Child N16 accesses the ZIP LINE        //2022-05-12 00:54:33.485
+Child N17 accesses the SNACK           //2022-05-12 00:54:33.607
+Child N12 accesses the SNACK           //2022-05-12 00:54:33.7
+Instructor M2 finishes his BREAK         //2022-05-12 00:54:33.856
+Child N5 accesses the ZIP LINE        //2022-05-12 00:54:34.182
+Child N15 breaks in the COMMON AREA        //2022-05-12 00:54:34.253
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:34.346
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:54:34.346
+Child N21 accesses the ROPE activity           //2022-05-12 00:54:34.397
+Instructor M1 cleans a tray          //2022-05-12 00:54:34.49
+Child N28 accesses the SNACK           //2022-05-12 00:54:34.507
+Child N10 accesses the ZIP LINE        //2022-05-12 00:54:34.787
+Child N24 accesses the SNACK           //2022-05-12 00:54:34.891
+Child N2 accesses the SNACK           //2022-05-12 00:54:34.966
+Child N0 breaks in the COMMON AREA        //2022-05-12 00:54:35.134
+Child N34 enters thorugh DOOR 1        //2022-05-12 00:54:35.345
+Child N29 accesses the SNACK           //2022-05-12 00:54:36.314
+Child N35 enters thorugh DOOR 1        //2022-05-12 00:54:37.215
+Child N15 accesses the ROPE activity           //2022-05-12 00:54:37.312
+Instructor M1 cleans a tray          //2022-05-12 00:54:37.492
+Child N30 accesses the SNACK           //2022-05-12 00:54:37.827
+Child N11 accesses the SNACK           //2022-05-12 00:54:37.921
+Child N20 breaks in the COMMON AREA        //2022-05-12 00:54:38.255
+Instructor M3 starts his BREAK        //2022-05-12 00:54:38.85
+Child N18 breaks in the COMMON AREA        //2022-05-12 00:54:38.85
+Instructor M2 cleans a tray          //2022-05-12 00:54:38.858
+Child N0 accesses the ROPE activity           //2022-05-12 00:54:39.044
+Child N31 accesses the ROPE activity           //2022-05-12 00:54:39.458
+Child N27 breaks in the COMMON AREA        //2022-05-12 00:54:39.92
+Child N36 enters thorugh DOOR 2        //2022-05-12 00:54:40.065
+Child N19 breaks in the COMMON AREA        //2022-05-12 00:54:40.213
+Instructor M3 finishes his BREAK         //2022-05-12 00:54:40.228
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:40.229
+Child N22 breaks in the COMMON AREA        //2022-05-12 00:54:40.468
+Child N17 breaks in the COMMON AREA        //2022-05-12 00:54:40.61
+Child N12 breaks in the COMMON AREA        //2022-05-12 00:54:40.702
+Child N32 accesses the ZIP LINE        //2022-05-12 00:54:41.089
+Child N20 accesses the SNACK           //2022-05-12 00:54:41.469
+Instructor M1 cleans a tray          //2022-05-12 00:54:41.495
+Instructor M1 starts his BREAK        //2022-05-12 00:54:41.495
+Child N28 breaks in the COMMON AREA        //2022-05-12 00:54:41.508
+Child N18 accesses the ROPE activity           //2022-05-12 00:54:41.77
+Child N24 breaks in the COMMON AREA        //2022-05-12 00:54:41.893
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:54:41.968
+Child N27 accesses the SNACK           //2022-05-12 00:54:42.705
+Child N37 enters thorugh DOOR 2        //2022-05-12 00:54:42.878
+Child N22 accesses the SNACK           //2022-05-12 00:54:42.968
+Instructor M1 finishes his BREAK         //2022-05-12 00:54:43.037
+Child N33 accesses the SNACK           //2022-05-12 00:54:43.093
+Child N19 accesses the ZIP LINE        //2022-05-12 00:54:43.271
+Child N29 breaks in the COMMON AREA        //2022-05-12 00:54:43.316
+Child N17 accesses the ROPE activity           //2022-05-12 00:54:43.854
+Instructor M2 cleans a tray          //2022-05-12 00:54:43.859
+Child N24 accesses the SNACK           //2022-05-12 00:54:44.366
+Child N12 accesses the ZIP LINE        //2022-05-12 00:54:44.625
+Child N38 enters thorugh DOOR 2        //2022-05-12 00:54:44.723
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:54:44.736
+Child N13 breaks in the COMMON AREA        //2022-05-12 00:54:44.736
+Child N30 breaks in the COMMON AREA        //2022-05-12 00:54:44.828
+Child N11 breaks in the COMMON AREA        //2022-05-12 00:54:44.924
+Child N28 accesses the ROPE activity           //2022-05-12 00:54:45.159
+Child N34 accesses the ROPE activity           //2022-05-12 00:54:45.348
+Instructor M1 opens DOOR 2        //2022-05-12 00:58:54.505
+Instructor M3 opens DOOR 2        //2022-05-12 00:58:55.075
+Instructor M4 opens DOOR 1        //2022-05-12 00:58:55.075
+Instructor M2 opens DOOR 1        //2022-05-12 00:58:55.076
+Instructor M3 accesses the ZIP LINE       //2022-05-12 00:58:55.076
+Instructor M2 accesses the ROPE activity      //2022-05-12 00:58:55.077
+Child N0 enters thorugh DOOR 2        //2022-05-12 00:58:55.904
+Instructor M1 cleans a tray          //2022-05-12 00:58:57.514
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:58:58.409
+Child N2 enters thorugh DOOR 2        //2022-05-12 00:58:59.897
+Instructor M4 cleans a tray          //2022-05-12 00:59:00.079
+Child N3 enters thorugh DOOR 2        //2022-05-12 00:59:00.964
+Instructor M1 cleans a tray          //2022-05-12 00:59:01.519
+Child N4 enters thorugh DOOR 2        //2022-05-12 00:59:03.119
+Instructor M4 opens DOOR 1        //2022-05-12 00:59:28.833
+Instructor M2 opens DOOR 1        //2022-05-12 00:59:29.783
+Instructor M1 opens DOOR 2        //2022-05-12 00:59:29.783
+Instructor M3 opens DOOR 2        //2022-05-12 00:59:29.783
+Child N0 enters thorugh DOOR 2        //2022-05-12 00:59:29.783
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:59:29.784
+Instructor M3 accesses the ROPE activity      //2022-05-12 00:59:29.784
+Child N1 enters thorugh DOOR 1        //2022-05-12 00:59:31.377
+Instructor M4 cleans a tray          //2022-05-12 00:59:32.842
+Child N2 enters thorugh DOOR 1        //2022-05-12 00:59:33.516
+Instructor M2 cleans a tray          //2022-05-12 00:59:34.786
+Child N3 enters thorugh DOOR 1        //2022-05-12 00:59:35.172
+Child N4 enters thorugh DOOR 2        //2022-05-12 00:59:37.28
+Instructor M2 cleans a tray          //2022-05-12 00:59:37.791
+Instructor M4 cleans a tray          //2022-05-12 00:59:37.845
+Child N5 enters thorugh DOOR 1        //2022-05-12 00:59:39.528
+Child N0 accesses the ROPE activity           //2022-05-12 00:59:39.785
+Instructor M4 cleans a tray          //2022-05-12 00:59:40.848
+Instructor M4 starts his BREAK        //2022-05-12 00:59:40.849
+Child N1 accesses the ROPE activity           //2022-05-12 00:59:41.38
+Instructor M2 cleans a tray          //2022-05-12 00:59:41.797
+Instructor M2 starts his BREAK        //2022-05-12 00:59:41.798
+Child N6 enters thorugh DOOR 2        //2022-05-12 00:59:41.935
+Instructor M4 finishes his BREAK         //2022-05-12 00:59:42.172
+Instructor M2 finishes his BREAK         //2022-05-12 00:59:43.252
+Child N2 accesses the ZIP LINE        //2022-05-12 00:59:43.518
+Child N7 enters thorugh DOOR 2        //2022-05-12 00:59:44.608
+Child N3 accesses the ZIP LINE        //2022-05-12 00:59:45.175
+Instructor M4 cleans a tray          //2022-05-12 00:59:45.178
+Child N8 enters thorugh DOOR 2        //2022-05-12 00:59:46.79
+Instructor M2 cleans a tray          //2022-05-12 00:59:47.257
+Child N4 accesses the ZIP LINE        //2022-05-12 00:59:47.283
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:59:48.026
+Child N2 breaks in the COMMON AREA        //2022-05-12 00:59:48.027
+Instructor M4 cleans a tray          //2022-05-12 00:59:48.182
+Child N9 enters thorugh DOOR 2        //2022-05-12 00:59:48.566
+Child N5 accesses the ZIP LINE        //2022-05-12 00:59:49.531
+Child N10 enters thorugh DOOR 1        //2022-05-12 00:59:50.527
+Instructor M2 cleans a tray          //2022-05-12 00:59:51.261
+Child N2 accesses the ZIP LINE        //2022-05-12 00:59:51.356
+Child N6 accesses the ZIP LINE        //2022-05-12 00:59:51.937
+Instructor M4 cleans a tray          //2022-05-12 00:59:52.187
+Instructor M4 starts his BREAK        //2022-05-12 00:59:52.188
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:59:52.545
+Child N3 breaks in the COMMON AREA        //2022-05-12 00:59:52.545
+Child N11 enters thorugh DOOR 2        //2022-05-12 00:59:53.468
+Instructor M4 finishes his BREAK         //2022-05-12 00:59:54.144
+Child N7 accesses the ROPE activity           //2022-05-12 00:59:54.61
+Instructor M2 cleans a tray          //2022-05-12 00:59:55.267
+Instructor M2 starts his BREAK        //2022-05-12 00:59:55.268
+Child N3 accesses the ROPE activity           //2022-05-12 00:59:55.475
+Child N12 enters thorugh DOOR 1        //2022-05-12 00:59:56.237
+Instructor M2 finishes his BREAK         //2022-05-12 00:59:56.385
+Child N8 accesses the ROPE activity           //2022-05-12 00:59:56.793
+Instructor M1 starts his BREAK        //2022-05-12 00:59:57.048
+Child N4 breaks in the COMMON AREA        //2022-05-12 00:59:57.048
+Instructor M4 cleans a tray          //2022-05-12 00:59:57.147
+Instructor M1 finishes his BREAK         //2022-05-12 00:59:58.158
+Instructor M1 accesses the ZIP LINE       //2022-05-12 00:59:58.159
+Child N9 accesses the ZIP LINE        //2022-05-12 00:59:58.568
+Child N13 enters thorugh DOOR 2        //2022-05-12 00:59:58.9
+Instructor M2 cleans a tray          //2022-05-12 00:59:59.389
+Child N4 accesses the ZIP LINE        //2022-05-12 00:59:59.631
+Child N10 accesses the ZIP LINE        //2022-05-12 01:00:00.53
+Child N14 enters thorugh DOOR 1        //2022-05-12 01:00:01.502
+Instructor M4 cleans a tray          //2022-05-12 01:00:02.15
+Instructor M2 cleans a tray          //2022-05-12 01:00:02.393
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:02.663
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:00:02.663
+Child N15 enters thorugh DOOR 2        //2022-05-12 01:00:03.206
+Child N11 accesses the ZIP LINE        //2022-05-12 01:00:03.469
+Instructor M4 cleans a tray          //2022-05-12 01:00:05.153
+Instructor M4 starts his BREAK        //2022-05-12 01:00:05.155
+Child N5 accesses the ZIP LINE        //2022-05-12 01:00:05.186
+Child N16 enters thorugh DOOR 1        //2022-05-12 01:00:06.073
+Instructor M4 finishes his BREAK         //2022-05-12 01:00:06.217
+Child N12 accesses the ROPE activity           //2022-05-12 01:00:06.24
+Instructor M2 cleans a tray          //2022-05-12 01:00:06.396
+Instructor M2 starts his BREAK        //2022-05-12 01:00:06.397
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:07.167
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:00:07.167
+Child N17 enters thorugh DOOR 2        //2022-05-12 01:00:07.587
+Instructor M2 finishes his BREAK         //2022-05-12 01:00:07.666
+Child N13 accesses the ZIP LINE        //2022-05-12 01:00:08.902
+Child N18 enters thorugh DOOR 2        //2022-05-12 01:00:09.786
+Child N2 accesses the ZIP LINE        //2022-05-12 01:00:10.093
+Instructor M4 cleans a tray          //2022-05-12 01:00:11.219
+Child N14 accesses the ROPE activity           //2022-05-12 01:00:11.504
+Instructor M2 cleans a tray          //2022-05-12 01:00:11.669
+Instructor M1 starts his BREAK        //2022-05-12 01:00:11.674
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:00:11.674
+Child N19 enters thorugh DOOR 1        //2022-05-12 01:00:12.24
+Instructor M1 finishes his BREAK         //2022-05-12 01:00:12.861
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:12.862
+Child N15 accesses the ZIP LINE        //2022-05-12 01:00:13.209
+Child N20 enters thorugh DOOR 2        //2022-05-12 01:00:14.402
+Instructor M4 cleans a tray          //2022-05-12 01:00:15.22
+Child N6 accesses the ZIP LINE        //2022-05-12 01:00:15.449
+Child N16 accesses the ZIP LINE        //2022-05-12 01:00:16.075
+Instructor M2 cleans a tray          //2022-05-12 01:00:16.672
+Child N21 enters thorugh DOOR 2        //2022-05-12 01:00:17.301
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:17.366
+Child N9 breaks in the COMMON AREA        //2022-05-12 01:00:17.366
+Child N17 accesses the ZIP LINE        //2022-05-12 01:00:17.589
+Instructor M4 cleans a tray          //2022-05-12 01:00:19.224
+Instructor M4 starts his BREAK        //2022-05-12 01:00:19.225
+Child N9 accesses the ROPE activity           //2022-05-12 01:00:19.657
+Child N18 accesses the ZIP LINE        //2022-05-12 01:00:19.788
+Child N22 enters thorugh DOOR 1        //2022-05-12 01:00:20.05
+Instructor M4 finishes his BREAK         //2022-05-12 01:00:20.837
+Child N23 enters thorugh DOOR 2        //2022-05-12 01:00:21.344
+Instructor M2 cleans a tray          //2022-05-12 01:00:21.674
+Instructor M2 starts his BREAK        //2022-05-12 01:00:21.675
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:21.893
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:00:21.893
+Child N19 accesses the ZIP LINE        //2022-05-12 01:00:22.242
+Child N24 enters thorugh DOOR 1        //2022-05-12 01:00:22.845
+Instructor M2 finishes his BREAK         //2022-05-12 01:00:22.963
+Child N20 accesses the ZIP LINE        //2022-05-12 01:00:24.404
+Child N25 enters thorugh DOOR 2        //2022-05-12 01:00:24.558
+Child N4 accesses the ROPE activity           //2022-05-12 01:00:25.51
+Instructor M4 cleans a tray          //2022-05-12 01:00:25.842
+Child N26 enters thorugh DOOR 2        //2022-05-12 01:00:26.385
+Child N10 breaks in the COMMON AREA        //2022-05-12 01:00:26.397
+Instructor M1 starts his BREAK        //2022-05-12 01:00:26.397
+Child N21 accesses the ZIP LINE        //2022-05-12 01:00:27.317
+Instructor M1 finishes his BREAK         //2022-05-12 01:00:28.016
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:28.017
+Child N10 accesses the ZIP LINE        //2022-05-12 01:00:28.929
+Child N27 enters thorugh DOOR 2        //2022-05-12 01:00:29.257
+Child N22 accesses the ZIP LINE        //2022-05-12 01:00:30.053
+Child N23 accesses the ZIP LINE        //2022-05-12 01:00:31.348
+Child N28 enters thorugh DOOR 2        //2022-05-12 01:00:31.372
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:32.521
+Child N11 breaks in the COMMON AREA        //2022-05-12 01:00:32.521
+Child N24 accesses the ZIP LINE        //2022-05-12 01:00:32.847
+Child N29 enters thorugh DOOR 2        //2022-05-12 01:00:34.336
+Child N25 accesses the ZIP LINE        //2022-05-12 01:00:34.56
+Child N11 accesses the ZIP LINE        //2022-05-12 01:00:36.158
+Child N30 enters thorugh DOOR 1        //2022-05-12 01:00:36.262
+Child N26 accesses the ROPE activity           //2022-05-12 01:00:36.387
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:37.026
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:00:37.026
+Child N31 enters thorugh DOOR 2        //2022-05-12 01:00:37.619
+Child N27 accesses the ZIP LINE        //2022-05-12 01:00:39.26
+Child N26 breaks in the COMMON AREA        //2022-05-12 01:00:39.396
+Children N1 N7 N8 N9 win in the ZIP LINE      //2022-05-12 01:00:39.396
+Child N12 breaks in the COMMON AREA        //2022-05-12 01:00:39.397
+Child N8 breaks in the COMMON AREA        //2022-05-12 01:00:39.397
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:00:39.397
+Child N7 breaks in the COMMON AREA        //2022-05-12 01:00:39.397
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:00:39.397
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:00:39.398
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:00:39.398
+Instructor M3 accesses the ROPE activity      //2022-05-12 01:00:39.398
+Child N14 breaks in the COMMON AREA        //2022-05-12 01:00:39.398
+Child N9 breaks in the COMMON AREA        //2022-05-12 01:00:39.398
+Child N32 enters thorugh DOOR 1        //2022-05-12 01:00:40.048
+Child N5 accesses the ZIP LINE        //2022-05-12 01:00:40.389
+Child N33 enters thorugh DOOR 1        //2022-05-12 01:00:41.135
+Child N28 accesses the ROPE activity           //2022-05-12 01:00:41.373
+Instructor M1 starts his BREAK        //2022-05-12 01:00:41.531
+Child N13 breaks in the COMMON AREA        //2022-05-12 01:00:41.531
+Child N9 accesses the ZIP LINE        //2022-05-12 01:00:41.616
+Child N1 accesses the ROPE activity           //2022-05-12 01:00:41.62
+Child N0 accesses the ZIP LINE        //2022-05-12 01:00:41.875
+Child N14 accesses the ZIP LINE        //2022-05-12 01:00:41.952
+Child N7 accesses the ROPE activity           //2022-05-12 01:00:42.022
+Child N26 accesses the ROPE activity           //2022-05-12 01:00:42.136
+Child N12 accesses the ZIP LINE        //2022-05-12 01:00:42.329
+Child N8 accesses the ZIP LINE        //2022-05-12 01:00:42.635
+Instructor M1 finishes his BREAK         //2022-05-12 01:00:42.656
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:00:42.657
+Child N4 accesses the ROPE activity           //2022-05-12 01:00:42.697
+Instructor M1 opens DOOR 2        //2022-05-12 01:01:07.62
+Instructor M1 accesses the ROPE activity      //2022-05-12 01:01:07.636
+Instructor M3 opens DOOR 2        //2022-05-12 01:01:08.182
+Instructor M4 opens DOOR 1        //2022-05-12 01:01:08.183
+Instructor M2 opens DOOR 1        //2022-05-12 01:01:08.183
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:08.186
+Child N0 enters thorugh DOOR 2        //2022-05-12 01:01:09.07
+Child N1 enters thorugh DOOR 1        //2022-05-12 01:01:11.015
+Instructor M4 cleans a tray          //2022-05-12 01:01:12.187
+Child N2 enters thorugh DOOR 2        //2022-05-12 01:01:12.947
+Instructor M3 cleans a tray          //2022-05-12 01:01:13.187
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:01:14.413
+Child N4 enters thorugh DOOR 1        //2022-05-12 01:01:16.927
+Instructor M4 cleans a tray          //2022-05-12 01:01:17.193
+Instructor M3 cleans a tray          //2022-05-12 01:01:18.192
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:01:18.465
+Child N0 accesses the ROPE activity           //2022-05-12 01:01:19.071
+Instructor M4 cleans a tray          //2022-05-12 01:01:20.198
+Instructor M4 starts his BREAK        //2022-05-12 01:01:20.199
+Child N1 accesses the SNACK           //2022-05-12 01:01:21.017
+Child N6 enters thorugh DOOR 1        //2022-05-12 01:01:21.056
+Instructor M3 cleans a tray          //2022-05-12 01:01:21.197
+Instructor M3 starts his BREAK        //2022-05-12 01:01:21.199
+Instructor M4 finishes his BREAK         //2022-05-12 01:01:21.549
+Instructor M3 finishes his BREAK         //2022-05-12 01:01:22.87
+Child N2 accesses the SNACK           //2022-05-12 01:01:22.948
+Child N7 enters thorugh DOOR 2        //2022-05-12 01:01:23.651
+Child N3 accesses the ZIP LINE        //2022-05-12 01:01:24.414
+Instructor M4 cleans a tray          //2022-05-12 01:01:25.556
+Instructor M3 cleans a tray          //2022-05-12 01:01:25.874
+Child N8 enters thorugh DOOR 2        //2022-05-12 01:01:26.256
+Child N4 accesses the SNACK           //2022-05-12 01:01:26.929
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:01:28.022
+Child N9 enters thorugh DOOR 1        //2022-05-12 01:01:28.135
+Child N5 accesses the ROPE activity           //2022-05-12 01:01:28.468
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:28.921
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:01:28.922
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:01:29.953
+Instructor M4 cleans a tray          //2022-05-12 01:01:30.56
+Child N1 accesses the SNACK           //2022-05-12 01:01:30.698
+Instructor M3 cleans a tray          //2022-05-12 01:01:30.877
+Child N6 accesses the SNACK           //2022-05-12 01:01:31.058
+Child N10 enters thorugh DOOR 2        //2022-05-12 01:01:31.075
+Child N3 accesses the ZIP LINE        //2022-05-12 01:01:31.561
+Child N2 accesses the ROPE activity           //2022-05-12 01:01:32.283
+Child N11 enters thorugh DOOR 2        //2022-05-12 01:01:33.32
+Instructor M4 cleans a tray          //2022-05-12 01:01:33.564
+Instructor M4 starts his BREAK        //2022-05-12 01:01:33.566
+Child N7 accesses the ROPE activity           //2022-05-12 01:01:33.653
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:01:33.932
+Child N12 enters thorugh DOOR 2        //2022-05-12 01:01:34.954
+Instructor M4 finishes his BREAK         //2022-05-12 01:01:34.979
+Instructor M3 cleans a tray          //2022-05-12 01:01:35.883
+Instructor M3 starts his BREAK        //2022-05-12 01:01:35.884
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:36.066
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:01:36.067
+Child N4 accesses the ZIP LINE        //2022-05-12 01:01:36.198
+Child N13 enters thorugh DOOR 2        //2022-05-12 01:01:36.221
+Child N8 accesses the ROPE activity           //2022-05-12 01:01:36.259
+Instructor M3 finishes his BREAK         //2022-05-12 01:01:36.99
+Child N14 enters thorugh DOOR 2        //2022-05-12 01:01:37.604
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:01:37.703
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:01:38.061
+Child N9 accesses the ROPE activity           //2022-05-12 01:01:38.137
+Child N3 accesses the ZIP LINE        //2022-05-12 01:01:38.472
+Child N15 enters thorugh DOOR 2        //2022-05-12 01:01:38.732
+Instructor M4 cleans a tray          //2022-05-12 01:01:38.981
+Instructor M3 cleans a tray          //2022-05-12 01:01:39.994
+Child N16 enters thorugh DOOR 1        //2022-05-12 01:01:40.665
+Instructor M2 starts his BREAK        //2022-05-12 01:01:40.703
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:01:40.703
+Child N1 accesses the ROPE activity           //2022-05-12 01:01:40.914
+Child N6 accesses the ROPE activity           //2022-05-12 01:01:41.016
+Child N10 accesses the ZIP LINE        //2022-05-12 01:01:41.077
+Instructor M2 finishes his BREAK         //2022-05-12 01:01:41.728
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:41.729
+Instructor M4 cleans a tray          //2022-05-12 01:01:41.985
+Child N4 accesses the SNACK           //2022-05-12 01:01:42.792
+Child N11 accesses the SNACK           //2022-05-12 01:01:43.323
+Child N17 enters thorugh DOOR 1        //2022-05-12 01:01:43.364
+Instructor M3 cleans a tray          //2022-05-12 01:01:43.997
+Child N18 enters thorugh DOOR 1        //2022-05-12 01:01:44.819
+Child N12 accesses the SNACK           //2022-05-12 01:01:44.955
+Instructor M4 cleans a tray          //2022-05-12 01:01:44.987
+Instructor M4 starts his BREAK        //2022-05-12 01:01:44.988
+Child N13 accesses the ZIP LINE        //2022-05-12 01:01:46.223
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:46.236
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:01:46.237
+Instructor M4 finishes his BREAK         //2022-05-12 01:01:46.928
+Instructor M3 cleans a tray          //2022-05-12 01:01:46.998
+Instructor M3 starts his BREAK        //2022-05-12 01:01:46.999
+Child N19 enters thorugh DOOR 1        //2022-05-12 01:01:47.303
+Child N14 accesses the ZIP LINE        //2022-05-12 01:01:47.605
+Instructor M3 finishes his BREAK         //2022-05-12 01:01:48.178
+Child N15 accesses the ZIP LINE        //2022-05-12 01:01:48.734
+Child N20 enters thorugh DOOR 2        //2022-05-12 01:01:49.342
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:01:49.795
+Child N3 accesses the ROPE activity           //2022-05-12 01:01:49.966
+Child N11 breaks in the COMMON AREA        //2022-05-12 01:01:50.327
+Child N16 accesses the ROPE activity           //2022-05-12 01:01:50.668
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:50.741
+Child N10 breaks in the COMMON AREA        //2022-05-12 01:01:50.742
+Instructor M4 cleans a tray          //2022-05-12 01:01:50.932
+Child N21 enters thorugh DOOR 1        //2022-05-12 01:01:51.734
+Child N12 breaks in the COMMON AREA        //2022-05-12 01:01:51.958
+Instructor M3 cleans a tray          //2022-05-12 01:01:53.182
+Child N17 accesses the ZIP LINE        //2022-05-12 01:01:53.365
+Child N22 enters thorugh DOOR 2        //2022-05-12 01:01:53.524
+Child N4 accesses the ROPE activity           //2022-05-12 01:01:53.621
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:01:53.623
+Child N16 breaks in the COMMON AREA        //2022-05-12 01:01:53.677
+Children N0 N5 N2 N8 N6 win in the ZIP LINE      //2022-05-12 01:01:53.676
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:01:53.677
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:01:53.678
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:01:53.678
+Child N9 breaks in the COMMON AREA        //2022-05-12 01:01:53.678
+Instructor M1 accesses the ROPE activity      //2022-05-12 01:01:53.679
+Child N8 breaks in the COMMON AREA        //2022-05-12 01:01:53.679
+Child N7 breaks in the COMMON AREA        //2022-05-12 01:01:53.679
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:01:53.679
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:01:53.679
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:01:53.679
+Instructor M4 cleans a tray          //2022-05-12 01:01:53.933
+Child N11 accesses the ROPE activity           //2022-05-12 01:01:54.195
+Child N10 accesses the ROPE activity           //2022-05-12 01:01:54.61
+Child N23 enters thorugh DOOR 2        //2022-05-12 01:01:54.786
+Child N18 accesses the ZIP LINE        //2022-05-12 01:01:54.822
+Child N12 accesses the SNACK           //2022-05-12 01:01:54.853
+Instructor M2 starts his BREAK        //2022-05-12 01:01:55.245
+Child N13 breaks in the COMMON AREA        //2022-05-12 01:01:55.245
+Child N5 accesses the ROPE activity           //2022-05-12 01:01:55.889
+Child N24 enters thorugh DOOR 2        //2022-05-12 01:01:56.048
+Child N8 accesses the ROPE activity           //2022-05-12 01:01:56.17
+Instructor M3 cleans a tray          //2022-05-12 01:01:56.185
+Child N4 accesses the SNACK           //2022-05-12 01:01:56.255
+Child N6 accesses the SNACK           //2022-05-12 01:01:56.364
+Child N2 accesses the SNACK           //2022-05-12 01:01:56.463
+Instructor M2 finishes his BREAK         //2022-05-12 01:01:56.818
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:01:56.819
+Instructor M4 cleans a tray          //2022-05-12 01:01:56.936
+Instructor M4 starts his BREAK        //2022-05-12 01:01:56.938
+Child N3 accesses the ZIP LINE        //2022-05-12 01:01:56.974
+Child N0 accesses the SNACK           //2022-05-12 01:01:57.235
+Child N9 accesses the SNACK           //2022-05-12 01:01:57.281
+Child N16 accesses the ROPE activity           //2022-05-12 01:01:57.297
+Child N19 accesses the SNACK           //2022-05-12 01:01:57.306
+Child N7 accesses the SNACK           //2022-05-12 01:01:57.439
+Child N1 accesses the SNACK           //2022-05-12 01:01:57.481
+Child N25 enters thorugh DOOR 1        //2022-05-12 01:01:58.388
+Instructor M4 finishes his BREAK         //2022-05-12 01:01:58.884
+Child N13 accesses the ZIP LINE        //2022-05-12 01:01:59.131
+Child N20 accesses the SNACK           //2022-05-12 01:01:59.345
+Child N26 enters thorugh DOOR 2        //2022-05-12 01:02:00.123
+Instructor M3 cleans a tray          //2022-05-12 01:02:01.188
+Instructor M3 starts his BREAK        //2022-05-12 01:02:01.189
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:02:01.322
+Child N14 breaks in the COMMON AREA        //2022-05-12 01:02:01.322
+Child N27 enters thorugh DOOR 2        //2022-05-12 01:02:01.686
+Child N21 accesses the ROPE activity           //2022-05-12 01:02:01.736
+Child N12 breaks in the COMMON AREA        //2022-05-12 01:02:01.856
+Instructor M4 cleans a tray          //2022-05-12 01:02:02.886
+Instructor M3 finishes his BREAK         //2022-05-12 01:02:03.067
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:02:03.256
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:02:03.367
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:02:03.466
+Child N22 accesses the SNACK           //2022-05-12 01:02:03.525
+Child N14 accesses the SNACK           //2022-05-12 01:02:03.55
+Child N28 enters thorugh DOOR 2        //2022-05-12 01:02:03.932
+Child N12 accesses the ZIP LINE        //2022-05-12 01:02:03.973
+Instructor M1 opens DOOR 2        //2022-05-12 01:02:46.164
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:02:46.171
+Instructor M3 opens DOOR 2        //2022-05-12 01:02:47.136
+Instructor M4 opens DOOR 1        //2022-05-12 01:02:47.137
+Instructor M3 accesses the ROPE activity      //2022-05-12 01:02:47.138
+Instructor M2 opens DOOR 1        //2022-05-12 01:02:47.138
+Child N0 enters thorugh DOOR 1        //2022-05-12 01:02:47.138
+Child N1 enters thorugh DOOR 2        //2022-05-12 01:02:48.084
+Child N2 enters thorugh DOOR 1        //2022-05-12 01:02:49.832
+Instructor M4 cleans a tray          //2022-05-12 01:02:50.142
+Instructor M2 cleans a tray          //2022-05-12 01:02:51.144
+Child N3 enters thorugh DOOR 2        //2022-05-12 01:02:51.755
+Child N4 enters thorugh DOOR 1        //2022-05-12 01:02:52.837
+Instructor M4 cleans a tray          //2022-05-12 01:02:55.147
+Instructor M2 cleans a tray          //2022-05-12 01:02:55.148
+Child N5 enters thorugh DOOR 1        //2022-05-12 01:02:55.311
+Child N0 accesses the ROPE activity           //2022-05-12 01:02:57.142
+Child N6 enters thorugh DOOR 2        //2022-05-12 01:02:57.425
+Child N1 accesses the ZIP LINE        //2022-05-12 01:02:58.086
+Instructor M4 cleans a tray          //2022-05-12 01:02:58.151
+Instructor M4 starts his BREAK        //2022-05-12 01:02:58.152
+Child N7 enters thorugh DOOR 1        //2022-05-12 01:02:59.431
+Child N2 accesses the ROPE activity           //2022-05-12 01:02:59.835
+Instructor M4 finishes his BREAK         //2022-05-12 01:03:00.108
+Instructor M2 cleans a tray          //2022-05-12 01:03:00.154
+Instructor M2 starts his BREAK        //2022-05-12 01:03:00.155
+Instructor M2 finishes his BREAK         //2022-05-12 01:03:01.625
+Child N3 accesses the SNACK           //2022-05-12 01:03:01.758
+Child N8 enters thorugh DOOR 1        //2022-05-12 01:03:02.224
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:03:02.595
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:03:02.595
+Child N4 accesses the ROPE activity           //2022-05-12 01:03:02.838
+Child N9 enters thorugh DOOR 1        //2022-05-12 01:03:03.753
+Child N1 accesses the SNACK           //2022-05-12 01:03:04.799
+Instructor M4 cleans a tray          //2022-05-12 01:03:05.111
+Child N5 accesses the SNACK           //2022-05-12 01:03:05.313
+Child N10 enters thorugh DOOR 2        //2022-05-12 01:03:06.33
+Instructor M2 cleans a tray          //2022-05-12 01:03:06.629
+Child N6 accesses the ZIP LINE        //2022-05-12 01:03:07.427
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:03:08.761
+Child N11 enters thorugh DOOR 2        //2022-05-12 01:03:08.824
+Child N7 accesses the SNACK           //2022-05-12 01:03:09.433
+Instructor M4 cleans a tray          //2022-05-12 01:03:10.115
+Child N12 enters thorugh DOOR 2        //2022-05-12 01:03:11.001
+Child N3 accesses the ROPE activity           //2022-05-12 01:03:11.274
+Instructor M2 cleans a tray          //2022-05-12 01:03:11.638
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:03:11.803
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:03:11.95
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:03:11.951
+Child N8 accesses the ZIP LINE        //2022-05-12 01:03:12.226
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:03:12.318
+Child N13 enters thorugh DOOR 2        //2022-05-12 01:03:12.589
+Child N9 accesses the SNACK           //2022-05-12 01:03:13.756
+Instructor M4 cleans a tray          //2022-05-12 01:03:14.119
+Instructor M4 starts his BREAK        //2022-05-12 01:03:14.119
+Child N14 enters thorugh DOOR 1        //2022-05-12 01:03:14.296
+Child N1 accesses the SNACK           //2022-05-12 01:03:14.455
+Child N5 accesses the SNACK           //2022-05-12 01:03:14.85
+Instructor M4 finishes his BREAK         //2022-05-12 01:03:15.468
+Child N6 accesses the SNACK           //2022-05-12 01:03:15.873
+Child N10 accesses the SNACK           //2022-05-12 01:03:16.34
+Child N7 breaks in the COMMON AREA        //2022-05-12 01:03:16.436
+Instructor M2 cleans a tray          //2022-05-12 01:03:16.642
+Instructor M2 starts his BREAK        //2022-05-12 01:03:16.643
+Instructor M1 starts his BREAK        //2022-05-12 01:03:16.733
+Child N8 breaks in the COMMON AREA        //2022-05-12 01:03:16.733
+Child N15 enters thorugh DOOR 1        //2022-05-12 01:03:16.91
+Instructor M1 finishes his BREAK         //2022-05-12 01:03:17.83
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:03:17.832
+Child N16 enters thorugh DOOR 1        //2022-05-12 01:03:18.385
+Instructor M2 finishes his BREAK         //2022-05-12 01:03:18.39
+Child N11 accesses the ZIP LINE        //2022-05-12 01:03:18.825
+Child N8 accesses the ZIP LINE        //2022-05-12 01:03:19.185
+Instructor M4 cleans a tray          //2022-05-12 01:03:19.472
+Child N7 accesses the SNACK           //2022-05-12 01:03:19.926
+Child N17 enters thorugh DOOR 1        //2022-05-12 01:03:19.959
+Child N9 breaks in the COMMON AREA        //2022-05-12 01:03:20.759
+Child N12 accesses the ROPE activity           //2022-05-12 01:03:21.002
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:03:21.457
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:03:21.853
+Child N18 enters thorugh DOOR 1        //2022-05-12 01:03:22.133
+Instructor M2 cleans a tray          //2022-05-12 01:03:22.393
+Child N13 accesses the ROPE activity           //2022-05-12 01:03:22.592
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:03:22.877
+Instructor M1 opens DOOR 2        //2022-05-12 01:05:32.704
+Instructor M1 accesses the ROPE activity      //2022-05-12 01:05:32.71
+Instructor M3 opens DOOR 2        //2022-05-12 01:05:33.216
+Instructor M4 opens DOOR 1        //2022-05-12 01:05:33.217
+Instructor M2 opens DOOR 1        //2022-05-12 01:05:33.217
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:05:33.219
+Child N0 enters thorugh DOOR 2        //2022-05-12 01:05:34.107
+Child N1 enters thorugh DOOR 1        //2022-05-12 01:05:35.284
+Child N2 enters thorugh DOOR 2        //2022-05-12 01:05:36.86
+Instructor M3 cleans a tray          //2022-05-12 01:05:37.222
+Instructor M4 cleans a tray          //2022-05-12 01:05:38.223
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:05:38.791
+Child N4 enters thorugh DOOR 1        //2022-05-12 01:05:40.664
+Instructor M3 cleans a tray          //2022-05-12 01:05:42.226
+Instructor M4 cleans a tray          //2022-05-12 01:05:42.227
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:05:43.183
+Child N0 accesses the ROPE activity           //2022-05-12 01:05:44.111
+Child N6 enters thorugh DOOR 2        //2022-05-12 01:05:44.927
+Instructor M3 cleans a tray          //2022-05-12 01:05:45.231
+Instructor M3 starts his BREAK        //2022-05-12 01:05:45.233
+Child N1 accesses the SNACK           //2022-05-12 01:05:45.286
+Child N7 enters thorugh DOOR 2        //2022-05-12 01:05:46.247
+Instructor M3 finishes his BREAK         //2022-05-12 01:05:46.833
+Child N2 accesses the SNACK           //2022-05-12 01:05:46.862
+Instructor M4 cleans a tray          //2022-05-12 01:05:47.233
+Instructor M4 starts his BREAK        //2022-05-12 01:05:47.234
+Child N8 enters thorugh DOOR 2        //2022-05-12 01:05:48.031
+Child N3 accesses the ZIP LINE        //2022-05-12 01:05:48.793
+Instructor M4 finishes his BREAK         //2022-05-12 01:05:49.095
+Child N9 enters thorugh DOOR 2        //2022-05-12 01:05:50.343
+Child N4 accesses the ROPE activity           //2022-05-12 01:05:50.665
+Instructor M3 cleans a tray          //2022-05-12 01:05:50.837
+Instructor M4 cleans a tray          //2022-05-12 01:05:52.1
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:05:52.291
+Child N10 enters thorugh DOOR 2        //2022-05-12 01:05:52.765
+Child N5 accesses the ZIP LINE        //2022-05-12 01:05:53.185
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:05:53.3
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:05:53.301
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:05:53.866
+Child N6 accesses the ZIP LINE        //2022-05-12 01:05:54.93
+Child N1 accesses the ROPE activity           //2022-05-12 01:05:55.143
+Child N11 enters thorugh DOOR 1        //2022-05-12 01:05:55.23
+Instructor M3 cleans a tray          //2022-05-12 01:05:55.839
+Child N7 accesses the SNACK           //2022-05-12 01:05:56.249
+Child N2 accesses the SNACK           //2022-05-12 01:05:56.47
+Instructor M4 opens DOOR 1        //2022-05-12 01:06:04.088
+Instructor M2 opens DOOR 1        //2022-05-12 01:06:04.941
+Instructor M1 opens DOOR 2        //2022-05-12 01:06:04.942
+Instructor M3 opens DOOR 2        //2022-05-12 01:06:04.942
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:06:04.943
+Instructor M1 accesses the ROPE activity      //2022-05-12 01:06:04.944
+Child N0 enters thorugh DOOR 1        //2022-05-12 01:06:05.182
+Child N1 enters thorugh DOOR 2        //2022-05-12 01:06:06.996
+Child N2 enters thorugh DOOR 1        //2022-05-12 01:06:08.037
+Instructor M3 cleans a tray          //2022-05-12 01:06:08.949
+Instructor M4 cleans a tray          //2022-05-12 01:06:09.098
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:06:10.331
+Instructor M3 cleans a tray          //2022-05-12 01:06:12.954
+Child N4 enters thorugh DOOR 1        //2022-05-12 01:06:13.087
+Instructor M4 cleans a tray          //2022-05-12 01:06:14.104
+Child N0 accesses the ROPE activity           //2022-05-12 01:06:15.184
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:06:15.341
+Instructor M3 cleans a tray          //2022-05-12 01:06:16.958
+Instructor M3 starts his BREAK        //2022-05-12 01:06:16.96
+Child N1 accesses the ROPE activity           //2022-05-12 01:06:16.999
+Instructor M4 cleans a tray          //2022-05-12 01:06:17.114
+Instructor M4 starts his BREAK        //2022-05-12 01:06:17.115
+Child N6 enters thorugh DOOR 1        //2022-05-12 01:06:17.639
+Child N2 accesses the ROPE activity           //2022-05-12 01:06:18.038
+Instructor M4 finishes his BREAK         //2022-05-12 01:06:18.711
+Instructor M3 finishes his BREAK         //2022-05-12 01:06:18.763
+Child N7 enters thorugh DOOR 2        //2022-05-12 01:06:20.055
+Child N3 accesses the SNACK           //2022-05-12 01:06:20.333
+Child N8 enters thorugh DOOR 2        //2022-05-12 01:06:22.322
+Instructor M4 cleans a tray          //2022-05-12 01:06:22.716
+Child N4 accesses the ZIP LINE        //2022-05-12 01:06:23.088
+Instructor M3 cleans a tray          //2022-05-12 01:06:23.765
+Child N9 enters thorugh DOOR 2        //2022-05-12 01:06:24.432
+Child N5 accesses the ZIP LINE        //2022-05-12 01:06:25.343
+Child N10 enters thorugh DOOR 1        //2022-05-12 01:06:25.638
+Instructor M4 cleans a tray          //2022-05-12 01:06:25.719
+Instructor M1 opens DOOR 2        //2022-05-12 01:06:34.779
+Instructor M3 opens DOOR 2        //2022-05-12 01:06:35.765
+Instructor M4 opens DOOR 1        //2022-05-12 01:06:35.765
+Instructor M2 opens DOOR 1        //2022-05-12 01:06:35.765
+Instructor M4 accesses the ZIP LINE       //2022-05-12 01:06:35.767
+Instructor M2 accesses the ROPE activity      //2022-05-12 01:06:35.769
+Child N0 enters thorugh DOOR 1        //2022-05-12 01:06:36.823
+Instructor M1 cleans a tray          //2022-05-12 01:06:37.789
+Child N1 enters thorugh DOOR 1        //2022-05-12 01:06:39.557
+Instructor M3 cleans a tray          //2022-05-12 01:06:40.77
+Child N2 enters thorugh DOOR 1        //2022-05-12 01:06:41.289
+Instructor M1 cleans a tray          //2022-05-12 01:06:42.794
+Child N3 enters thorugh DOOR 2        //2022-05-12 01:06:43.258
+Child N4 enters thorugh DOOR 2        //2022-05-12 01:06:45.427
+Instructor M3 cleans a tray          //2022-05-12 01:06:45.776
+Instructor M1 cleans a tray          //2022-05-12 01:06:45.797
+Instructor M1 starts his BREAK        //2022-05-12 01:06:45.797
+Child N0 accesses the ROPE activity           //2022-05-12 01:06:46.827
+Instructor M1 finishes his BREAK         //2022-05-12 01:06:47.409
+Child N5 enters thorugh DOOR 1        //2022-05-12 01:06:47.586
+Child N6 enters thorugh DOOR 2        //2022-05-12 01:06:49.025
+Child N1 accesses the SNACK           //2022-05-12 01:06:49.559
+Instructor M3 cleans a tray          //2022-05-12 01:06:49.779
+Instructor M3 starts his BREAK        //2022-05-12 01:06:49.78
+Instructor M1 cleans a tray          //2022-05-12 01:06:50.415
+Instructor M3 finishes his BREAK         //2022-05-12 01:06:50.889
+Child N2 accesses the ZIP LINE        //2022-05-12 01:06:51.291
+Child N7 enters thorugh DOOR 2        //2022-05-12 01:06:51.411
+Child N3 accesses the ZIP LINE        //2022-05-12 01:06:53.265
+Instructor M1 cleans a tray          //2022-05-12 01:06:53.419
+Child N8 enters thorugh DOOR 1        //2022-05-12 01:06:54.314
+Instructor M4 opens DOOR 1        //2022-05-12 01:07:19.885
+Instructor M4 accesses the ZIP LINE       //2022-05-12 01:07:19.892
+Instructor M2 opens DOOR 1        //2022-05-12 01:07:20.873
+Instructor M1 opens DOOR 2        //2022-05-12 01:07:20.874
+Instructor M3 opens DOOR 2        //2022-05-12 01:07:20.874
+Instructor M2 accesses the ROPE activity      //2022-05-12 01:07:20.875
+Child N0 enters thorugh DOOR 1        //2022-05-12 01:07:22.077
+Child N1 enters thorugh DOOR 2        //2022-05-12 01:07:23.864
+Instructor M1 cleans a tray          //2022-05-12 01:07:23.878
+Instructor M3 cleans a tray          //2022-05-12 01:07:23.88
+Child N2 enters thorugh DOOR 2        //2022-05-12 01:07:26.453
+Instructor M3 cleans a tray          //2022-05-12 01:07:27.883
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:07:28.191
+Instructor M1 cleans a tray          //2022-05-12 01:07:28.881
+Child N4 enters thorugh DOOR 1        //2022-05-12 01:07:30.871
+Instructor M3 cleans a tray          //2022-05-12 01:07:31.89
+Instructor M3 starts his BREAK        //2022-05-12 01:07:31.894
+Child N0 accesses the ZIP LINE        //2022-05-12 01:07:32.081
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:07:33.003
+Instructor M3 finishes his BREAK         //2022-05-12 01:07:33.519
+Child N1 accesses the ROPE activity           //2022-05-12 01:07:33.866
+Instructor M1 cleans a tray          //2022-05-12 01:07:33.886
+Instructor M1 starts his BREAK        //2022-05-12 01:07:33.887
+Instructor M1 finishes his BREAK         //2022-05-12 01:07:35.725
+Child N6 enters thorugh DOOR 1        //2022-05-12 01:07:35.806
+Child N2 accesses the SNACK           //2022-05-12 01:07:36.455
+Instructor M4 accesses the ZIP LINE       //2022-05-12 01:07:36.591
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:07:36.592
+Child N7 enters thorugh DOOR 1        //2022-05-12 01:07:37.95
+Child N3 accesses the ROPE activity           //2022-05-12 01:07:38.194
+Instructor M3 cleans a tray          //2022-05-12 01:07:38.525
+Child N0 accesses the ZIP LINE        //2022-05-12 01:07:38.847
+Child N8 enters thorugh DOOR 2        //2022-05-12 01:07:39.682
+Instructor M1 cleans a tray          //2022-05-12 01:07:40.729
+Child N4 accesses the SNACK           //2022-05-12 01:07:40.872
+Child N9 enters thorugh DOOR 2        //2022-05-12 01:07:42.229
+Child N5 accesses the SNACK           //2022-05-12 01:07:43.005
+Instructor M4 accesses the ZIP LINE       //2022-05-12 01:07:43.352
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:07:43.352
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:07:43.473
+Instructor M3 cleans a tray          //2022-05-12 01:07:43.529
+Child N10 enters thorugh DOOR 2        //2022-05-12 01:07:44.725
+Instructor M1 cleans a tray          //2022-05-12 01:07:44.732
+Child N0 accesses the SNACK           //2022-05-12 01:07:45.459
+Child N6 accesses the ROPE activity           //2022-05-12 01:07:45.815
+Child N2 accesses the SNACK           //2022-05-12 01:07:47.098
+Child N11 enters thorugh DOOR 1        //2022-05-12 01:07:47.496
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:07:47.877
+Child N7 accesses the ROPE activity           //2022-05-12 01:07:47.953
+Instructor M3 cleans a tray          //2022-05-12 01:07:48.532
+Instructor M3 starts his BREAK        //2022-05-12 01:07:48.533
+Instructor M1 cleans a tray          //2022-05-12 01:07:48.735
+Instructor M1 starts his BREAK        //2022-05-12 01:07:48.736
+Child N8 accesses the ZIP LINE        //2022-05-12 01:07:49.685
+Instructor M3 finishes his BREAK         //2022-05-12 01:07:49.79
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:07:50.009
+Instructor M1 finishes his BREAK         //2022-05-12 01:07:50.017
+Child N12 enters thorugh DOOR 2        //2022-05-12 01:07:50.115
+Child N4 accesses the SNACK           //2022-05-12 01:07:51.47
+Child N9 accesses the SNACK           //2022-05-12 01:07:52.231
+Child N13 enters thorugh DOOR 1        //2022-05-12 01:07:52.337
+Child N5 accesses the ROPE activity           //2022-05-12 01:07:52.364
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:07:52.462
+Instructor M1 cleans a tray          //2022-05-12 01:07:54.019
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:07:54.1
+Instructor M4 starts his BREAK        //2022-05-12 01:07:54.189
+Child N8 breaks in the COMMON AREA        //2022-05-12 01:07:54.19
+Child N14 enters thorugh DOOR 1        //2022-05-12 01:07:54.215
+Child N10 accesses the ROPE activity           //2022-05-12 01:07:54.727
+Instructor M3 cleans a tray          //2022-05-12 01:07:54.793
+Instructor M4 finishes his BREAK         //2022-05-12 01:07:55.661
+Instructor M4 accesses the ZIP LINE       //2022-05-12 01:07:55.662
+Child N0 accesses the ROPE activity           //2022-05-12 01:07:55.862
+Child N15 enters thorugh DOOR 1        //2022-05-12 01:07:56.322
+Child N2 accesses the ZIP LINE        //2022-05-12 01:07:56.502
+Child N8 accesses the ROPE activity           //2022-05-12 01:07:56.647
+Instructor M1 cleans a tray          //2022-05-12 01:07:57.023
+Instructor M1 opens DOOR 2        //2022-05-12 01:11:51.481
+Instructor M1 accesses the ROPE activity      //2022-05-12 01:11:51.487
+Instructor M3 opens DOOR 2        //2022-05-12 01:11:52.437
+Instructor M4 opens DOOR 1        //2022-05-12 01:11:52.438
+Instructor M2 opens DOOR 1        //2022-05-12 01:11:52.438
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:11:52.439
+Child N0 enters thorugh DOOR 2        //2022-05-12 01:11:53.414
+Child N1 enters thorugh DOOR 2        //2022-05-12 01:11:56.096
+Child N2 enters thorugh DOOR 1        //2022-05-12 01:11:57.174
+Instructor M2 cleans a tray          //2022-05-12 01:11:57.444
+Instructor M4 cleans a tray          //2022-05-12 01:11:57.444
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:11:59.396
+Child N4 enters thorugh DOOR 2        //2022-05-12 01:12:00.403
+Instructor M2 cleans a tray          //2022-05-12 01:12:01.449
+Instructor M4 cleans a tray          //2022-05-12 01:12:01.45
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:12:03.313
+Child N0 accesses the ZIP LINE        //2022-05-12 01:12:03.427
+Instructor M4 cleans a tray          //2022-05-12 01:12:04.45
+Instructor M4 starts his BREAK        //2022-05-12 01:12:04.451
+Instructor M2 cleans a tray          //2022-05-12 01:12:04.452
+Instructor M2 starts his BREAK        //2022-05-12 01:12:04.452
+Child N6 enters thorugh DOOR 1        //2022-05-12 01:12:04.695
+Instructor M4 finishes his BREAK         //2022-05-12 01:12:05.57
+Child N1 accesses the ROPE activity           //2022-05-12 01:12:06.098
+Instructor M2 finishes his BREAK         //2022-05-12 01:12:06.301
+Child N2 accesses the ROPE activity           //2022-05-12 01:12:07.177
+Child N7 enters thorugh DOOR 1        //2022-05-12 01:12:07.613
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:07.931
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:12:07.932
+Child N3 accesses the ZIP LINE        //2022-05-12 01:12:09.398
+Child N8 enters thorugh DOOR 1        //2022-05-12 01:12:09.754
+Child N4 accesses the ZIP LINE        //2022-05-12 01:12:10.404
+Instructor M4 cleans a tray          //2022-05-12 01:12:10.574
+Child N0 accesses the SNACK           //2022-05-12 01:12:10.84
+Instructor M2 cleans a tray          //2022-05-12 01:12:11.306
+Child N9 enters thorugh DOOR 2        //2022-05-12 01:12:12.555
+Child N5 accesses the ZIP LINE        //2022-05-12 01:12:13.316
+Instructor M4 cleans a tray          //2022-05-12 01:12:13.578
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:13.904
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:12:13.905
+Instructor M2 cleans a tray          //2022-05-12 01:12:14.311
+Child N10 enters thorugh DOOR 1        //2022-05-12 01:12:14.391
+Child N6 accesses the ZIP LINE        //2022-05-12 01:12:14.698
+Child N3 accesses the ROPE activity           //2022-05-12 01:12:15.916
+Child N11 enters thorugh DOOR 2        //2022-05-12 01:12:16.995
+Instructor M2 cleans a tray          //2022-05-12 01:12:17.315
+Instructor M2 starts his BREAK        //2022-05-12 01:12:17.316
+Child N7 accesses the ROPE activity           //2022-05-12 01:12:17.615
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:12:17.846
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:12:18.412
+Instructor M3 starts his BREAK        //2022-05-12 01:12:18.412
+Instructor M4 cleans a tray          //2022-05-12 01:12:18.583
+Instructor M4 starts his BREAK        //2022-05-12 01:12:18.585
+Child N12 enters thorugh DOOR 1        //2022-05-12 01:12:18.891
+Instructor M2 finishes his BREAK         //2022-05-12 01:12:19.219
+Child N8 accesses the ZIP LINE        //2022-05-12 01:12:19.756
+Instructor M3 finishes his BREAK         //2022-05-12 01:12:19.767
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:19.768
+Child N0 accesses the SNACK           //2022-05-12 01:12:20.222
+Instructor M4 finishes his BREAK         //2022-05-12 01:12:20.252
+Child N4 accesses the ZIP LINE        //2022-05-12 01:12:20.808
+Child N13 enters thorugh DOOR 2        //2022-05-12 01:12:21.477
+Child N9 accesses the ROPE activity           //2022-05-12 01:12:22.557
+Instructor M2 cleans a tray          //2022-05-12 01:12:23.226
+Instructor M4 cleans a tray          //2022-05-12 01:12:23.254
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:24.271
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:12:24.272
+Child N10 accesses the ROPE activity           //2022-05-12 01:12:24.394
+Child N14 enters thorugh DOOR 1        //2022-05-12 01:12:24.423
+Instructor M2 cleans a tray          //2022-05-12 01:12:26.23
+Instructor M4 cleans a tray          //2022-05-12 01:12:26.256
+Child N15 enters thorugh DOOR 2        //2022-05-12 01:12:26.378
+Child N5 accesses the ZIP LINE        //2022-05-12 01:12:26.379
+Child N11 accesses the ZIP LINE        //2022-05-12 01:12:26.997
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:12:27.225
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:28.776
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:12:28.777
+Child N12 accesses the ZIP LINE        //2022-05-12 01:12:28.894
+Instructor M2 cleans a tray          //2022-05-12 01:12:29.233
+Instructor M2 starts his BREAK        //2022-05-12 01:12:29.234
+Child N16 enters thorugh DOOR 1        //2022-05-12 01:12:29.347
+Instructor M2 finishes his BREAK         //2022-05-12 01:12:30.245
+Instructor M4 cleans a tray          //2022-05-12 01:12:30.258
+Instructor M4 starts his BREAK        //2022-05-12 01:12:30.259
+Child N0 accesses the ZIP LINE        //2022-05-12 01:12:30.446
+Child N17 enters thorugh DOOR 2        //2022-05-12 01:12:30.784
+Instructor M4 finishes his BREAK         //2022-05-12 01:12:31.426
+Child N6 accesses the SNACK           //2022-05-12 01:12:31.436
+Child N13 accesses the ZIP LINE        //2022-05-12 01:12:31.479
+Child N18 enters thorugh DOOR 2        //2022-05-12 01:12:32.404
+Instructor M3 starts his BREAK        //2022-05-12 01:12:33.281
+Child N8 breaks in the COMMON AREA        //2022-05-12 01:12:33.281
+Child N14 accesses the ZIP LINE        //2022-05-12 01:12:34.425
+Instructor M3 finishes his BREAK         //2022-05-12 01:12:34.592
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:34.593
+Child N19 enters thorugh DOOR 1        //2022-05-12 01:12:34.752
+Instructor M2 cleans a tray          //2022-05-12 01:12:35.249
+Child N20 enters thorugh DOOR 2        //2022-05-12 01:12:36.091
+Child N8 accesses the ZIP LINE        //2022-05-12 01:12:36.291
+Child N15 accesses the SNACK           //2022-05-12 01:12:36.38
+Instructor M4 cleans a tray          //2022-05-12 01:12:36.428
+Child N21 enters thorugh DOOR 2        //2022-05-12 01:12:37.959
+Instructor M2 cleans a tray          //2022-05-12 01:12:38.251
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:12:38.439
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:12:39.098
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:12:39.098
+Child N16 accesses the ROPE activity           //2022-05-12 01:12:39.351
+Instructor M4 cleans a tray          //2022-05-12 01:12:39.43
+Child N22 enters thorugh DOOR 1        //2022-05-12 01:12:39.501
+Child N17 accesses the SNACK           //2022-05-12 01:12:40.786
+Instructor M4 opens DOOR 1        //2022-05-12 01:12:58.412
+Instructor M4 accesses the ROPE activity      //2022-05-12 01:12:58.421
+Instructor M2 opens DOOR 1        //2022-05-12 01:12:59.097
+Instructor M1 opens DOOR 2        //2022-05-12 01:12:59.098
+Instructor M3 opens DOOR 2        //2022-05-12 01:12:59.098
+Instructor M1 accesses the ZIP LINE       //2022-05-12 01:12:59.1
+Child N0 enters thorugh DOOR 1        //2022-05-12 01:12:59.73
+Instructor M2 cleans a tray          //2022-05-12 01:13:02.103
+Child N1 enters thorugh DOOR 2        //2022-05-12 01:13:02.589
+Instructor M3 cleans a tray          //2022-05-12 01:13:03.107
+Child N2 enters thorugh DOOR 1        //2022-05-12 01:13:04.55
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:13:06.302
+Instructor M2 cleans a tray          //2022-05-12 01:13:07.108
+Instructor M3 cleans a tray          //2022-05-12 01:13:07.112
+Instructor M4 opens DOOR 1        //2022-05-12 01:15:57.622
+Instructor M2 opens DOOR 1        //2022-05-12 01:15:58.41
+Instructor M1 opens DOOR 2        //2022-05-12 01:15:58.411
+Instructor M3 opens DOOR 2        //2022-05-12 01:15:58.411
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:15:58.412
+Instructor M3 accesses the ROPE activity      //2022-05-12 01:15:58.414
+Child N0 enters thorugh DOOR 2        //2022-05-12 01:15:59.155
+Child N1 enters thorugh DOOR 1        //2022-05-12 01:16:02.154
+Instructor M1 cleans a tray          //2022-05-12 01:16:02.418
+Instructor M4 cleans a tray          //2022-05-12 01:16:02.631
+Child N2 enters thorugh DOOR 2        //2022-05-12 01:16:03.383
+Child N3 enters thorugh DOOR 1        //2022-05-12 01:16:06.21
+Child N4 enters thorugh DOOR 2        //2022-05-12 01:16:07.275
+Instructor M1 cleans a tray          //2022-05-12 01:16:07.429
+Instructor M4 cleans a tray          //2022-05-12 01:16:07.648
+Child N0 accesses the SNACK           //2022-05-12 01:16:09.156
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:16:09.911
+Instructor M4 cleans a tray          //2022-05-12 01:16:10.653
+Instructor M4 starts his BREAK        //2022-05-12 01:16:10.655
+Instructor M1 cleans a tray          //2022-05-12 01:16:11.435
+Instructor M1 starts his BREAK        //2022-05-12 01:16:11.437
+Child N6 enters thorugh DOOR 1        //2022-05-12 01:16:11.456
+Child N1 accesses the SNACK           //2022-05-12 01:16:12.159
+Instructor M4 finishes his BREAK         //2022-05-12 01:16:12.539
+Instructor M1 finishes his BREAK         //2022-05-12 01:16:13.122
+Child N2 accesses the SNACK           //2022-05-12 01:16:13.391
+Child N7 enters thorugh DOOR 1        //2022-05-12 01:16:13.939
+Instructor M1 cleans a tray          //2022-05-12 01:16:16.129
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:16:16.158
+Child N3 accesses the ZIP LINE        //2022-05-12 01:16:16.212
+Child N8 enters thorugh DOOR 1        //2022-05-12 01:16:16.546
+Child N4 accesses the ZIP LINE        //2022-05-12 01:16:17.276
+Instructor M4 cleans a tray          //2022-05-12 01:16:17.541
+Child N9 enters thorugh DOOR 2        //2022-05-12 01:16:18.161
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:16:19.165
+Child N0 accesses the ZIP LINE        //2022-05-12 01:16:19.177
+Child N5 accesses the ROPE activity           //2022-05-12 01:16:19.912
+Child N10 enters thorugh DOOR 2        //2022-05-12 01:16:20.078
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:16:20.396
+Instructor M2 accesses the ZIP LINE       //2022-05-12 01:16:20.719
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:16:20.72
+Instructor M1 cleans a tray          //2022-05-12 01:16:21.136
+Child N1 accesses the SNACK           //2022-05-12 01:16:21.224
+Child N6 accesses the ROPE activity           //2022-05-12 01:16:21.457
+Instructor M1 opens DOOR 2        //2022-05-12 01:17:19.916
+Instructor M3 opens DOOR 2        //2022-05-12 01:17:20.855
+Instructor M4 opens DOOR 1        //2022-05-12 01:17:20.856
+Instructor M2 opens DOOR 1        //2022-05-12 01:17:20.857
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:17:20.857
+Instructor M4 accesses the ROPE activity      //2022-05-12 01:17:20.858
+Child N0 enters thorugh DOOR 2        //2022-05-12 01:17:21.874
+Child N1 enters thorugh DOOR 2        //2022-05-12 01:17:23.593
+Instructor M1 cleans a tray          //2022-05-12 01:17:23.927
+Instructor M2 cleans a tray          //2022-05-12 01:17:24.862
+Child N2 enters thorugh DOOR 1        //2022-05-12 01:17:26.356
+Child N3 enters thorugh DOOR 2        //2022-05-12 01:17:27.925
+Instructor M1 cleans a tray          //2022-05-12 01:17:27.931
+Instructor M2 cleans a tray          //2022-05-12 01:17:29.877
+Child N4 enters thorugh DOOR 1        //2022-05-12 01:17:30.024
+Child N0 accesses the ROPE activity           //2022-05-12 01:17:31.875
+Instructor M1 cleans a tray          //2022-05-12 01:17:31.936
+Child N5 enters thorugh DOOR 2        //2022-05-12 01:17:32.35
+Child N6 enters thorugh DOOR 2        //2022-05-12 01:17:33.555
+Child N1 accesses the ZIP LINE        //2022-05-12 01:17:33.602
+Instructor M2 cleans a tray          //2022-05-12 01:17:34.882
+Instructor M1 cleans a tray          //2022-05-12 01:17:34.942
+Child N7 enters thorugh DOOR 2        //2022-05-12 01:17:36.332
+Child N2 accesses the ROPE activity           //2022-05-12 01:17:36.358
+Child N8 enters thorugh DOOR 2        //2022-05-12 01:17:37.873
+Child N3 accesses the ZIP LINE        //2022-05-12 01:17:37.927
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:17:38.107
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:17:38.108
+Instructor M2 cleans a tray          //2022-05-12 01:17:38.885
+Instructor M1 cleans a tray          //2022-05-12 01:17:38.943
+Child N9 enters thorugh DOOR 1        //2022-05-12 01:17:39.797
+Child N4 accesses the ZIP LINE        //2022-05-12 01:17:40.026
+Child N1 accesses the ROPE activity           //2022-05-12 01:17:41.122
+Child N10 enters thorugh DOOR 1        //2022-05-12 01:17:41.261
+Instructor M1 cleans a tray          //2022-05-12 01:17:41.946
+Child N11 enters thorugh DOOR 1        //2022-05-12 01:17:42.275
+Child N5 accesses the ZIP LINE        //2022-05-12 01:17:42.352
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:17:42.618
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:17:42.619
+Child N6 accesses the ROPE activity           //2022-05-12 01:17:43.557
+Instructor M2 cleans a tray          //2022-05-12 01:17:43.889
+Child N12 enters thorugh DOOR 2        //2022-05-12 01:17:44.948
+Instructor M1 cleans a tray          //2022-05-12 01:17:44.962
+Child N3 accesses the ZIP LINE        //2022-05-12 01:17:45.797
+Child N7 accesses the ZIP LINE        //2022-05-12 01:17:46.336
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:17:47.136
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:17:47.136
+Child N13 enters thorugh DOOR 1        //2022-05-12 01:17:47.668
+Child N8 accesses the ZIP LINE        //2022-05-12 01:17:47.875
+Instructor M2 cleans a tray          //2022-05-12 01:17:47.893
+Child N14 enters thorugh DOOR 1        //2022-05-12 01:17:49.708
+Child N9 accesses the ZIP LINE        //2022-05-12 01:17:49.799
+Instructor M1 cleans a tray          //2022-05-12 01:17:49.966
+Child N4 accesses the ROPE activity           //2022-05-12 01:17:51.032
+Child N10 accesses the ROPE activity           //2022-05-12 01:17:51.267
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:17:51.642
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:17:51.642
+Child N15 enters thorugh DOOR 1        //2022-05-12 01:17:51.655
+Instructor M2 cleans a tray          //2022-05-12 01:17:51.895
+Child N11 accesses the ZIP LINE        //2022-05-12 01:17:52.278
+Instructor M1 cleans a tray          //2022-05-12 01:17:52.97
+Child N16 enters thorugh DOOR 1        //2022-05-12 01:17:54.639
+Child N12 accesses the ZIP LINE        //2022-05-12 01:17:54.95
+Child N5 accesses the ROPE activity           //2022-05-12 01:17:55.193
+Instructor M2 cleans a tray          //2022-05-12 01:17:55.898
+Instructor M1 cleans a tray          //2022-05-12 01:17:55.973
+Instructor M1 starts his BREAK        //2022-05-12 01:17:55.974
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:17:56.148
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:17:56.148
+Child N17 enters thorugh DOOR 1        //2022-05-12 01:17:56.177
+Child N18 enters thorugh DOOR 1        //2022-05-12 01:17:57.437
+Child N13 accesses the ROPE activity           //2022-05-12 01:17:57.671
+Instructor M1 finishes his BREAK         //2022-05-12 01:17:57.768
+Child N14 accesses the ZIP LINE        //2022-05-12 01:17:59.71
+Child N3 accesses the ZIP LINE        //2022-05-12 01:17:59.992
+Child N19 enters thorugh DOOR 2        //2022-05-12 01:18:00.423
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:00.654
+Child N7 breaks in the COMMON AREA        //2022-05-12 01:18:00.654
+Instructor M2 cleans a tray          //2022-05-12 01:18:00.901
+Child N15 accesses the ROPE activity           //2022-05-12 01:18:01.656
+Child N20 enters thorugh DOOR 1        //2022-05-12 01:18:02.294
+Instructor M1 cleans a tray          //2022-05-12 01:18:02.772
+Child N21 enters thorugh DOOR 1        //2022-05-12 01:18:03.975
+Child N7 accesses the ZIP LINE        //2022-05-12 01:18:04.416
+Child N16 accesses the ZIP LINE        //2022-05-12 01:18:04.642
+Instructor M2 cleans a tray          //2022-05-12 01:18:04.905
+Instructor M2 starts his BREAK        //2022-05-12 01:18:04.906
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:05.164
+Child N8 breaks in the COMMON AREA        //2022-05-12 01:18:05.164
+Child N22 enters thorugh DOOR 1        //2022-05-12 01:18:05.816
+Instructor M2 finishes his BREAK         //2022-05-12 01:18:06.122
+Child N17 accesses the ZIP LINE        //2022-05-12 01:18:06.178
+Instructor M1 cleans a tray          //2022-05-12 01:18:06.775
+Child N18 accesses the ZIP LINE        //2022-05-12 01:18:07.439
+Child N23 enters thorugh DOOR 2        //2022-05-12 01:18:07.552
+Child N8 accesses the ZIP LINE        //2022-05-12 01:18:08.052
+Instructor M2 cleans a tray          //2022-05-12 01:18:09.125
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:09.669
+Child N9 breaks in the COMMON AREA        //2022-05-12 01:18:09.669
+Child N19 accesses the ZIP LINE        //2022-05-12 01:18:10.425
+Child N24 enters thorugh DOOR 1        //2022-05-12 01:18:10.449
+Instructor M1 cleans a tray          //2022-05-12 01:18:11.778
+Child N20 accesses the ZIP LINE        //2022-05-12 01:18:12.295
+Instructor M2 cleans a tray          //2022-05-12 01:18:13.128
+Child N9 accesses the ROPE activity           //2022-05-12 01:18:13.231
+Child N25 enters thorugh DOOR 2        //2022-05-12 01:18:13.405
+Child N21 accesses the ZIP LINE        //2022-05-12 01:18:13.976
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:14.179
+Child N11 breaks in the COMMON AREA        //2022-05-12 01:18:14.179
+Child N26 enters thorugh DOOR 2        //2022-05-12 01:18:14.632
+Child N22 accesses the ROPE activity           //2022-05-12 01:18:15.819
+Child N22 breaks in the COMMON AREA        //2022-05-12 01:18:15.82
+Child N9 breaks in the COMMON AREA        //2022-05-12 01:18:16.241
+Children N1 N6 N13 win in the ZIP LINE      //2022-05-12 01:18:16.24
+Child N15 breaks in the COMMON AREA        //2022-05-12 01:18:16.241
+Child N13 breaks in the COMMON AREA        //2022-05-12 01:18:16.242
+Child N5 breaks in the COMMON AREA        //2022-05-12 01:18:16.242
+Child N10 breaks in the COMMON AREA        //2022-05-12 01:18:16.242
+Child N4 breaks in the COMMON AREA        //2022-05-12 01:18:16.243
+Child N6 breaks in the COMMON AREA        //2022-05-12 01:18:16.243
+Child N1 breaks in the COMMON AREA        //2022-05-12 01:18:16.243
+Instructor M4 accesses the ROPE activity      //2022-05-12 01:18:16.243
+Child N2 breaks in the COMMON AREA        //2022-05-12 01:18:16.243
+Child N0 breaks in the COMMON AREA        //2022-05-12 01:18:16.243
+Child N27 enters thorugh DOOR 2        //2022-05-12 01:18:16.383
+Child N11 accesses the ROPE activity           //2022-05-12 01:18:16.487
+Child N23 accesses the ROPE activity           //2022-05-12 01:18:17.553
+Child N28 enters thorugh DOOR 2        //2022-05-12 01:18:17.575
+Child N10 accesses the ZIP LINE        //2022-05-12 01:18:18.323
+Child N13 accesses the ZIP LINE        //2022-05-12 01:18:18.474
+Child N9 accesses the ZIP LINE        //2022-05-12 01:18:18.506
+Child N2 accesses the ZIP LINE        //2022-05-12 01:18:18.593
+Instructor M3 starts his BREAK        //2022-05-12 01:18:18.693
+Child N12 breaks in the COMMON AREA        //2022-05-12 01:18:18.693
+Child N0 accesses the ZIP LINE        //2022-05-12 01:18:18.87
+Child N29 enters thorugh DOOR 1        //2022-05-12 01:18:19.316
+Child N1 accesses the ZIP LINE        //2022-05-12 01:18:19.484
+Child N22 accesses the ZIP LINE        //2022-05-12 01:18:19.599
+Child N5 accesses the ROPE activity           //2022-05-12 01:18:19.787
+Child N4 accesses the ZIP LINE        //2022-05-12 01:18:19.797
+Child N15 accesses the ZIP LINE        //2022-05-12 01:18:19.951
+Child N6 accesses the ROPE activity           //2022-05-12 01:18:20.24
+Child N24 accesses the ZIP LINE        //2022-05-12 01:18:20.451
+Instructor M3 finishes his BREAK         //2022-05-12 01:18:20.687
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:20.688
+Child N30 enters thorugh DOOR 2        //2022-05-12 01:18:21.005
+Child N12 accesses the ROPE activity           //2022-05-12 01:18:21.935
+Child N31 enters thorugh DOOR 2        //2022-05-12 01:18:22.362
+Child N25 accesses the ZIP LINE        //2022-05-12 01:18:23.416
+Child N26 accesses the ZIP LINE        //2022-05-12 01:18:24.635
+Child N32 enters thorugh DOOR 1        //2022-05-12 01:18:24.942
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:25.193
+Child N14 breaks in the COMMON AREA        //2022-05-12 01:18:25.193
+Child N27 accesses the ROPE activity           //2022-05-12 01:18:26.386
+Child N33 enters thorugh DOOR 1        //2022-05-12 01:18:26.745
+Child N28 accesses the ZIP LINE        //2022-05-12 01:18:27.576
+Child N14 accesses the ZIP LINE        //2022-05-12 01:18:27.786
+Child N34 enters thorugh DOOR 2        //2022-05-12 01:18:28.854
+Child N29 accesses the ROPE activity           //2022-05-12 01:18:29.317
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:29.698
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:18:29.698
+Child N35 enters thorugh DOOR 2        //2022-05-12 01:18:29.861
+Child N30 accesses the ZIP LINE        //2022-05-12 01:18:31.006
+Child N36 enters thorugh DOOR 1        //2022-05-12 01:18:31.764
+Child N31 accesses the ROPE activity           //2022-05-12 01:18:32.377
+Child N3 accesses the SNACK           //2022-05-12 01:18:32.445
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:34.202
+Child N7 breaks in the COMMON AREA        //2022-05-12 01:18:34.202
+Child N37 enters thorugh DOOR 2        //2022-05-12 01:18:34.554
+Child N32 accesses the ZIP LINE        //2022-05-12 01:18:34.944
+Child N7 accesses the ZIP LINE        //2022-05-12 01:18:36.372
+Child N38 enters thorugh DOOR 1        //2022-05-12 01:18:36.583
+Child N33 accesses the ZIP LINE        //2022-05-12 01:18:36.748
+Child N39 enters thorugh DOOR 1        //2022-05-12 01:18:37.923
+Child N16 breaks in the COMMON AREA        //2022-05-12 01:18:38.706
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:38.706
+Child N34 accesses the ZIP LINE        //2022-05-12 01:18:38.856
+Child N40 enters thorugh DOOR 2        //2022-05-12 01:18:39.067
+Child N3 breaks in the COMMON AREA        //2022-05-12 01:18:39.448
+Child N35 accesses the ZIP LINE        //2022-05-12 01:18:39.864
+Child N16 accesses the ZIP LINE        //2022-05-12 01:18:41.068
+Child N41 enters thorugh DOOR 1        //2022-05-12 01:18:41.33
+Child N3 accesses the ZIP LINE        //2022-05-12 01:18:41.751
+Child N36 accesses the ZIP LINE        //2022-05-12 01:18:41.767
+Instructor M1 cleans a tray          //2022-05-12 01:18:42.448
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:43.225
+Child N17 breaks in the COMMON AREA        //2022-05-12 01:18:43.225
+Child N42 enters thorugh DOOR 1        //2022-05-12 01:18:43.957
+Child N37 accesses the ZIP LINE        //2022-05-12 01:18:44.556
+Child N43 enters thorugh DOOR 1        //2022-05-12 01:18:45.217
+Child N17 accesses the ROPE activity           //2022-05-12 01:18:45.406
+Child N38 accesses the ZIP LINE        //2022-05-12 01:18:46.586
+Child N44 enters thorugh DOOR 2        //2022-05-12 01:18:47.179
+Instructor M3 accesses the ZIP LINE       //2022-05-12 01:18:47.73
+Child N18 breaks in the COMMON AREA        //2022-05-12 01:18:47.73
+Child N39 accesses the ROPE activity           //2022-05-12 01:18:47.937
+Child N40 accesses the ZIP LINE        //2022-05-12 01:18:49.069

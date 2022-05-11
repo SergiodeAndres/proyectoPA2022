@@ -63,12 +63,12 @@ public class Camp {
     
     private AtomicInteger cleanTrays = new AtomicInteger();
     private AtomicInteger dirtyTrays = new AtomicInteger();
-    private int clean;
-    private int dirty;
     private Semaphore maxChildren;
     private Lock lockSnack;
     private Condition noClean;
     private Condition noDirty;
+    private Semaphore cleaned;
+    private Semaphore dirtied;
     
     private Semaphore fileSem;
     private File archivo;
@@ -126,11 +126,11 @@ public class Camp {
         cleanTrays = new AtomicInteger(0);
         dirtyTrays = new AtomicInteger(25);
         maxChildren = new Semaphore(20);
-        clean = 0;
-        dirty = 25;
         lockSnack = new ReentrantLock();
         noClean = lockSnack.newCondition();
         noDirty = lockSnack.newCondition();
+        cleaned = new Semaphore(0);
+        dirtied = new Semaphore(25);
         
         archivo = new File("campEvolution.txt");
         fileSem = new Semaphore(1,true);
@@ -634,6 +634,7 @@ public class Camp {
         childCommonArea.pop(c.getChildName());
     }
     
+    
     public void SnackEat(Child c) throws InterruptedException{
         Timestamp t = new Timestamp(System.currentTimeMillis());
         String s = "Child "+c.getChildName()+" accesses the SNACK           //"+t.toString();
@@ -644,56 +645,58 @@ public class Camp {
         finally{
             fileSem.release();
         }
+        
         try {
-            lockSnack.lock();
             while (cleanTrays.get() < 1) {
                 childSnackQueue.push(c.getChildName());
-                noClean.await(); //waits for a signal
+            cleaned.acquire();
             }try {
                 maxChildren.acquire();
                 
                 childSnackQueue.pop(c.getChildName());
                 childrenSnack.push(c.getChildName());
                 
+                lockSnack.lock();
                 cleanTraysList.pop(Integer.toString(cleanTrays.get()));
                 cleanTraysList.push(Integer.toString(cleanTrays.decrementAndGet()));
+                lockSnack.unlock();
                 
                 sleep(7000);
                 
+                lockSnack.lock();
                 childrenSnack.pop(c.getChildName());
                 dirtyTraysList.pop(Integer.toString(dirtyTrays.get()));
                 dirtyTraysList.push(Integer.toString(dirtyTrays.incrementAndGet()));
+                lockSnack.unlock();
                 
-                noDirty.signalAll();
+                dirtied.release();
                 
             } catch (Exception e){}
         } finally {
-            lockSnack.unlock();
             maxChildren.release();
         } 
     }
+    
     public void SnackClean(Instructor i) throws InterruptedException{
         instructorSnack.push(i.getInstructorName());
         
         try {
-            lockSnack.lock(); // mutual exclusion code that changes state
-            while(dirtyTrays.get() < 1){
-                noDirty.await();
-            }try{
+            dirtied.acquire();
+            try{
+                
                 int n = (int)Math.floor(Math.random()*(1-0+2)+3); //Random number between 3-5
                 sleep(n*1000);
-                
+                lockSnack.lock();
                 dirtyTraysList.pop(Integer.toString(dirtyTrays.get()));
                 dirtyTraysList.push(Integer.toString(dirtyTrays.decrementAndGet()));
                 
                 cleanTraysList.pop(Integer.toString(cleanTrays.get()));
                 cleanTraysList.push(Integer.toString(cleanTrays.incrementAndGet()));
+                lockSnack.unlock();
                 
-                noClean.signalAll();
-                
+                cleaned.release();
             } catch (Exception e){}
         }finally {
-            lockSnack.unlock();
         } 
         instructorSnack.pop(i.getInstructorName());
         i.setInstructorActivitiesDone(i.getInstructorActivitiesDone()+1);
@@ -719,4 +722,5 @@ public class Camp {
         }catch (Exception e) {}
         
     }
+
 }

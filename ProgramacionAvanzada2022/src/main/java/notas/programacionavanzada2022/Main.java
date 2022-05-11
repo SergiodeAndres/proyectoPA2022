@@ -45,8 +45,8 @@ public class Main extends javax.swing.JFrame {
                 {
                     try 
                     {
-                        //Thread.sleep(1000 + (int)(2000*Math.random()));
-                        sleep(250);
+                        Thread.sleep(1000 + (int)(2000*Math.random()));
+                        //sleep(250);
                     }
                     catch (InterruptedException e)
                     {
