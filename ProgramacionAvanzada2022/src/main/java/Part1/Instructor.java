@@ -1,5 +1,5 @@
 
-package notas.programacionavanzada2022;
+package Part1;
 
 import java.util.ArrayList;
 import java.util.Collections;

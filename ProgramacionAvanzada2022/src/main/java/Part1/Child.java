@@ -1,4 +1,4 @@
-package notas.programacionavanzada2022;
+package Part1;
 
 
 public class Child extends Thread

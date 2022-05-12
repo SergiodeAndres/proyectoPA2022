@@ -1,5 +1,5 @@
 
-package notas.programacionavanzada2022;
+package Part1;
 
 import static java.lang.Thread.sleep;
 import java.util.ArrayList;
