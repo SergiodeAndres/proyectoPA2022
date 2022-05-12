@@ -1,4 +1,5 @@
-package Part1;
+package Part2;
+import Part1.*;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

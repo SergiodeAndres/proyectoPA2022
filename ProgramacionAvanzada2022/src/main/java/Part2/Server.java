@@ -1,18 +1,22 @@
 
-package Part1;
+package Part2;
 
+import Part1.*;
 import static java.lang.Thread.sleep;
+import java.rmi.Naming;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 import java.util.ArrayList;
 
 
-public class Main extends javax.swing.JFrame {
+public class Server extends javax.swing.JFrame {
 
     /**
-     * Creates new form Main
+     * Creates new form Server
      */
     private Gateway remoteControl = new Gateway();
     private boolean buttonPressed = false;
-    public Main() {
+    public Server() {
         initComponents();
         //Create the camp with all of its textboxes
         Camp theCamp = new Camp(jTextFieldEntranceA, jTextFieldEntranceB, 
@@ -24,6 +28,18 @@ public class Main extends javax.swing.JFrame {
                 jTextFieldCommonAreaChildren, jTextFieldCleanTrays, 
                 jTextFieldDirtyTrays, jTextFieldSnackArea,
                 jTextFieldSnackChildren, remoteControl);
+        try 
+        {
+            //Instance os the object to register
+            DataGatherer obj = new DataGatherer(theCamp);
+            Registry registry = LocateRegistry.createRegistry(1099);
+            Naming.rebind("//localhost/CampDataGatherer",obj);
+            System.out.println("Camp Data Gatherer has been registered");
+        } 
+        catch (Exception e) 
+        {
+            System.out.println(e.toString());
+        }
         //Create a thread in charge of creating the instructors and kids
         Runnable runnable = 
         new Runnable ()
@@ -637,21 +653,27 @@ public class Main extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Server.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Server.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Server.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Main.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Server.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
+        //</editor-fold>
         //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Main().setVisible(true);
+                new Server().setVisible(true);
             }
         });
     }

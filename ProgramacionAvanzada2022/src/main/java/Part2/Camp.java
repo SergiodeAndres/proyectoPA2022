@@ -1,4 +1,5 @@
-package Part1;
+package Part2;
+import Part1.*;
 import static java.lang.Thread.sleep;
 import java.util.ArrayList;
 import java.util.concurrent.CyclicBarrier;
@@ -70,7 +71,10 @@ public class Camp {
     private PrintWriter line;
     //Stop button
     private Gateway remoteControl;
-    
+    //
+    private int zipLineUses;
+    private ArrayList<Child> childrenInCamp;
+    private Semaphore childListSem;
     //Constructor
     public Camp(JTextField paramDoorA, JTextField paramDoorB, 
             JTextField paramInstRope, JTextField paramInstZip, 
@@ -135,6 +139,11 @@ public class Camp {
         fileSem = new Semaphore(1,true);
         //Stop button
         this.remoteControl = paramGateway;
+        //
+        zipLineUses = 0; 
+        childrenInCamp = new ArrayList<Child>();
+        childListSem = new Semaphore(1);
+        
     }
     
     public void enterCampLeft(Instructor instruct)
@@ -277,8 +286,8 @@ public class Camp {
                 {
                     remoteControl.look();
                     s2children += ropeTeamA.get(0).getChildName()+" ";
-                    ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 2);
                     ropeTeamA.get(0).setNonSnackActivies(ropeTeamA.get(0).getNonSnackActivies() + 2);
+                    ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 2);
                     childRopeTeamA.pop(ropeTeamA.get(0).getChildName());
                     ropeTeamA.remove(0);
                     remoteControl.look();
@@ -286,8 +295,8 @@ public class Camp {
                 while(ropeTeamB.size()>0)
                 {
                     remoteControl.look();
+                    ropeTeamB.get(0).setNonSnackActivies(ropeTeamB.get(0).getNonSnackActivies() + 1);
                     ropeTeamB.get(0).setTotalActivities(ropeTeamB.get(0).getTotalActivities() + 1);
-                    ropeTeamB.get(0).setNonSnackActivies(ropeTeamB.get(0).getNonSnackActivies() + 2);
                     childRopeTeamB.pop(ropeTeamB.get(0).getChildName());
                     ropeTeamB.remove(0);
                     remoteControl.look();
@@ -299,8 +308,8 @@ public class Camp {
                 while(ropeTeamA.size()>0)
                 {
                     remoteControl.look();
-                    ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 1);
                     ropeTeamA.get(0).setNonSnackActivies(ropeTeamA.get(0).getNonSnackActivies() + 1);
+                    ropeTeamA.get(0).setTotalActivities(ropeTeamA.get(0).getTotalActivities() + 1);
                     childRopeTeamA.pop(ropeTeamA.get(0).getChildName());
                     ropeTeamA.remove(0);
                     remoteControl.look();
@@ -309,8 +318,8 @@ public class Camp {
                 {
                     remoteControl.look();
                     s2children += ropeTeamB.get(0).getChildName()+" ";
-                    ropeTeamB.get(0).setTotalActivities(ropeTeamB.get(0).getTotalActivities() + 2);
                     ropeTeamB.get(0).setNonSnackActivies(ropeTeamB.get(0).getNonSnackActivies() + 2);
+                    ropeTeamB.get(0).setTotalActivities(ropeTeamB.get(0).getTotalActivities() + 2);
                     childRopeTeamB.pop(ropeTeamB.get(0).getChildName());
                     ropeTeamB.remove(0);
                     remoteControl.look();
@@ -460,6 +469,7 @@ public class Camp {
             entranceA.pop(c.getChildName());
             remoteControl.look();
         }
+        insertInCamp(c);
         SimpleDateFormat date = new SimpleDateFormat("dd.MM.yyyy.HH:mm:ss.SS");
         String timesStamp = date.format(new Date());
         String s = timesStamp + ":" + " Child " + c.getChildName() + "enters through DOOR 1";
@@ -513,6 +523,7 @@ public class Camp {
             entranceB.pop(c.getChildName());
             remoteControl.look();
         }
+        insertInCamp(c);
         SimpleDateFormat date = new SimpleDateFormat("dd.MM.yyyy.HH:mm:ss.SS");
         String timesStamp = date.format(new Date());
         String s = timesStamp + ":" + " Child " + c.getChildName() + "enters through DOOR 2";
@@ -579,6 +590,7 @@ public class Camp {
         {
             entryLock.unlock(); 
         }
+        deleteFromCamp(c);
         SimpleDateFormat date = new SimpleDateFormat("dd.MM.yyyy.HH:mm:ss.SS");
         String timesStamp = date.format(new Date());
         String s = timesStamp + ":" + " Child " + c.getChildName() + "EXITS the camp";
@@ -658,6 +670,7 @@ public class Camp {
         {
             remoteControl.look();
             childZipLineSem.release();
+            zipLineUses = zipLineUses + 1;
             c.setTotalActivities(c.getTotalActivities()+1);
             c.setNonSnackActivies(c.getNonSnackActivies()+1);
             remoteControl.look();
@@ -870,8 +883,42 @@ public class Camp {
            fileSem.release(); 
         }  
     }
-
-    public ThreadList getEntranceA() 
+    
+    public void insertInCamp(Child c)
+    {
+        try
+        {
+            childListSem.acquire();
+            childrenInCamp.add(c);
+        }
+        catch (Exception e) 
+        {
+            System.out.println(e.toString());
+        }
+        finally
+        {
+           childListSem.release(); 
+        }  
+    }
+    
+    public void deleteFromCamp(Child c)
+    {
+        try
+        {
+            childListSem.acquire();
+            childrenInCamp.remove(c);
+        }
+        catch (Exception e) 
+        {
+            System.out.println(e.toString());
+        }
+        finally
+        {
+           childListSem.release(); 
+        }   
+    }
+    
+        public ThreadList getEntranceA() 
     {
         return entranceA;
     }
@@ -1339,7 +1386,36 @@ public class Camp {
     {
         this.remoteControl = remoteControl;
     }
-    
+
+    public int getZipLineUses() 
+    {
+        return zipLineUses;
+    }
+
+    public void setZipLineUses(int zipLineUses) 
+    {
+        this.zipLineUses = zipLineUses;
+    }
+
+    public ArrayList<Part2.Child> getChildrenInCamp() 
+    {
+        return childrenInCamp;
+    }
+
+    public void setChildrenInCamp(ArrayList<Part2.Child> childrenInCamp) 
+    {
+        this.childrenInCamp = childrenInCamp;
+    }
+
+    public Semaphore getChildListSem() 
+    {
+        return childListSem;
+    }
+
+    public void setChildListSem(Semaphore childListSem) 
+    {
+        this.childListSem = childListSem;
+    }
     
 
 }

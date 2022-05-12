@@ -1,4 +1,6 @@
-package Part1;
+package Part2;
+
+import Part1.*;
 
 
 public class Child extends Thread
@@ -46,14 +48,14 @@ public class Child extends Thread
                 }
                 else if (activity == 1)
                 {
-                    /**Go to the zipline activity, then add 1 
+                    /**Go to the rope activity, then add 1 
                      to nonSnackActivities then go to the common area**/
                     childCamp.activityZipLine(this);
                     childCamp.commonArea(this);
                 }
                 else
                 {
-                    /**Go to the rope activity, then add 1 
+                    /**Go to the zipline activity, then add 1 
                      to nonSnackActivities then go to the common area**/
                     childCamp.activityRope(this);
                     childCamp.commonArea(this);
