@@ -1,17 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package notas.programacionavanzada2022;
 
 import static java.lang.Thread.sleep;
 import java.util.ArrayList;
 
-/**
- *
- * @author sergi
- */
+
 public class Main extends javax.swing.JFrame {
 
     /**
@@ -19,40 +12,69 @@ public class Main extends javax.swing.JFrame {
      */
     public Main() {
         initComponents();
-        Camp theCamp = new Camp(jTextFieldEntranceA, jTextFieldEntranceB, jTextFieldCamp, 
+        //Create the camp with all of its textboxes
+        Camp theCamp = new Camp(jTextFieldEntranceA, jTextFieldEntranceB, 
                 jTextFieldRopeInstructor, jTextFieldZipLineInstructor, 
-                jTextFieldSnackAreaInstructor, jTextFieldZipLine, jTextFieldZipLinePreparation,
-        jTextFieldZipLineTirolina, jTextFieldZipLineFinalization, jTextFieldCommonAreaInstructors,
-        jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, jTextFieldCommonAreaChildren, jTextFieldCleanTrays,
-        jTextFieldDirtyTrays, jTextFieldSnackArea, jTextFieldSnackChildren);
+                jTextFieldSnackAreaInstructor, jTextFieldZipLine, 
+                jTextFieldZipLinePreparation, jTextFieldZipLineTirolina, 
+                jTextFieldZipLineFinalization, jTextFieldCommonAreaInstructors, 
+                jTextFieldRope, jTextFieldRopeA, jTextFieldRopeB, 
+                jTextFieldCommonAreaChildren, jTextFieldCleanTrays, 
+                jTextFieldDirtyTrays, jTextFieldSnackArea,
+                jTextFieldSnackChildren);
+        //Create a thread in charge of creating the instructors and kids
         Runnable runnable = 
         new Runnable ()
         {
             @Override
             public void run()
             {
+                //Create the list of possible activities for the instructors
                 ArrayList<String> activities = new ArrayList<String>();
                 activities.add("Zipline");
                 activities.add("RopeActivity");
                 activities.add("Snack");
                 activities.add("Snack");
-                for(int i = 1;i<5;i++){
+                //Create the 4 instructors
+                for(int i = 1;i<5;i++)
+                {
                     Instructor ins = new Instructor("M"+Integer.toString(i), theCamp, activities);
                     ins.start();
                 }
                 
                 for (int i = 0; i < 20000; i++)
                 {
+                    //Create the kids, in random intervals of 1 to 3 seconds
                     try 
                     {
-                        Thread.sleep(1000 + (int)(2000*Math.random()));
-                        //sleep(250);
+                        sleep(1000 + (int)(2000*Math.random()));
                     }
                     catch (InterruptedException e)
                     {
                         System.out.println(e.toString());
                     }
-                    Child c = new Child("N"+Integer.toString(i), theCamp); 
+                    String kidId = "";
+                    if (Integer.toString(i).length() == 1)
+                    {
+                        kidId = "0000"+Integer.toString(i);
+                    }
+                    else if (Integer.toString(i).length() == 2)
+                    {
+                        kidId = "000"+Integer.toString(i);
+                    }
+                    else if (Integer.toString(i).length() == 3)
+                    {
+                        kidId = "00"+Integer.toString(i);
+                    }
+                    else if (Integer.toString(i).length() == 4)
+                    {
+                        kidId = "0"+Integer.toString(i);
+                    }
+                    else
+                    {
+                        kidId = Integer.toString(i);
+                    }
+                    Child c = new Child("C"+kidId, theCamp); 
                     c.start();
                 }
             }
@@ -78,7 +100,6 @@ public class Main extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         jTextFieldEntranceB = new javax.swing.JTextField();
-        jTextFieldCamp = new javax.swing.JTextField();
         jPanel5 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
@@ -518,8 +539,7 @@ public class Main extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPanel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jTextFieldCamp))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -529,9 +549,7 @@ public class Main extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTextFieldCamp)
-                .addContainerGap())
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         pack();
@@ -630,7 +648,6 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JTextField jTextFieldCamp;
     private javax.swing.JTextField jTextFieldCleanTrays;
     private javax.swing.JTextField jTextFieldCommonAreaChildren;
     private javax.swing.JTextField jTextFieldCommonAreaInstructors;

@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package notas.programacionavanzada2022;
 
 import java.util.ArrayList;
@@ -10,11 +6,9 @@ import java.util.Collections;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author sergi
- */
-public class Instructor extends Thread{
+
+public class Instructor extends Thread
+{
     
     private String instructorName;
     private Camp instructorCamp;
@@ -22,23 +16,30 @@ public class Instructor extends Thread{
     private int instructorActivitiesDone;
     private ArrayList<String> possibleActivities; 
 
-    public Instructor(String instructorName, Camp instructorCamp, ArrayList<String> instructorActivities) 
+    //Constructor
+    public Instructor(String paramInstructorName, 
+            Camp paramInstructorCamp, 
+            ArrayList<String> paramInstructorActivities) 
     {
-        this.instructorName = instructorName;
-        this.instructorCamp = instructorCamp;
+        this.instructorName = paramInstructorName;
+        this.instructorCamp = paramInstructorCamp;
         this.instructorActivitiesDone = 0; 
-        this.possibleActivities = instructorActivities; 
+        this.possibleActivities = paramInstructorActivities; 
     }
     
     public void run()
     {
+        //Synchronized block to choose which instructor gets which activity
         synchronized(possibleActivities)
         {
+            /**Each instructor shuffles the list of activities like cards and 
+               takes the first activity**/
             Collections.shuffle(possibleActivities); 
             instructorActivity = possibleActivities.get(0); 
             possibleActivities.remove(0);
-            System.out.println("Instructor " + instructorName + " got activity " + instructorActivity);
         } 
+        /**Instructors enter the camp; even instructors through the left
+           Odds through the right**/
         if (instructorName.charAt(1) % 2 == 0)
         {
             instructorCamp.enterCampLeft(this);
@@ -47,10 +48,13 @@ public class Instructor extends Thread{
         {
             instructorCamp.enterCampRight(this);
         }
+        //Instructors now begin their activity cycle
         while(true)
         {
             while (instructorActivitiesDone < 10)
             {
+                /**They repeat their assigned activity 10 times
+                   Then go to the common area and repeat**/
                 if (instructorActivity.equals("RopeActivity"))
                 {
                     instructorCamp.activityRope(this);
@@ -61,11 +65,7 @@ public class Instructor extends Thread{
                 }
                 else 
                 {
-                    try {
-                        instructorCamp.SnackClean(this);
-                    } catch (InterruptedException ex) {
-                        Logger.getLogger(Instructor.class.getName()).log(Level.SEVERE, null, ex);
-                    }
+                    instructorCamp.SnackClean(this);
                 }
             }
             instructorActivitiesDone = 0; 
@@ -73,6 +73,7 @@ public class Instructor extends Thread{
         }
     }
 
+    //Getters and Setters
     public String getInstructorName() 
     {
         return instructorName;

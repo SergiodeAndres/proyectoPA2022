@@ -1,54 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package notas.programacionavanzada2022;
 
-/**
- *
- * @author sergi
- */
-public class Child extends Thread{
+
+public class Child extends Thread
+{
     private String childName; 
     private int totalActivities; 
     private int nonSnackActivities; 
     private Camp childCamp; 
     
-    public Child (String cName, Camp camp)
+    //Constructor
+    public Child (String paramChildName, Camp paramCamp)
     {
-        this.childName = cName; 
+        this.childName = paramChildName; 
         this.totalActivities = 0; 
         this.nonSnackActivities = 0;
-        this.childCamp = camp; 
-    }
-
-    public String getChildName() {
-        return childName;
-    }
-
-    public int getTotalActivities() {
-        return totalActivities;
-    }
-
-    public int getNonSnackActivies() {
-        return nonSnackActivities;
-    }
-
-    public void setChildName(String childName) {
-        this.childName = childName;
-    }
-
-    public void setTotalActivities(int totalActivities) {
-        this.totalActivities = totalActivities;
-    }
-
-    public void setNonSnackActivies(int nonSnackActivies) {
-        this.nonSnackActivities = nonSnackActivies;
+        this.childCamp = paramCamp; 
     }
     
     public void run ()
     {
+        //Choose a random entrace for the child
         int entrance = (int)Math.floor(Math.random()*(1-0+1)+0);
         if (entrance == 0)
         {
@@ -58,31 +29,69 @@ public class Child extends Thread{
         {
             childCamp.enterCampRight(this);
         }
-        try 
-        {
-            sleep(10000); //Activities (ZIPLINE, ROPE, SNACK)
-            while(totalActivities < 15){
-                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); //random int between 0-2
-                if (activity == 0 && nonSnackActivities >= 3){
+            while(totalActivities < 15)
+            {
+                //Choose random activity for the child
+                int activity = (int)Math.floor(Math.random()*(1-0+2)+0); 
+                if (activity == 0 && nonSnackActivities >= 3)
+                {
+                    /**Go to the snack if valid, add one activity
+                    set nonSnackActivities to 0, the child won't be able 
+                    to return to the snack until 3 other activities have been 
+                    done, then go to the common area**/
                     childCamp.SnackEat(this);
-                    totalActivities += 1; //SNACK
+                    totalActivities += 1; 
                     nonSnackActivities = 0;
                     childCamp.commonArea(this);
-                }else if (activity == 1){
+                }
+                else if (activity == 1)
+                {
+                    /**Go to the rope activity, then add 1 to nonSnackActivities
+                     then go to the common area**/
                     childCamp.activityRope(this);
                     nonSnackActivities += 1;
                     childCamp.commonArea(this);
-                }else{
+                }
+                else
+                {
+                    /**Go to the zipline activity, then add 1 
+                     to nonSnackActivities then go to the common area**/
                     childCamp.activityZipLine(this);
                     nonSnackActivities += 1;
                     childCamp.commonArea(this);
                 }
             }
-        }
-        catch (InterruptedException e)
-        { 
-            System.out.println(e.toString());
-        }
         childCamp.leaveCamp(this);
+    }
+    
+    //Getters and Setters
+    public String getChildName() 
+    {
+        return childName;
+    }
+
+    public int getTotalActivities() 
+    {
+        return totalActivities;
+    }
+
+    public int getNonSnackActivies() 
+    {
+        return nonSnackActivities;
+    }
+
+    public void setChildName(String childName) 
+    {
+        this.childName = childName;
+    }
+
+    public void setTotalActivities(int totalActivities) 
+    {
+        this.totalActivities = totalActivities;
+    }
+
+    public void setNonSnackActivies(int nonSnackActivies) 
+    {
+        this.nonSnackActivities = nonSnackActivies;
     }
 }

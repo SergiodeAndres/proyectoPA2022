@@ -1,43 +1,33 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package notas.programacionavanzada2022;
 import java.util.*;
 import javax.swing.JTextField;
-/**
- *
- * @author sergi
- */
+
 public class ThreadList {
-    private JTextField tf; 
+    private JTextField textField; 
     private ArrayList<String> list; 
     
-    
-    public ThreadList (JTextField pText)
+    //Constructor
+    public ThreadList (JTextField paramTextField)
     {
-        this.tf = pText; 
+        this.textField = paramTextField; 
         list = new ArrayList<String>(); 
     }
     
-    public ArrayList getThreadList()
-    {
-        return list;
-    }
-    
+    //Add specified string to the list
     public synchronized void push (String name)
     {
         list.add(name);
         print();
     }
     
+    //Remove specified string from the list
     public synchronized void pop (String name)
     {
         list.remove(name); 
         print(); 
     }
     
+    //Print contents of the list
     public void print()
     {
         String content="";
@@ -45,7 +35,28 @@ public class ThreadList {
         {
             content=content+list.get(i)+" ";
         }
-        tf.setText(content);
+        textField.setText(content);
+    }
+    
+    //Getters and Setters
+    public ArrayList<String> getThreadList()
+    {
+        return list;
+    }
+
+    public JTextField getTextField() 
+    {
+        return textField;
+    }
+
+    public void setTextField(JTextField textField) 
+    {
+        this.textField = textField;
+    }
+
+    public void setList(ArrayList<String> list) 
+    {
+        this.list = list;
     }
 
 }
