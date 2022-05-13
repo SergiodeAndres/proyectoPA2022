@@ -60,8 +60,6 @@ public class Camp {
     private AtomicInteger dirtyTrays = new AtomicInteger();
     private Semaphore maxChildren;
     private Lock lockSnack;
-    private Condition noClean;
-    private Condition noDirty;
     private Semaphore cleaned;
     private Semaphore dirtied;
     //Log elements
@@ -128,8 +126,6 @@ public class Camp {
         dirtyTrays = new AtomicInteger(25);
         maxChildren = new Semaphore(20);
         lockSnack = new ReentrantLock();
-        noClean = lockSnack.newCondition();
-        noDirty = lockSnack.newCondition();
         cleaned = new Semaphore(0);
         dirtied = new Semaphore(25);
         cleanTraysList.push(cleanTrays.toString());
@@ -1295,26 +1291,6 @@ public class Camp {
     public void setLockSnack(Lock lockSnack) 
     {
         this.lockSnack = lockSnack;
-    }
-
-    public Condition getNoClean() 
-    {
-        return noClean;
-    }
-
-    public void setNoClean(Condition noClean) 
-    {
-        this.noClean = noClean;
-    }
-
-    public Condition getNoDirty() 
-    {
-        return noDirty;
-    }
-
-    public void setNoDirty(Condition noDirty) 
-    {
-        this.noDirty = noDirty;
     }
 
     public Semaphore getCleaned() 
